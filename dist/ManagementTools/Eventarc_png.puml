@@ -1,0 +1,19 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Eventarc_png [128x128/16z] {
+xTg7akGg38LX2H7q_Yzyx-waKsrsZCKfx0ty5IV0rz2vZ4JQxNQxtIuxQYPtvh-koGrLFotBoeeFMxhjD_BsMGhethwR9QwZ17tKoInn7eqVQALVVh93OHvT
+UfwfdqzYOHw5d-HgVIdCe-Z3sn0YVPdaKVY9bt039DAhEEDtFmV2pUv-7gNTFyxuuAAhiEzyfNoX_JJXon_jy_kldCy__hed1F7yetmB-zRzIDm0ktud6i8F
+n0U891gRnRhYFipu6s2Qvv4JYx2-5ENTf_diFF-pC8_1cTpyz-RuYh4SxzuCQNIq0f_a7G_c-5SiGRCyDVmXNduFtX_YvM7UC7mLhnTcACluuivkFqhrhG3l
+Jlf8QqMNUFMtndoLSVNGc9UAEvTTVgbTu4VJytv5g64iwOTvx80mVlAtMk2HzvAxK7xpjpIuV2Jd9SnFR7-Pym5KpgydNVATylLXlvwbp_Ze7_Qtl_sytiyF
+l_u8xTTblbtoq-03Mbhr_fi7wrDo0mGj_Fpb_gZlxZxWL_h-Lfp7s3AykDs6jz073trkTMFUNGABZ_boWMyl7qIJ8DQNopmAyIOdASrpJww5V89FyjHufNbk
+WeVvHlES7xw2GlB9VfR4WxuPckSDjGYVxAKsnq-VOB1ZcU1Hc4U5u56ERZuYUVxyIRlh-gCXrVdhhqZJO9QLrv-r-_7Ew-_mxEdp1xIV7Zv_iS-_eDbPdZz_
+TUlp3wCqxfjYODHl_ZhitlCdrHq-kidtzuX923xxPuKunNBEkzkLe-dC7jgXuVV8udqfpAEJRVDhbUCinFdpk5-FimXHcC-ohER3P6cDnVaqiEthoWroKOcq
+s-rskzt_
+}
+
+GCPEntityColoring(Eventarc_png)
+!define Eventarc_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Eventarc_png, Eventarc_png)
+!define Eventarc_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Eventarc_png, Eventarc_png)
+!define Eventarc_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, Eventarc_png, Eventarc_png)
+!define Eventarc_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Eventarc_png, Eventarc_png)

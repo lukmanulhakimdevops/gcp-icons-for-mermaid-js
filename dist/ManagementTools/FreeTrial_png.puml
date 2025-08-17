@@ -1,0 +1,14 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $FreeTrial_png [128x128/16z] {
+xTJLWGCn301HBPZwB_ZueYpBLZZpVWDZbYa0080ngTY9IP_EzEAGbWPhMqcZc9Hj26cTV_9pbT_lfDwGTbdgoZNzusteqn7FmT-sUKxy_MHZ_MBmzVtUkazV
+ghrKVv3x3a1Qb6yvkUJoJTgKSxasgwHLB4lPbbMzE7HbKzxgEkSUvkAtC9Dclbj1nP_VXRc-lgxiVLKvWYwu-YQ-sVlxeollxuTxzuCZ_o9z-lJfqwTFdpvz
+-lHLCLZq3KGzQ9y-VVhNUdyUfK-VFdtwzEdJfq-VFdtwzEdJfo-lsHUxQ_H7iUkkq9Sgb-xtKilJtwu3001y0W
+}
+
+GCPEntityColoring(FreeTrial_png)
+!define FreeTrial_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, FreeTrial_png, FreeTrial_png)
+!define FreeTrial_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, FreeTrial_png, FreeTrial_png)
+!define FreeTrial_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, FreeTrial_png, FreeTrial_png)
+!define FreeTrial_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, FreeTrial_png, FreeTrial_png)

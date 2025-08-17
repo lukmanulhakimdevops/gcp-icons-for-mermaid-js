@@ -1,0 +1,13 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $PartnerInterconnect_png [128x128/16z] {
+xTb5beGm0411dDp_mZFjZZjKxVF-AXvT0G00GD5Nid2_q1zANp-faDupIPLeKez-D2PzVNtz-BU6ViEmrf9GfROVAdNiPw5AF79VNrzVNpz-aO_TRzwDak95
+ENQ_UBLSNrzVt_ghhw-lhr-Xt_j3CRpl_KbVNr_V_wE-lduwD0y0003_
+}
+
+GCPEntityColoring(PartnerInterconnect_png)
+!define PartnerInterconnect_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, PartnerInterconnect_png, PartnerInterconnect_png)
+!define PartnerInterconnect_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, PartnerInterconnect_png, PartnerInterconnect_png)
+!define PartnerInterconnect_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, PartnerInterconnect_png, PartnerInterconnect_png)
+!define PartnerInterconnect_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, PartnerInterconnect_png, PartnerInterconnect_png)

@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudDeploymentManager_png [128x128/16z] {
+xTevaiGm34DHohJHll-9fva84NkZDPm5FqRLAuUMPFyyfPHIIWqipomFtr8JpvfvUBCFOsoJppfz-VkAZjTzMz7sbttvykMxj_f-hz5tZnfyyb6JxxCMtzcj
+mNTstb3rI_pTHz4lyU6ZvfVuy855lljuo4yVI_mmHiwRqSV5FgcHysRqSR5FQcHyH1yN-vH6naVqSQdlx4pvY3vAViwVIFa8hEBd_0caV0HMy5C-VAHy15Rm
+Kpvyf7m4PdNVsJvzf7m4LlQTcUtJHyf7O4NV8r8-VQHy15Rm9q_Afu-KZmf-paS-VQHyLF1pFjgvV5Z9ptbkxKa5F-SvjgSL_8pdsbweu2VydDjBVUuxiqAV
+-gF6ix9lnOg-bIlvrkjRhs-zllNwrkZR63f_NEhBbozVlkwVvSktV-CVtU-liffuvftwwvsC7RQWRb--VFdovSkNZvUoHMruiQQlPt_I7mlyhfHIIdq1
+}
+
+GCPEntityColoring(CloudDeploymentManager_png)
+!define CloudDeploymentManager_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudDeploymentManager_png, CloudDeploymentManager_png)
+!define CloudDeploymentManager_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudDeploymentManager_png, CloudDeploymentManager_png)
+!define CloudDeploymentManager_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudDeploymentManager_png, CloudDeploymentManager_png)
+!define CloudDeploymentManager_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudDeploymentManager_png, CloudDeploymentManager_png)

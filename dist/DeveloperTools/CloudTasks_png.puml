@@ -1,0 +1,13 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudTasks_png [128x128/16z] {
+xSsr0SDG3431nBp_nAxCp7Il-o3TxwD9aYH9Kb3sxxiCUh-kckylAOlwBfFQqgHimVotVJwVp-Vp-Nm-dy_dy_byVbOMzrrcDJyhMp3_0P_Fv_FvV3wVp-Vp
+-Nm-dtzwaYH9agGS
+}
+
+GCPEntityColoring(CloudTasks_png)
+!define CloudTasks_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudTasks_png, CloudTasks_png)
+!define CloudTasks_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudTasks_png, CloudTasks_png)
+!define CloudTasks_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudTasks_png, CloudTasks_png)
+!define CloudTasks_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudTasks_png, CloudTasks_png)

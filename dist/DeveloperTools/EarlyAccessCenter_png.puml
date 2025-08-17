@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $EarlyAccessCenter_png [128x128/16z] {
+xTbLeW9150FHEzgr_mq__S4jq45I2-047wddBwMKKaffuhyoDHlz-F6NZ_RZhs_le_i30WybDW023peF0Wyw3m8FEWy23pAl3z1vQO3EYmDKNXsmQEFL0Oio
+leHEydC3O1bE3YYf8_p8Jkkn0ILsW1_OwTW4eEHs-OdZrKxKlHiuMQl7njdCFBG77s_PNWB0EG2i0y0wOCKxW6ipyunU7kf-3NW7uFKdl0Fm-WFU0RoilpW_
+VG3Ufn-_bTo0KicjPXzqFtxy-CthmohSv99zk740IZkFidRs5-b2dkuVk91fyHVJW3emOExd3mV_nkTk_f7ZYAdJW5RA0DslxPfmSK3eEGTam537ea-3sMSm
+-xXzFjmlhrzUl_etX0yVld_ZH_CbydeYhoVoUYAl1vGrwhbAAQMKqZS
+}
+
+GCPEntityColoring(EarlyAccessCenter_png)
+!define EarlyAccessCenter_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, EarlyAccessCenter_png, EarlyAccessCenter_png)
+!define EarlyAccessCenter_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, EarlyAccessCenter_png, EarlyAccessCenter_png)
+!define EarlyAccessCenter_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, EarlyAccessCenter_png, EarlyAccessCenter_png)
+!define EarlyAccessCenter_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, EarlyAccessCenter_png, EarlyAccessCenter_png)

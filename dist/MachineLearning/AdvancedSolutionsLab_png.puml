@@ -1,0 +1,21 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $AdvancedSolutionsLab_png [128x128/16z] {
+xPe9ikig34GDJRB_7Vyvlw6EYw8K6R_1_OPhSmD7p1BaYEZHeqUF7jLw9_tzZ-x3_wVRyBSQKCpNFTMtVaE-NXrVs-cIEhoalNZojPVU6w3_j8jkcRxBWle_
+Qk3kii0OmyVtFVJ3rQuVwjKMo82UVpZjIWjAN_Y7wVyhJBogwSd7BoILTBfBDR7xqM1fEbr3Nnpcju5NaYrWSHhvJg31-NHNr_pwtmDorGmw2WVVISWPTIvU
+e1DllkSWBVWKjoxiQsjypVV9TJptTUBDzsER-mdB-8yQy1vgvlU34Z9-kG_cVft8zxFcnItocO5pZ_nwEP_T36Dq9PyClXLa-8BV9F9LPtpXynX_aVb70lcS
+WyByYwm_1NZmJmTdZQu_XzheLw_owOdO0aLs7NlRnC_vA274zsDnzu9F0meAYF7LlRXordbAHpzQc5y-cOgiii27dzv2V7Oc2pbDuf29yVlrR9dl3-Rm1QTs
+njSfFiQdfqCB-4f-pUOBVB-SzNwCxz7h57I2MXCE1ZnkN4o8xmMzd8Qu_RxYT5OxpkS0CkZLRQmolcisbnBYswbg2Fwazo3JdLy9_DEb1tnuoiuKvy_YAEFT
+0CTrVCPM5VnZaF5nlb-O-msT5T7I-4U8VwJnsstrRu7sH_-dZ_z5lhxcI-HZ-YDKKIg_274c-2CYQVtpliV-GFLPtw_vtCbyhZNonnFAjFtF3_Jb-_slDmtk
+GuR_Gz-6zwyrp__XkIxezdyiMGd-vtGPSEhae3g1Z-FKrVWZvlyZ5zf-okU7u_pcGM2jyv4x5lzMFwt7N_qm-8fFjtg5NxiYm5--ssRKFUNJSxOQ7BJG-RU0
+coOeyVoRft_aqq9zV_xDrftpcIFX_7Lwm4ZxUfLaFe4J_Cxpv_lvBVtyNTBS0BoqsVrBYym_N8E3FslzZFFl-FqFrfzbjPTMV8vvZEFixQsior-3oA_plFa6
+J4AS13hF7-Pyvj9br_zjUlzDUcOJD6Fna5bv5BZs_GVGSvk0_7cWaDy41f8F-ZLDqFFxyN0H7eNZ-qUDbS-NnhkuEaOtkXhF6B_dWtvf4_XY3O7A5WFKrAcQ
+Vhr4RSGpi76Kjat6su1xl_zSZiqQ-S_txxVhTJF_0Futun_0xvRnFvaUFNhqwD6V
+}
+
+GCPEntityColoring(AdvancedSolutionsLab_png)
+!define AdvancedSolutionsLab_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, AdvancedSolutionsLab_png, AdvancedSolutionsLab_png)
+!define AdvancedSolutionsLab_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, AdvancedSolutionsLab_png, AdvancedSolutionsLab_png)
+!define AdvancedSolutionsLab_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, AdvancedSolutionsLab_png, AdvancedSolutionsLab_png)
+!define AdvancedSolutionsLab_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, AdvancedSolutionsLab_png, AdvancedSolutionsLab_png)

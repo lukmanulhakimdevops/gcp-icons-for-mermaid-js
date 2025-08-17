@@ -1,0 +1,18 @@
+@startuml Hello World
+'Copyright (c) 2020 David Holsgrove
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+
+!define GCPPuml https://raw.githubusercontent.com/davidholsgrove/gcp-icons-for-plantuml/master/dist
+!includeurl GCPPuml/GCPCommon.puml
+!includeurl GCPPuml/DeveloperTools/all.puml
+!includeurl GCPPuml/Storage/CloudStorage.puml
+
+actor "Person" as personAlias
+CloudToolsforVisualStudio(desktopAlias, "Label", "Technology", "Optional Description")
+CloudStorage(storageAlias, "Label", "Technology", "Optional Description")
+
+personAlias --> desktopAlias
+desktopAlias --> storageAlias
+
+@enduml

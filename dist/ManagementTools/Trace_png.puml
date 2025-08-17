@@ -1,0 +1,10 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Trace_png [128x128/16z] xTXN0K8n0C30xjQ_OXG0Ryyx0_bF023z5lVEjz-Alhw-lhw-lhw-_aq1041gIumbWhw-lhw-lhw-lduiIzGbmZq10E3FZYNqzVNrzVNrzVNr3mN01m
+
+GCPEntityColoring(Trace_png)
+!define Trace_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Trace_png, Trace_png)
+!define Trace_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Trace_png, Trace_png)
+!define Trace_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, Trace_png, Trace_png)
+!define Trace_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Trace_png, Trace_png)

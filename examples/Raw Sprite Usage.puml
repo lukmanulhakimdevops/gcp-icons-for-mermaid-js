@@ -1,0 +1,20 @@
+@startuml Raw usage - Sprites
+'Copyright (c) 2020 David Holsgrove
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+
+!define GCPPuml https://raw.githubusercontent.com/davidholsgrove/gcp-icons-for-plantuml/master/dist
+!includeurl GCPPuml/GCPCommon.puml
+!includeurl GCPPuml/AIAndMachineLearning/AIPlatform.puml
+!includeurl GCPPuml/InternetOfThings/CloudIoTCore.puml
+
+component "<color:green><$AIPlatform></color>" as myMLModel
+database "<color:#232F3E><$CloudIoTCore></color>" as myRoboticService
+CloudIoTCore(mySecondFunction, "Reinforcement Learning", "Gazebo")
+
+rectangle "<color:GCP_SYMBOL_COLOR><$AIPlatform></color>" as mySecondML
+
+myMLModel --> myRoboticService
+mySecondFunction --> mySecondML
+
+@enduml

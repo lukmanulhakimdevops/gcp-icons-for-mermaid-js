@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $ConnectivityTest_png [128x128/16z] {
+xTe7JaD140JH-RdlVs6I8fcI2WRmz0MUjLwLO_tBpMQpsMmscrrP6_KzIVhuFErirPDqwOqFu4odl-R56euU-BhU-02kLduNTFlejrRzQjNJq9i6VNrJNrgF
+_cZLy_Tw0u-EzuRxVc-uptiZ-_pQ-JxlZU_ptlW-xutl-xqX_iLrxkFUo3xiZUwptlW-ktQ-pthZ-wmtlizwu_liYVTzrXlVXxtnVRytQu3lzoOXldtj4kgV
+gavzipTxi2_sPacmhnuzyNqT-R9-1VjgRq9zjpUEB-Z0DtNkExqv8lX2Rx3l7ZttNPtxGcyKVpE_WiJ-9HxzNaLzzvjlwhjVW59_KN_omBxOcwsmBnxzMKLz
+zuadll_DD_RDtXJstTvGt-qDyVrhXtsrDyJtUuDylpV4zvzuulkz8RxV6-JxlI6-tnlcwzUE-tvlkE_tXlj-R_x_B_lpbuvz_adqZ_v2ndlZp--DpzVF3Uh-
+M6_ydQmt_eJUIDclda7T7-kDls_jpMmscyrczm
+}
+
+GCPEntityColoring(ConnectivityTest_png)
+!define ConnectivityTest_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, ConnectivityTest_png, ConnectivityTest_png)
+!define ConnectivityTest_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, ConnectivityTest_png, ConnectivityTest_png)
+!define ConnectivityTest_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, ConnectivityTest_png, ConnectivityTest_png)
+!define ConnectivityTest_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ConnectivityTest_png, ConnectivityTest_png)

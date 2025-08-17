@@ -1,0 +1,21 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $NetworkConnectivityCenter_png [128x128/16z] {
+xPg9Sgim34Mrs0h__yDTAD4mDozI2-AvYy-iRI8TxtOmz5KcaybaCb5Liw5wDRDX-irl0_Lgemh0-WOHDJFZGTMdTxgPZVJJ2F_qYxwnwVkm-KSqR04Gd__z
+jwv_dAplgr-oyCFaw-jYovA7dshVCCFonedmJEy9BF2V24_t5oQYp1-4In2UiUct3FfL_whty7vqVVKCcJyFh_TBipUQNEpdVoHG0-GAlteyH_8DUHukn_SN
+nW5ip-b1-AdvVrFQw7lTMYtP_wlvoDo7jxFhtx8eL1wdkztnYR4BFxd-tvOtTBK7-MJN2Sixzt0ziyURyJqTHVPz8z2oyX4kLC2QprQO0fgjRFf2N4y9NW2g
+PO61d1M0YdcilAv0d_WClLYlTspZkW9uIhIx7mUcJyFIwZUmkz-1rhgezHNyrnUWxRAn1dvh-m9ePVNPzP7V6ZH0zU3Jn6yC8wQ0IA-6G9-T0ezV6lWTA7Ln
+zNE_5e-0iFfgUGFKDp-5Iw6UytFZfFg9tvvrG9DSlkKfy7kaVx6dBG9Rwa5_U_IpRdvhiTxpxFreGYdow5Vt6oT-4Mp5VixliPuuqaEec9aSzNjbinzZy2tg
+VegzGVSd_O_-c_yI49ZDeP-g_Hxp0_mUMkVte9Rv5Rx5PYObuv-JxdU5NJN_kbdiv_-n_b20UChFhl-jEQwNQFsbc0z_AzX_EDb_SjpFH_VVNd_-oVqOL-yN
+SGounYz7ph_r1s0PSFw6VHIvkFeuaL8_5LSVPrBYf_BgOsL2Fsq8w7_qymVCnq_y_HgzjsVF3XtrUWSgI0p-7dotX7qTSRDElbb1zlWNzOiMwpzP0F7dprgf
+Nx6y1ERwaWAmQlFh1B_xQOcz-uL5mVrxkzTdRx30RjvY9VVlRMjGa41IDiUxhER-lM462wcxVvVxRvQE2KAxKtN_ZWNm_o0zk7zlvVVVSF2K97p4_V_Fzykv
+zoyq24-Hv08zyNi1IkxVzTpxD-t7lN_a6UAt9svgjpIydTc1q8w6S729mgUr37p_5n-MZti1T5G3-0etpBzV7yVuQR2VtJ-u_-KtZ__Y1Vxdht_EvgTXi1wn
+JoQJoMJo2W
+}
+
+GCPEntityColoring(NetworkConnectivityCenter_png)
+!define NetworkConnectivityCenter_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, NetworkConnectivityCenter_png, NetworkConnectivityCenter_png)
+!define NetworkConnectivityCenter_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, NetworkConnectivityCenter_png, NetworkConnectivityCenter_png)
+!define NetworkConnectivityCenter_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, NetworkConnectivityCenter_png, NetworkConnectivityCenter_png)
+!define NetworkConnectivityCenter_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, NetworkConnectivityCenter_png, NetworkConnectivityCenter_png)

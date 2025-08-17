@@ -1,0 +1,29 @@
+@startuml Two Modes - Technical View
+'Copyright (c) 2020 David Holsgrove
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+
+!define GCPPuml https://raw.githubusercontent.com/davidholsgrove/gcp-icons-for-plantuml/master/dist
+!include GCPPuml/GCPCommon.puml
+
+' Include Material Design Common icons
+!include <material/common>
+
+' Uncomment the following line to create simplified view
+!include GCPPuml/GCPSimplified.puml
+
+!include GCPPuml/APIManagement/CloudEndpoints.puml
+!include GCPPuml/Compute/AppEngine.puml
+!include <material/cellphone_android>
+
+left to right direction
+
+GCPEntityColoring(MA_CELLPHONE_ANDROID)
+MA_CELLPHONE_ANDROID(#9E9E9E, 1, sources, rectangle, "Android")
+CloudEndpoints(endpoints, "GCP Cloud Endpoints", "api")
+AppEngine(engine, "GCP App Engine", "API Backend Instances")
+
+sources <--> endpoints
+endpoints <--> engine
+
+@enduml

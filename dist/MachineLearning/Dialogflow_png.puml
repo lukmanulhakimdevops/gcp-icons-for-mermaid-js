@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Dialogflow_png [128x128/16z] {
+xTFNSGHX20JXER4k_uHbvvdwbwFKCdG2tx16lx1fcgRfU0_K7QWxK7UWxa3TWRe3TGVg3jGTg3jGTw3kGDs1kWDr1-eEr1seEr1t1HrS41plWjDTSBeBJdV1
+wIuutGMdk-1q5vpkWjDTV9z-NSc2clwuzZj-ig2cN_VyP459B_Z9We9UyFC5wthTpnUiwtK_Nx2kr_ryGQut-Ec2NE_nymM9tkSxhMIzsNS5lSjt1RtBTmMz
+otS5lSjt1RtBTyjwl--MzNxVBUlzlfDrm7VMCN-zySVF6t_yySSV_so5dMx4dUyUvFNzxo1K23pUSRexdjTFFLN7yTo2GmtjtF6k_jE12zJQnkckyDCrnntl
+el3JzRPsF3WWXFeIwKkaVmhr9T8_XFeIwOTGNo9z2VM5-XBf7q9zYVH3g2ycJ7SmB-kWVuZiHN-XQPgcwGq
+}
+
+GCPEntityColoring(Dialogflow_png)
+!define Dialogflow_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Dialogflow_png, Dialogflow_png)
+!define Dialogflow_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Dialogflow_png, Dialogflow_png)
+!define Dialogflow_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, Dialogflow_png, Dialogflow_png)
+!define Dialogflow_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Dialogflow_png, Dialogflow_png)

@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $VMwareEngine_png [128x128/16z] {
+xTa5RaGn38HXlnVo_KzSiHUcArUDfuewlpZqBQETab9AAVzrusnVldpvyc_xMVjz-VBbo_SFdUhBTzp_yUNBbo__CXpFbozVldnFnVVboxzmDDzm9_hovSkF
+3lCTTwuV4NrSu_b1BRE8uy_4yNN-Pw3Q7nv1ejPF_EImrS_pyKYiynq4c9JVA_vTBVNp_zwM-5Z4qFNI1dy2BFrEky4751gS5JxcyJ3B_svybVZBqnUWm0TA
+G2G_Vm4A_0xqaEfzg0V5zA7rFjOSjzN75-2EaVr-uX9sce-NZ3_nRxwFUMyi7_CU0pjzt0p-sPzR_PNam_UjlYLulhyWtwsWFEzMKe8d-i5V11uwBOOPlhr1
+ZSZZ2m3uLUUtDwpxMrQOWmXyHEHnH1utipp_9bZ6QM7UU2sWamDlkFIkFlfjsrDAAVK5
+}
+
+GCPEntityColoring(VMwareEngine_png)
+!define VMwareEngine_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, VMwareEngine_png, VMwareEngine_png)
+!define VMwareEngine_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, VMwareEngine_png, VMwareEngine_png)
+!define VMwareEngine_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, VMwareEngine_png, VMwareEngine_png)
+!define VMwareEngine_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, VMwareEngine_png, VMwareEngine_png)

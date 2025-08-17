@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Stackdriver_png [128x128/16z] {
+xPHPKWL13CCq4oPm_nFpHPaT-crYYVwx5BlApKzZ68PX68PXg4L-Xd_YxwwURivdFrb_TClnksLzb-nlMTzzKtyMjyUlnkzMjjT1YXzaVPViRqaVRkBVyh1V
+8SKFplQ253_8-guh-_Sl_2t53rVryz7sWXG_EDiBKlmWwxkkvD--wMyfVd2s5wJumTbU43x-bpZjXxgmdqL_2_4N3jYkjRqWnG-olha6lO2ixvBzBUc3xA-_
+rZyNqZyiSkdzxOl-WoVkLlHk0RW7uFeBzm2-u7xHlwtv0RK0miKtM0jwgG3S0t3zXNi0twIliq50BO1WR13S0d0FmFKNxW44OuE0MW3BR9VS8BW5u1w0wo_S
+0mZ61W6r0CBDDhX73su1k0VW-Wlt0CADDtX4xnL0C3O8RW6u1-3u_ze1n_86Vop3C0p3C0p38m
+}
+
+GCPEntityColoring(Stackdriver_png)
+!define Stackdriver_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Stackdriver_png, Stackdriver_png)
+!define Stackdriver_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Stackdriver_png, Stackdriver_png)
+!define Stackdriver_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, Stackdriver_png, Stackdriver_png)
+!define Stackdriver_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Stackdriver_png, Stackdriver_png)

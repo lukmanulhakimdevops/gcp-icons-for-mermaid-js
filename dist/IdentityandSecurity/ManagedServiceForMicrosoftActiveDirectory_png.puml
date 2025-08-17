@@ -1,0 +1,18 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $ManagedServiceForMicrosoftActiveDirectory_png [128x128/16z] {
+xTi7akmW38HX43Rc_XT-KJM5gr_GyZF31hhofa-st3ivlJ4xEpixEtcnVwtbwzMMyZ_yjfB_wRTblFkB1YWFlwuwVFVRCjxzjeBl_RQ2x_ssW7T_mG2bgbzN
+77wrziWAFba50s3UVlXW0CgVwQT_WG4GNzCllxPN3d1slFkrlQu4kUVTV-KbqF7kWm4Ox_wJ1x3YoJU-tFodbQ3SKkNmtG-KWEcUuy6BBoMOmMkSxtqTO1wl
+SLvy6M0Eht5UV1bW3g_9wiylGHdmGoNWVb5_NWcKrvZuWKk0-6Rb5l5d3s2gnNm-W6BwjIp-v188BryKdvU0-re2x5l09vS0zza0_Fp71k1-3lYW1AX_iqkG
+PG3vYlXJIr0aOLy7o9Fz5F3fDSXyFa205tzg2Q3FIn3WnPzQWW0l_jDBaE8-Bq5MNVtm0FYEM4u3Fhuxb0LN7vG0H7nG0kRp4d2VNuFSvmDmdvU0-xm4tESb
+u3ul0VTrW0K-kmRp1B_r6Re1GdwlNwFt06p0LzxYl6JCltgUtVyQyHlW9JdayzKRkFyBLa_l__FLyyTVlFKf0n-iVjhZR-LB6lRbV8WFLw-yOX6VhrwndFHh
+9ZxWuVDlSFNSvwkV__mhuC7n0nxuiTLplqHyldgr78hrlmcF1oZo1V4vp___w-f1RC0FhfwVW5h5ZvzxFe2y_s201xwy_s9WzM20mxt3_O7Lam7EFx__ACwp
+Eu6rZ_l2puiMxwnTyay_i7eGlTTJ-oGBh9ucc_czC1t0sW0F0s_kUCeV_UFZlF-NH_mFzlvl7klyuoD-_e77_RGivqy_hSnrf0-RdPsTdPtl
+}
+
+GCPEntityColoring(ManagedServiceForMicrosoftActiveDirectory_png)
+!define ManagedServiceForMicrosoftActiveDirectory_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, ManagedServiceForMicrosoftActiveDirectory_png, ManagedServiceForMicrosoftActiveDirectory_png)
+!define ManagedServiceForMicrosoftActiveDirectory_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, ManagedServiceForMicrosoftActiveDirectory_png, ManagedServiceForMicrosoftActiveDirectory_png)
+!define ManagedServiceForMicrosoftActiveDirectory_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, ManagedServiceForMicrosoftActiveDirectory_png, ManagedServiceForMicrosoftActiveDirectory_png)
+!define ManagedServiceForMicrosoftActiveDirectory_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ManagedServiceForMicrosoftActiveDirectory_png, ManagedServiceForMicrosoftActiveDirectory_png)

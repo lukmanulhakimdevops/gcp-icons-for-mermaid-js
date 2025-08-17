@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $FinancialServicesMarketplace_png [128x128/16z] {
+xTXNOiCW40PXG6QrzpzntFtZNX2Rn3ClxlxK2-cTY8WevpZRDlcw6gCV_NKHklfUOtZpOn5yINdbXmRpiiHzrr0-DGsSW7hajN6-y14JeBofwUlA63-fFtO1
+b9j-6k8BVysV0lt9rmNwAT37no_1_f3Be2du-9Tk-hEl2px_hTBooRLNBklEJt--87pmJMPK-B9_jjnoVtpzD_kcHVHs0gPptVMvTzTbkPkT9Y6Rj_onRhhs
+uFvdTgsxVZa1hJNvMLrrdO3I-abvRUwgwvQVJxuSZYwRE_DwvrUgbNJ8RzM7rtAwoFncrjtNlL-s-wuB8Dk3gbvtzFUBFPC_31__hqLK0xR_S1yVFpwY-EiV
+V7pyyxlXshxH0XTZ3lZu-FZu-FZu-FZu-FZu-FZuZ3_Xum-EY8X-
+}
+
+GCPEntityColoring(FinancialServicesMarketplace_png)
+!define FinancialServicesMarketplace_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, FinancialServicesMarketplace_png, FinancialServicesMarketplace_png)
+!define FinancialServicesMarketplace_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, FinancialServicesMarketplace_png, FinancialServicesMarketplace_png)
+!define FinancialServicesMarketplace_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, FinancialServicesMarketplace_png, FinancialServicesMarketplace_png)
+!define FinancialServicesMarketplace_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, FinancialServicesMarketplace_png, FinancialServicesMarketplace_png)

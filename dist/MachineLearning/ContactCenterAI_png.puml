@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $ContactCenterAI_png [128x128/16z] {
+xTXLOiGm40JHCghlV-4mJMWM97TWwdVXMJABtrTLLLMb-vfFVsh3q2wznj5DKimmzR5cq6CpXxJgono3Zndqs6Rs9RSlkNqrioyjz6rNzFCwNss3V_0MI1Vv
+sZlfqJzs2bObVbAVmL_kgtNHSx__kTYK-mClY5Bghy0qQ0EK--59iFC6BAdFQmEE0IN-H4XPVVqzcQ_1VdAw3FRvgWFyv4WQxZU-RnlivxbzSFlCPXzsimzk
+7zm-cza7jmzkdytiWyEFtpRuyVkhmOytQeCVV-Bm9RUlnUnBRbzo-rhClkJsfV9FhVpooo__yhzODCJNRdZ_Zqs6zO-OO_qdPbZ_Ygs6zR-GPVqpbgmv3VVL
+hlfwNbDIedTx0CsFmKqZVFeDNkAIkkdYiXPzrXA_aJTnSUtwmUzSbMVgls1cNbiEqEFvrSuT_4gd75CVqtJKrET9URDLRtJjTqqzLdx3weFJ1wU_uFGRE7rm
+-XDEVmUd3quVdFw2rGUd3qv_mkatSFfO2hhDtt7L90bZVNH_LLLLrIq
+}
+
+GCPEntityColoring(ContactCenterAI_png)
+!define ContactCenterAI_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, ContactCenterAI_png, ContactCenterAI_png)
+!define ContactCenterAI_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, ContactCenterAI_png, ContactCenterAI_png)
+!define ContactCenterAI_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, ContactCenterAI_png, ContactCenterAI_png)
+!define ContactCenterAI_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ContactCenterAI_png, ContactCenterAI_png)

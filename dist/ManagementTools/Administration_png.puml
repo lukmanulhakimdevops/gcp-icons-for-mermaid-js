@@ -1,0 +1,13 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Administration_png [128x128/16z] {
+xTS53iD030J0Clp_mMNc9ZcU5HQiqO5YPzHyH6J-8SiFAT_dy_byFf_Fvpz-_-YazVbyFf-l__77kwJqrxlCEoGZdz_z-SFdypkaYldZjFvbXtJs-UCX_0Zz
+P_6XB4h_QzIt_zRVtU_U_nxh5ezr4VoFTTPl_wtV_NF--c-2zHVhEt_pt_YQoQFVeQw1_iVNV_FnxJ_V_C4t_tZ_SF-it_hvVFU_tOZ85W
+}
+
+GCPEntityColoring(Administration_png)
+!define Administration_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Administration_png, Administration_png)
+!define Administration_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Administration_png, Administration_png)
+!define Administration_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, Administration_png, Administration_png)
+!define Administration_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Administration_png, Administration_png)

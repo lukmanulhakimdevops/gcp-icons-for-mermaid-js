@@ -1,0 +1,14 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudVPN_png [128x128/16z] {
+xTe5RWGn04FHS7B_2vTIaPV9G_-B2XwzTfd2MoCYedIswEB7fRRlu-FZu-FZu-FZu-DhvRy-AxCStBLPk18-FZu-FZx-E9_1V-w1Inn_rMNyAWkhh-lizeVK
+BBvkQunjp9B1bwbyv_RrI9z_yjFF-aqxqTBugJV9vyzZNNvVWTyF_F-tW_bdb_tMzJz-pY_oqoGpp-slyD7bwos-h2n-FHrP_L1rO_LrteFV3qa63b-BQV7d
+F_Zu-FZu-FZuPPplE9z_nCV7nyV7nyV7nyUlOHKH4T4t
+}
+
+GCPEntityColoring(CloudVPN_png)
+!define CloudVPN_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudVPN_png, CloudVPN_png)
+!define CloudVPN_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudVPN_png, CloudVPN_png)
+!define CloudVPN_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudVPN_png, CloudVPN_png)
+!define CloudVPN_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudVPN_png, CloudVPN_png)

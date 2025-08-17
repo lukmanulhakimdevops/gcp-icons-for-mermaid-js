@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Datalab_png [128x128/16z] {
+xPbNTWCn30FLXVjVE8LfRdIYF2tmiPmBp0FNWbNIEa4G147EKZi091qmaeeEesZZeoSH1SOvlxzXUZL1q4SwRm_Z4wNUEBk_YlqjlZ-BUU4JZB-QS5xjGoP_
+vh9zWBRn17xd-ykOvzlw1K4Gu2bAV_Z3BphmufsSZ1Fwmn_-yC_48Jj-KEDNrO6mFNBHsx-eJiJZiOdZzqKJXkxgWUhtdmEfyVCbC0erFdi7Xj_zdH5VD82B
+cqx_5p1rBxum3exVQVUIwoiS1k5_bp00j-550u2H5mf2SUSDen2gXrj2MFCtKdn_0ColNouveeKpZ9MM9iGdh45doqyk8HX3zJmsd4sVosR_zPB6dzcgnx8U
+-OW37nOGnZVgzkRDS9dEPe4MtrcoE-DNFCFPB1BYkmEOM-CtBBFLFx6CRlKPFMa7eAiVe-tkdu4bnFrRzl__L4vylyivUl_Sd_d-yRy17BNzvliR70XwG-tF
+GhsXzYUnFXM2daSG147m2W
+}
+
+GCPEntityColoring(Datalab_png)
+!define Datalab_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Datalab_png, Datalab_png)
+!define Datalab_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Datalab_png, Datalab_png)
+!define Datalab_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, Datalab_png, Datalab_png)
+!define Datalab_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Datalab_png, Datalab_png)

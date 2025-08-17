@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $TensorflowEnterprise_png [128x128/16z] {
+xTE5mIin3C1W7Ml_XH_-L6ukLB0M-08sprGKHL4KHL4KpNHBWTcDBgr--3hIl46_VQLnUkXh1_t0Tw5HisTzfKbwoTSs-cNVZQgjtl1rhBfpjtsbKdgVhstq
+oxuBXPjDyfMYQQgl5VGatuqYhUxqTQomSoc-afdc-Pgdv_ikMJkNxslUp-VxleOVVlXBNnzk-L3FXtjynZh-p9q-R2NyqOFWVXzA-v3cCvJqHv9zM4lv6-pn
+eOmFUtt8zmToV9OyVuL4NuxAyI7TT-EelJxiydNai8cSqdqbgtnVU_ikdNt7j_N33p_ywItzfRCFlNtexJDrzg6t3xrzU0a__F333p_yyCCFd-i-zLik-mDD
+kk1lDEkSJylcOv_M7VWh7VhswTFqtwTh8qzJ54LH54LH5Fq6
+}
+
+GCPEntityColoring(TensorflowEnterprise_png)
+!define TensorflowEnterprise_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, TensorflowEnterprise_png, TensorflowEnterprise_png)
+!define TensorflowEnterprise_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, TensorflowEnterprise_png, TensorflowEnterprise_png)
+!define TensorflowEnterprise_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, TensorflowEnterprise_png, TensorflowEnterprise_png)
+!define TensorflowEnterprise_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, TensorflowEnterprise_png, TensorflowEnterprise_png)

@@ -1,0 +1,19 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudScheduler_png [128x128/16z] {
+xPdfWgim28K50iFxl_1TPsEgA0UhTydtjpdvJkBILfS_ZybaCfcm_E2-lBnoKrxUe6PUq3YUxqyWP_e52EVfOO6L8IID0fA4nJQWR0vO7xDgAP9CqjUp7Q1H
+8C-f7OIn0dbAhG031L8zMn6WG98m0Am0humVPcSLG2vyWm4ArFGwXjOAL6_Qj7cVYOoa0EZVd7OhcnGuxASmKkq1Ijll5LXsoVMxSKeBqB8FRM_-SWJPBh2K
+88leqM1Ikm8-2sTHN8-7stgz89xSJwJRlnVdPHDtroSKEBnwVoMP0pW2V3ZgxrXU8FNXIV_4ora5z7ZE0xH42dumvbz8xiNGyhNeTsWbUCZFBy2LY3_IzLlB
+tozG2lXU0QtwjUztU3bnF9tiDs3x0Nzh0-GKlu3-E1ht-_e99PVv6PZoJB_t_NA7VyInk7zWSrhNdsy0tUpNc_ts__YfwTUcVpJze-dNA_pUM7z__yaJvEdd
+dwTGrm_eBxp-p6_rkqF-SOwV7VHNVlur5XzFFyL-VuoEtf_s-ylyLhyNzEVxsGy2_w6Yh81xT_cj3V2B_H8_QEjrQVm1zEC8kFpyV86NZ_iDElpPuMoT0Jsz
+zP-_LVIudpi5-lgOub81EUK1D6UnTF4H0lJxlJMnN_C2W1Cxe4TUtWmFCF0A2IaGeQ5329W1A71ltdfnMgujG50uuXOHkBevedUtBy1wTqJlRaW3Mz6x0_gr
+0bgsctkzm5lenHx9xLlwwlj7VyLMq4I-gJShw9C2wtyErLQ9-rZGXm8m6lJLzqzlvuqQ22rBq5VVlxoVjWQnTXkfwCrUzT0MyEfjbD6lBIkG9V4VFdNxAx0_
+xHP97Q0_-JHXDDzf1NsrWaAJHlP7Ygt2yAGHFJIGHkbHFRzk_cGocKmcaybt
+}
+
+GCPEntityColoring(CloudScheduler_png)
+!define CloudScheduler_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudScheduler_png, CloudScheduler_png)
+!define CloudScheduler_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudScheduler_png, CloudScheduler_png)
+!define CloudScheduler_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudScheduler_png, CloudScheduler_png)
+!define CloudScheduler_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudScheduler_png, CloudScheduler_png)

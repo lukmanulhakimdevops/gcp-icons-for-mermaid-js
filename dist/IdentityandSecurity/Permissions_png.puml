@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Permissions_png [128x128/16z] {
+xTa7jeGW38LXUhZxN_2hp6cCXJboOyc_WS-kHFT9bcLPCHVKh49B2_zL3RpvBU7fdT_YwhsFGkMRJpm4MRPyUChEB_iG9Y_egnH-sOUm-EPJhW4_u8Ep-yi-
+EFooNvHzSFXb7xVoPToloZuEv9EoBv_uLTd7RVoexCir_QBiLsKVvZ_w-lD7-UdXpr_pbRy_tDFz-F3lVnT7VUtrtztMtwuepn-Sjk_s-xhpD-ZE7q4TWBBu
+Ljdoe-hy7Mv-QTbtdE9xtpjUdLyTlVpo2yUpBCkoBCkdydh_rkA9Rbd-_fAvTDZt_Hzcs5dn_s_GdBybMGshfJbxtllBJPYvTFwCJV2oA-ngme4Vye49-zxy
+uxT01i900_eK7_bmNZ3Mq9nrWe-1dP_Y8wxn11zvcQVuI0jy9lbOy8NbOu6d-N1zITaNfe_J-SBrWx8FyyqtttpppJVV_ETbMTOt
+}
+
+GCPEntityColoring(Permissions_png)
+!define Permissions_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Permissions_png, Permissions_png)
+!define Permissions_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Permissions_png, Permissions_png)
+!define Permissions_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, Permissions_png, Permissions_png)
+!define Permissions_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Permissions_png, Permissions_png)

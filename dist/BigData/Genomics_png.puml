@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Genomics_png [128x128/16z] {
+xTZNOiCm28LXG3RH-xzmTtkwKOAKay5tr_bx2SUMbKeffPJIMZDU_9q4DlTzLJxU07ypFmzH_iM2VBm1kqFF-hjlyWUVsSS6MFjcf7-Ojm5ji6_-MS_Ju_ew
+kozndt_yrrz_4lJ1OSyQN__GrimVZVg0-hhvIs2aF9ojNaeXBtQG97-Xf76h_Yvnkqbms0B1xJQRznx1xdypftz8VTpCzxs76gSFvBuiwO_df_UtO_f_hJ-T
+iW1JZzlv3M3CNvo3pFs7Wfd753QvSORLHK2-nC0uUL1E7qXvkBE-aVljpljAwTVr3vmy62SFIih36VB5g8UOV8qbrfW_eysOtT_a-t3IS_EA6TyZ3ZgpFvw7
+T1-G9_OxNCN-iyy_-VetnlhVqUVCF-Ifyr-lzVu7X3fFAMPt-qfH6yXqpRSu3pANls8zqlkx5kH1e6Sv7D_NddLmXz6-ld-_f_afVPCNM-VsbTLNUKFgYwpP
+0FBweywVyG5evvk_i28FJQ_YbQBAKgMKKafv1
+}
+
+GCPEntityColoring(Genomics_png)
+!define Genomics_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Genomics_png, Genomics_png)
+!define Genomics_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Genomics_png, Genomics_png)
+!define Genomics_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, Genomics_png, Genomics_png)
+!define Genomics_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Genomics_png, Genomics_png)

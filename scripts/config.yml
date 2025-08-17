@@ -1,0 +1,662 @@
+Categories:
+- Name: AIandMachineLearning
+  Services:
+  - Source: AIHub.png
+    Target: AIHub_png
+  - Source: AIPlatform.png
+    Target: AIPlatform_png
+  - Source: AIPlatformDataLabelingService.png
+    Target: AIPlatformDataLabelingService_png
+  - Source: AdvancedSolutionsLab.png
+    Target: AdvancedSolutionsLab_png
+  - Source: AutoMLNaturalLanguage.png
+    Target: AutoMLNaturalLanguage_png
+  - Source: AutoMLTables.png
+    Target: AutoMLTables_png
+  - Source: AutoMLTranslation.png
+    Target: AutoMLTranslation_png
+  - Source: AutoMLVideoIntelligence.png
+    Target: AutoMLVideoIntelligence_png
+  - Source: AutoMLVision.png
+    Target: AutoMLVision_png
+  - Source: CloudAutoML.png
+    Target: CloudAutoML_png
+  - Source: CloudInferenceAPI.png
+    Target: CloudInferenceAPI_png
+  - Source: CloudJobsAPI.png
+    Target: CloudJobsAPI_png
+  - Source: CloudNaturalLanguageAPI.png
+    Target: CloudNaturalLanguageAPI_png
+  - Source: CloudSpeechtoText.png
+    Target: CloudSpeechtoText_png
+  - Source: CloudTPU.png
+    Target: CloudTPU_png
+  - Source: CloudTexttoSpeech.png
+    Target: CloudTexttoSpeech_png
+  - Source: CloudTranslationAPI.png
+    Target: CloudTranslationAPI_png
+  - Source: CloudVideoIntelligenceAPI.png
+    Target: CloudVideoIntelligenceAPI_png
+  - Source: CloudVisionAPI.png
+    Target: CloudVisionAPI_png
+  - Source: DialogFlowEnterpriseEdition.png
+    Target: DialogFlowEnterpriseEdition_png
+  - Source: RecommendationsAI.png
+    Target: RecommendationsAI_png
+  SourceDir: AIandMachineLearning
+- Name: APIManagement
+  Services:
+  - Source: APIAnalytics.png
+    Target: APIAnalytics_png
+  - Source: APIMonetization.png
+    Target: APIMonetization_png
+  - Source: ApigeeAPIPlatform.png
+    Target: ApigeeAPIPlatform_png
+  - Source: ApigeeSense.png
+    Target: ApigeeSense_png
+  - Source: CloudEndpoints.png
+    Target: CloudEndpoints_png
+  - Source: DeveloperPortal.png
+    Target: DeveloperPortal_png
+  - Source: GoogleMapsPlatform.png
+    Target: GoogleMapsPlatform_png
+  SourceDir: APIManagement
+- Name: BigData
+  Services:
+  - Source: AnalyticsHub.png
+    Target: AnalyticsHub_png
+  - Source: BigQuery.png
+    Target: BigQuery_png
+  - Source: CloudComposer.png
+    Target: CloudComposer_png
+  - Source: DataCatalog.png
+    Target: DataCatalog_png
+  - Source: DataQnA.png
+    Target: DataQnA_png
+  - Source: DataStudio.png
+    Target: DataStudio_png
+  - Source: Dataflow.png
+    Target: Dataflow_png
+  - Source: Datalab.png
+    Target: Datalab_png
+  - Source: Dataplex.png
+    Target: Dataplex_png
+  - Source: Dataprep.png
+    Target: Dataprep_png
+  - Source: Dataproc.png
+    Target: Dataproc_png
+  - Source: DataprocMetastore.png
+    Target: DataprocMetastore_png
+  - Source: Datashare.png
+    Target: Datashare_png
+  - Source: Genomics.png
+    Target: Genomics_png
+  - Source: Looker.png
+    Target: Looker_png
+  - Source: PubSub.png
+    Target: PubSub_png
+  - Source: RealworldInsights.png
+    Target: RealworldInsights_png
+  - Source: StreamSuite.png
+    Target: StreamSuite_png
+  SourceDir: BigData
+- Name: Compute
+  Services:
+  - Source: AppEngine.png
+    Target: AppEngine_png
+  - Source: BareMetalSolutions.png
+    Target: BareMetalSolutions_png
+  - Source: Batch.png
+    Target: Batch_png
+  - Source: CloudFunctions.png
+    Target: CloudFunctions_png
+  - Source: CloudGPU.png
+    Target: CloudGPU_png
+  - Source: CloudRun.png
+    Target: CloudRun_png
+  - Source: CloudRunForAnthos.png
+    Target: CloudRunForAnthos_png
+  - Source: Cloud_Run.png
+    Target: Cloud_Run_png
+  - Source: ComputeEngine.png
+    Target: ComputeEngine_png
+  - Source: ContainerOptimizedOS.png
+    Target: ContainerOptimizedOS_png
+  - Source: ContainerRegistry.png
+    Target: ContainerRegistry_png
+  - Source: GKEOnPrem.png
+    Target: GKEOnPrem_png
+  - Source: GKEOnprem.png
+    Target: GKEOnprem_png
+  - Source: GPU.png
+    Target: GPU_png
+  - Source: GameServers.png
+    Target: GameServers_png
+  - Source: GoogleKubernetesEngine.png
+    Target: GoogleKubernetesEngine_png
+  - Source: KubernetesEngine.png
+    Target: KubernetesEngine_png
+  - Source: Kuberun.png
+    Target: Kuberun_png
+  - Source: MigrateForComputeEngine.png
+    Target: MigrateForComputeEngine_png
+  - Source: QuantumEngine.png
+    Target: QuantumEngine_png
+  - Source: VMwareEngine.png
+    Target: VMwareEngine_png
+  SourceDir: Compute
+- Name: DataAnalytics
+  Services:
+  - Source: BigQuery.png
+    Target: BigQuery_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: CloudComposer.png
+    Target: CloudComposer_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: CloudDataCatalog.png
+    Target: CloudDataCatalog_png
+  - Source: CloudDataFusion.png
+    Target: CloudDataFusion_png
+  - Source: CloudDataflow.png
+    Target: CloudDataflow_png
+  - Source: CloudDatalab.png
+    Target: CloudDatalab_png
+  - Source: CloudDataprep.png
+    Target: CloudDataprep_png
+  - Source: CloudDataproc.png
+    Target: CloudDataproc_png
+  - Source: CloudPubSub.png
+    Target: CloudPubSub_png
+  - Source: Genomics.png
+    Target: Genomics_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  SourceDir: DataAnalytics
+- Name: Databases
+  Services:
+  - Source: Bigtable.png
+    Target: Bigtable_png
+  - Source: CloudBigtable.png
+    Target: CloudBigtable_png
+  - Source: CloudDatastore.png
+    Target: CloudDatastore_png
+  - Source: CloudFirestore.png
+    Target: CloudFirestore_png
+  - Source: CloudMemorystore.png
+    Target: CloudMemorystore_png
+  - Source: CloudSQL.png
+    Target: CloudSQL_png
+  - Source: CloudSpanner.png
+    Target: CloudSpanner_png
+  - Source: Datastore.png
+    Target: Datastore_png
+  - Source: Datastream.png
+    Target: Datastream_png
+  - Source: Firestore.png
+    Target: Firestore_png
+  - Source: Memorystore.png
+    Target: Memorystore_png
+  SourceDir: Databases
+- Name: DeveloperTools
+  Services:
+  - Source: ApigeeAPIPlatform.png
+    Target: ApigeeAPIPlatform_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: ApigeeSense.png
+    Target: ApigeeSense_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: ArtifactRegistry.png
+    Target: ArtifactRegistry_png
+  - Source: CloudAPIGateway.png
+    Target: CloudAPIGateway_png
+  - Source: CloudBuild.png
+    Target: CloudBuild_png
+  - Source: CloudCode.png
+    Target: CloudCode_png
+  - Source: CloudCodeforIntelliJ.png
+    Target: CloudCodeforIntelliJ_png
+  - Source: CloudDeploy.png
+    Target: CloudDeploy_png
+  - Source: CloudSDK.png
+    Target: CloudSDK_png
+  - Source: CloudScheduler.png
+    Target: CloudScheduler_png
+  - Source: CloudSourceRepositories.png
+    Target: CloudSourceRepositories_png
+  - Source: CloudTasks.png
+    Target: CloudTasks_png
+  - Source: CloudTestLab.png
+    Target: CloudTestLab_png
+  - Source: CloudToolsforEclipse.png
+    Target: CloudToolsforEclipse_png
+  - Source: CloudToolsforPowerShell.png
+    Target: CloudToolsforPowerShell_png
+  - Source: CloudToolsforVisualStudio.png
+    Target: CloudToolsforVisualStudio_png
+  - Source: ContainerRegistry.png
+    Target: ContainerRegistry_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: DeveloperPortal.png
+    Target: DeveloperPortal_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: EarlyAccessCenter.png
+    Target: EarlyAccessCenter_png
+  - Source: GradleAppEnginePlugin.png
+    Target: GradleAppEnginePlugin_png
+  - Source: IDEPlugins.png
+    Target: IDEPlugins_png
+  - Source: MavenAppEnginePlugin.png
+    Target: MavenAppEnginePlugin_png
+  - Source: PartnerPortal.png
+    Target: PartnerPortal_png
+  - Source: ProducerPortal.png
+    Target: ProducerPortal_png
+  - Source: ToolsForPowershell.png
+    Target: ToolsForPowershell_png
+  SourceDir: DeveloperTools
+- Name: General
+  Services:
+  - Source: CloudGeneric.png
+    Target: CloudGeneric_png
+  SourceDir: General
+- Name: HybridandMultiCloud
+  Services:
+  - Source: Stackdriver.png
+    Target: Stackdriver_png
+  - Source: TrafficDirector.png
+    Target: TrafficDirector_png
+  SourceDir: HybridandMultiCloud
+- Name: IdentityandSecurity
+  Services:
+  - Source: AccessContextManager.png
+    Target: AccessContextManager_png
+  - Source: AssuredWorkloads.png
+    Target: AssuredWorkloads_png
+  - Source: Beyondcorp.png
+    Target: Beyondcorp_png
+  - Source: BinaryAuthorization.png
+    Target: BinaryAuthorization_png
+  - Source: CertificateAuthorityService.png
+    Target: CertificateAuthorityService_png
+  - Source: CertificateManager.png
+    Target: CertificateManager_png
+  - Source: CloudAuditLogs.png
+    Target: CloudAuditLogs_png
+  - Source: CloudEKM.png
+    Target: CloudEKM_png
+  - Source: CloudHSM.png
+    Target: CloudHSM_png
+  - Source: CloudIDS.png
+    Target: CloudIDS_png
+  - Source: CloudSecurityScanner.png
+    Target: CloudSecurityScanner_png
+  - Source: DataLossPreventionAPI.png
+    Target: DataLossPreventionAPI_png
+  - Source: Datapol.png
+    Target: Datapol_png
+  - Source: IdentityAndAccessManagement.png
+    Target: IdentityAndAccessManagement_png
+  - Source: IdentityAwareProxy.png
+    Target: IdentityAwareProxy_png
+  - Source: IdentityPlatform.png
+    Target: IdentityPlatform_png
+  - Source: KeyAccessJustifications.png
+    Target: KeyAccessJustifications_png
+  - Source: KeyManagementService.png
+    Target: KeyManagementService_png
+  - Source: ManagedServiceForMicrosoftActiveDirectory.png
+    Target: ManagedServiceForMicrosoftActiveDirectory_png
+  - Source: Permissions.png
+    Target: Permissions_png
+  - Source: PhishingProtection.png
+    Target: PhishingProtection_png
+  - Source: PolicyAnalyzer.png
+    Target: PolicyAnalyzer_png
+  - Source: RiskManager.png
+    Target: RiskManager_png
+  - Source: SecretManager.png
+    Target: SecretManager_png
+  - Source: Security.png
+    Target: Security_png
+  - Source: SecurityCommandCenter.png
+    Target: SecurityCommandCenter_png
+  - Source: SecurityHealthAdvisor.png
+    Target: SecurityHealthAdvisor_png
+  - Source: SecurityKeyEnforcement.png
+    Target: SecurityKeyEnforcement_png
+  - Source: WebRisk.png
+    Target: WebRisk_png
+  - Source: WebSecurityScanner.png
+    Target: WebSecurityScanner_png
+  - Source: WorkloadIdentityPool.png
+    Target: WorkloadIdentityPool_png
+  SourceDir: IdentityandSecurity
+- Name: IndustrySolutions
+  Services:
+  - Source: CloudForMarketing.png
+    Target: CloudForMarketing_png
+  - Source: CloudHealthcareMarketplace.png
+    Target: CloudHealthcareMarketplace_png
+  - Source: FinancialServicesMarketplace.png
+    Target: FinancialServicesMarketplace_png
+  SourceDir: IndustrySolutions
+- Name: InternetofThings
+  Services:
+  - Source: CloudIoTCore.png
+    Target: CloudIoTCore_png
+  - Source: IotCore.png
+    Target: IotCore_png
+  - Source: IotEdge.png
+    Target: IotEdge_png
+  SourceDir: InternetofThings
+- Name: MachineLearning
+  Services:
+  - Source: AIHub.png
+    Target: AIHub_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: AIPlatform.png
+    Target: AIPlatform_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: AIPlatformUnified.png
+    Target: AIPlatformUnified_png
+  - Source: AdvancedAgentModeling.png
+    Target: AdvancedAgentModeling_png
+  - Source: AdvancedSolutionsLab.png
+    Target: AdvancedSolutionsLab_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: AgentAssist.png
+    Target: AgentAssist_png
+  - Source: AutoML.png
+    Target: AutoML_png
+  - Source: AutoMLNaturalLanguage.png
+    Target: AutoMLNaturalLanguage_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: AutoMLTables.png
+    Target: AutoMLTables_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: AutoMLTranslation.png
+    Target: AutoMLTranslation_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: AutoMLVideoIntelligence.png
+    Target: AutoMLVideoIntelligence_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: AutoMLVision.png
+    Target: AutoMLVision_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: CloudHealthcareAPI.png
+    Target: CloudHealthcareAPI_png
+  - Source: CloudInferenceAPI.png
+    Target: CloudInferenceAPI_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: CloudJobsAPI.png
+    Target: CloudJobsAPI_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: CloudNaturalLanguageAPI.png
+    Target: CloudNaturalLanguageAPI_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: CloudOptimizationAI.png
+    Target: CloudOptimizationAI_png
+  - Source: CloudOptimizationAIFleetRoutingAPI.png
+    Target: CloudOptimizationAIFleetRoutingAPI_png
+  - Source: CloudTPU.png
+    Target: CloudTPU_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: CloudTranslationAPI.png
+    Target: CloudTranslationAPI_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: CloudVisionAPI.png
+    Target: CloudVisionAPI_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: ContactCenterAI.png
+    Target: ContactCenterAI_png
+  - Source: DataLabeling.png
+    Target: DataLabeling_png
+  - Source: Dialogflow.png
+    Target: Dialogflow_png
+  - Source: DialogflowCX.png
+    Target: DialogflowCX_png
+  - Source: DialogflowInsights.png
+    Target: DialogflowInsights_png
+  - Source: DocumentAI.png
+    Target: DocumentAI_png
+  - Source: HealthcareNLPAPI.png
+    Target: HealthcareNLPAPI_png
+  - Source: MediaTranslationAPI.png
+    Target: MediaTranslationAPI_png
+  - Source: RecommendationsAI.png
+    Target: RecommendationsAI_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: RetailAPI.png
+    Target: RetailAPI_png
+  - Source: SpeechToText.png
+    Target: SpeechToText_png
+  - Source: TensorflowEnterprise.png
+    Target: TensorflowEnterprise_png
+  - Source: TextToSpeech.png
+    Target: TextToSpeech_png
+  - Source: VertexAI.png
+    Target: VertexAI_png
+  - Source: VideoIntelligenceAPI.png
+    Target: VideoIntelligenceAPI_png
+  - Source: VisualInspection.png
+    Target: VisualInspection_png
+  SourceDir: MachineLearning
+- Name: ManagementTools
+  Services:
+  - Source: API.png
+    Target: API_png
+  - Source: Administration.png
+    Target: Administration_png
+  - Source: Anthos.png
+    Target: Anthos_png
+  - Source: AnthosConfigManagement.png
+    Target: AnthosConfigManagement_png
+  - Source: AnthosServiceMesh.png
+    Target: AnthosServiceMesh_png
+  - Source: AssetInventory.png
+    Target: AssetInventory_png
+  - Source: Billing.png
+    Target: Billing_png
+  - Source: Catalog.png
+    Target: Catalog_png
+  - Source: CloudAPIs.png
+    Target: CloudAPIs_png
+  - Source: CloudAssetInventory.png
+    Target: CloudAssetInventory_png
+  - Source: CloudBillingAPI.png
+    Target: CloudBillingAPI_png
+  - Source: CloudConsole.png
+    Target: CloudConsole_png
+  - Source: CloudDeploymentManager.png
+    Target: CloudDeploymentManager_png
+  - Source: CloudDomains.png
+    Target: CloudDomains_png
+  - Source: CloudLogging.png
+    Target: CloudLogging_png
+  - Source: CloudMobileApp.png
+    Target: CloudMobileApp_png
+  - Source: CloudMonitoring.png
+    Target: CloudMonitoring_png
+  - Source: CloudOps.png
+    Target: CloudOps_png
+  - Source: CloudServiceMesh.png
+    Target: CloudServiceMesh_png
+  - Source: CloudShell.png
+    Target: CloudShell_png
+  - Source: ConfigurationManagement.png
+    Target: ConfigurationManagement_png
+  - Source: Debugger.png
+    Target: Debugger_png
+  - Source: ErrorReporting.png
+    Target: ErrorReporting_png
+  - Source: Eventarc.png
+    Target: Eventarc_png
+  - Source: FleetEngine.png
+    Target: FleetEngine_png
+  - Source: FreeTrial.png
+    Target: FreeTrial_png
+  - Source: GCESystemsManagement.png
+    Target: GCESystemsManagement_png
+  - Source: GoogleCloudMarketplace.png
+    Target: GoogleCloudMarketplace_png
+  - Source: Home.png
+    Target: Home_png
+  - Source: Launcher.png
+    Target: Launcher_png
+  - Source: Logging.png
+    Target: Logging_png
+  - Source: MigrateForAnthos.png
+    Target: MigrateForAnthos_png
+  - Source: Monitoring.png
+    Target: Monitoring_png
+  - Source: MyCloud.png
+    Target: MyCloud_png
+  - Source: OSConfigurationManagement.png
+    Target: OSConfigurationManagement_png
+  - Source: OSInventoryManagement.png
+    Target: OSInventoryManagement_png
+  - Source: OSPatchManagement.png
+    Target: OSPatchManagement_png
+  - Source: Onboarding.png
+    Target: Onboarding_png
+  - Source: PerformanceDashboard.png
+    Target: PerformanceDashboard_png
+  - Source: Profiler.png
+    Target: Profiler_png
+  - Source: Project.png
+    Target: Project_png
+  - Source: Quotas.png
+    Target: Quotas_png
+  - Source: ReleaseNotes.png
+    Target: ReleaseNotes_png
+  - Source: RuntimeConfig.png
+    Target: RuntimeConfig_png
+  - Source: Stackdriver.png
+    Target: Stackdriver_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: Support.png
+    Target: Support_png
+  - Source: Trace.png
+    Target: Trace_png
+  - Source: UserPreferences.png
+    Target: UserPreferences_png
+  - Source: Workflows.png
+    Target: Workflows_png
+  SourceDir: ManagementTools
+- Name: Migration
+  Services:
+  - Source: DataTransfer.png
+    Target: DataTransfer_png
+  - Source: DatabaseMigrationService.png
+    Target: DatabaseMigrationService_png
+  - Source: Transfer.png
+    Target: Transfer_png
+  - Source: TransferAppliance.png
+    Target: TransferAppliance_png
+  - Source: Transfer_Appliance.png
+    Target: Transfer_Appliance_png
+  SourceDir: Migration
+- Name: Networking
+  Services:
+  - Source: CloudArmor.png
+    Target: CloudArmor_png
+  - Source: CloudCDN.png
+    Target: CloudCDN_png
+  - Source: CloudDNS.png
+    Target: CloudDNS_png
+  - Source: CloudEndpoints.png
+    Target: CloudEndpoints_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: CloudExternalIPAddresses.png
+    Target: CloudExternalIPAddresses_png
+  - Source: CloudFirewallRules.png
+    Target: CloudFirewallRules_png
+  - Source: CloudInterconnect.png
+    Target: CloudInterconnect_png
+  - Source: CloudLoadBalancing.png
+    Target: CloudLoadBalancing_png
+  - Source: CloudMediaEdge.png
+    Target: CloudMediaEdge_png
+  - Source: CloudNAT.png
+    Target: CloudNAT_png
+  - Source: CloudNetwork.png
+    Target: CloudNetwork_png
+  - Source: CloudRouter.png
+    Target: CloudRouter_png
+  - Source: CloudRoutes.png
+    Target: CloudRoutes_png
+  - Source: CloudVPN.png
+    Target: CloudVPN_png
+  - Source: Cloud_Network.png
+    Target: Cloud_Network_png
+  - Source: ConnectivityTest.png
+    Target: ConnectivityTest_png
+  - Source: Connectors.png
+    Target: Connectors_png
+  - Source: DedicatedInterconnect.png
+    Target: DedicatedInterconnect_png
+  - Source: NetworkConnectivityCenter.png
+    Target: NetworkConnectivityCenter_png
+  - Source: NetworkIntelligenceCenter.png
+    Target: NetworkIntelligenceCenter_png
+  - Source: NetworkSecurity.png
+    Target: NetworkSecurity_png
+  - Source: NetworkTiers.png
+    Target: NetworkTiers_png
+  - Source: NetworkTopology.png
+    Target: NetworkTopology_png
+  - Source: PartnerInterconnect.png
+    Target: PartnerInterconnect_png
+  - Source: PremiumNetworkTier.png
+    Target: PremiumNetworkTier_png
+  - Source: PrivateConnectivity.png
+    Target: PrivateConnectivity_png
+  - Source: PrivateServiceConnect.png
+    Target: PrivateServiceConnect_png
+  - Source: ServiceDiscovery.png
+    Target: ServiceDiscovery_png
+  - Source: StandardNetworkTier.png
+    Target: StandardNetworkTier_png
+  - Source: TrafficDirector.png
+    Target: TrafficDirector_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: VirtualPrivateCloud.png
+    Target: VirtualPrivateCloud_png
+  SourceDir: Networking
+- Name: Security
+  Services:
+  - Source: CloudIAM.png
+    Target: CloudIAM_png
+  - Source: CloudResourceManager.png
+    Target: CloudResourceManager_png
+  - Source: CloudSecurityCommandCenter.png
+    Target: CloudSecurityCommandCenter_png
+  - Source: CloudSecurityScanner.png
+    Target: CloudSecurityScanner_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  - Source: KeyManagementService.png
+    Target: KeyManagementService_png
+    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
+  SourceDir: Security
+- Name: Storage
+  Services:
+  - Source: CloudFilestore.png
+    Target: CloudFilestore_png
+  - Source: CloudStorage.png
+    Target: CloudStorage_png
+  - Source: DataLayers.png
+    Target: DataLayers_png
+  - Source: Filestore.png
+    Target: Filestore_png
+  - Source: LocalSSD.png
+    Target: LocalSSD_png
+  - Source: PersistentDisk.png
+    Target: PersistentDisk_png
+  - Source: Persistent_Disk.png
+    Target: Persistent_Disk_png
+  SourceDir: Storage
+Defaults:
+  Category:
+    Color: GoogleBlue
+  Colors:
+    GoogleBlue: '#4284F3'
+  TargetMaxSize: 64

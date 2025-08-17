@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudMonitoring_png [128x128/16z] {
+xT5NaiGW38JX9exkV-6DNMKep4HiRUZlrU472V-EY8Y8Y8Y8f7eAJDIp1BS-OKzmxiVVs5TVVVNLLn-0Pn-V_FhuvjK7oAUFZKSVhVFxw1tLZvD_Wmhec7wP
+_1kKxG8wf3zv2vJCh88Ew4_s2mhsgO2Mzz6ecm2oRncqk5_GsijJ0gtjevVhbzJcAO9Mzi5iFuBSvoc0rlMtJcuEKBhyU82mgf_R3a0xUGA5HVs-0_Hi18fB
+-lXMZ8Ry29GMzCTG6lBp0xpSpnX3bo4_0ELN-_iXpFC4Ai_tn-Llc7_i08_tGJQeypo1NkZdIPwUFW0UOq_26jLy3s3FyykJNvxyyeHxHJkD-XtrrLS_EFVX
+tIz-UNBCFwusu41zKb_zKwXVxIOSoSZh0Fcfl8Y8Y8Y8YCWx
+}
+
+GCPEntityColoring(CloudMonitoring_png)
+!define CloudMonitoring_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudMonitoring_png, CloudMonitoring_png)
+!define CloudMonitoring_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudMonitoring_png, CloudMonitoring_png)
+!define CloudMonitoring_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudMonitoring_png, CloudMonitoring_png)
+!define CloudMonitoring_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudMonitoring_png, CloudMonitoring_png)

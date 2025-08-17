@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudVisionAPI_png [64x64/16z] {
+tPS7iYin20G12GRT_y0_Ejl3YdqLtSw1qeZU9FaoR4R1DAdnH4bwNOuy05w5Hnw2OWgnKn_26CWDC4Yv8hS0RzuMc6puJQ3Tvl4MSdUrmthuVe29R81PDg_V
+Gk_MUz6yVWkZNnzR6pwminiW2Q4QIS2nkt-M9dTOkuFLpOMMxaBbWaRbq8hieYh578owWrth9fy3ukAEPDTOcUlwdZW4pJvovHzM3Ze7o0JBxfdfPlzUs1mm
+GR8RrgNECnUCp04akz_xg_aNvnv-L1-j_ElT03vO-To_aU_bKmBd_I54B3UtdvNl6DrzBcC-P6778CNP_GTQ73ukkNdsn2mENvU-NRBN1x1nxlWr3W_VAvHa
+_qF83Sl-yJkjTVhYmrE7DKfEtvkuFDEi1xdsssNGwvV-yBN3sjqvXy6l7_lk-WwdV0RDvX67BNTzXo4KQxlhjz2bOgA0b3VMZsxoPVm6
+}
+
+GCPEntityColoring(CloudVisionAPI_png)
+!define CloudVisionAPI_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudVisionAPI_png, CloudVisionAPI_png)
+!define CloudVisionAPI_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudVisionAPI_png, CloudVisionAPI_png)
+!define CloudVisionAPI_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudVisionAPI_png, CloudVisionAPI_png)
+!define CloudVisionAPI_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudVisionAPI_png, CloudVisionAPI_png)

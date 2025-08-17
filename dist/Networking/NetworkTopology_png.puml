@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $NetworkTopology_png [128x128/16z] {
+xPfNSiCm34J1llU_S7gXbT3a2e4v4-7z6eCdipVPZkCuZkCuZkC400YoYOmFgd2WeyXPq27hD1m9QZr0sQTVm2TgiaB0264vam0Z-2AeED0qUhuXdYX1JAYs
+VamfblvVQolY1aD_6OKcTDZvxmGsV6FblnzteXS678YBVkxdCIV__YmWcep_qx345q12H-Rrun2-2GGX_UEOni-1RRMg5D-eeIobLlg9ejtbNulAc_pbp2IG
+GaZ0d_Z3-Kd88Eo_-DtlVlVNA25lyVTSrEz-l1Ft-F7D3Zzw7k_7BRlzxS5-7Bcw7m_rfulxmsQ_u4Y-LllFE72ryLVGa_VElsNh-XlRrbyPGBte-i_za0c-
+_tM_-zrVKcuR_COZPZRtjwMeQlS0nh3urQa3UKeJAFyyDtz1R-Eliqog3r3-_O8RU7-T1K3uKvevSN9nNWczhW2GndhUdsILUuN6lW_GFWGPdpqqCxyCogqG
+wLH-mHonz0jcy1cQC6ZrWYF2eTHBKlf5fnTHlyUCX9ruJKHGyPEiU4tB4rILE9X9IBBY5Kdjgjvn7CTn7ESP
+}
+
+GCPEntityColoring(NetworkTopology_png)
+!define NetworkTopology_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, NetworkTopology_png, NetworkTopology_png)
+!define NetworkTopology_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, NetworkTopology_png, NetworkTopology_png)
+!define NetworkTopology_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, NetworkTopology_png, NetworkTopology_png)
+!define NetworkTopology_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, NetworkTopology_png, NetworkTopology_png)

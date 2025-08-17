@@ -1,0 +1,17 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $AnthosServiceMesh_png [128x128/16z] {
+xPe5jXj130Ir0vw-_uN3YQ6VhDcVjXnGFJHjbRa_s9zAKHH5KHH5KNG0qvwm0DYhcFY1ET3bKd0bka8tFHD105sk1RSSmUNwW84xqlquv-zlzb_Ux9ycPf4_
+k3pt0LX8zkEfVbXgmEBBiW9ylPv6cl2vrqEcHUgy0D9d1v0-E-1r-W5WdGZmOt6ennOOxIG3i1-WdsGpF3JffPDiOqkGNZY9Ud1B-jWH-t5FfDyxJDFuz_K7
+JIA1tzSB9-caDH7h4T-BVK01aPu5qFan8ZqRy40pJO2l1u8FI460eoS97bXsbeC2OZqWUEwzYE7fZKoi5WMmddsibmMmdWD0Ua40apV9Zgq31tfnW35YFGS8
+9faeuEEhGH9W7cAz_pdW8VU_Fw02rcKd0AyAMC160A0AOFr6020BO7qS02W3M7yDQ1HmzMa3S2K80ClmmFnTFVot8O1uVqAYvm3Ikm4IFJy5T2t90YUzO989
+VzdVFZB997VV3mWFCnH-VvBb-gt5Lp7LpzyRaqpir_nkRsa-0E8hwCT8L-ZDpkhvfcDNh_-NW7wP9nvNfzIEEGzJuUk3DtY2dW9IzKa1XwDF2S03plahMS_V
+Xadwr01Mv0Ou0YSWLyy1nxl__-G_znycvZZdDpdHuMVc1u1cR6adcMdrlg2RmoAzcZQxFMKC-tCfYg8eYg8eYiy
+}
+
+GCPEntityColoring(AnthosServiceMesh_png)
+!define AnthosServiceMesh_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, AnthosServiceMesh_png, AnthosServiceMesh_png)
+!define AnthosServiceMesh_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, AnthosServiceMesh_png, AnthosServiceMesh_png)
+!define AnthosServiceMesh_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, AnthosServiceMesh_png, AnthosServiceMesh_png)
+!define AnthosServiceMesh_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, AnthosServiceMesh_png, AnthosServiceMesh_png)

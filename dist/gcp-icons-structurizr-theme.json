@@ -1,0 +1,1440 @@
+{
+  "name": "GCP Icons Structurizr theme",
+  "elements": [
+    {
+      "tag": "AIHub_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/AIHub_png.png"
+    },
+    {
+      "tag": "AIPlatformDataLabelingService_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/AIPlatformDataLabelingService_png.png"
+    },
+    {
+      "tag": "AIPlatform_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/AIPlatform_png.png"
+    },
+    {
+      "tag": "AdvancedSolutionsLab_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/AdvancedSolutionsLab_png.png"
+    },
+    {
+      "tag": "AutoMLNaturalLanguage_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/AutoMLNaturalLanguage_png.png"
+    },
+    {
+      "tag": "AutoMLTables_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/AutoMLTables_png.png"
+    },
+    {
+      "tag": "AutoMLTranslation_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/AutoMLTranslation_png.png"
+    },
+    {
+      "tag": "AutoMLVideoIntelligence_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/AutoMLVideoIntelligence_png.png"
+    },
+    {
+      "tag": "AutoMLVision_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/AutoMLVision_png.png"
+    },
+    {
+      "tag": "CloudAutoML_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/CloudAutoML_png.png"
+    },
+    {
+      "tag": "CloudInferenceAPI_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/CloudInferenceAPI_png.png"
+    },
+    {
+      "tag": "CloudJobsAPI_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/CloudJobsAPI_png.png"
+    },
+    {
+      "tag": "CloudNaturalLanguageAPI_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/CloudNaturalLanguageAPI_png.png"
+    },
+    {
+      "tag": "CloudSpeechtoText_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/CloudSpeechtoText_png.png"
+    },
+    {
+      "tag": "CloudTPU_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/CloudTPU_png.png"
+    },
+    {
+      "tag": "CloudTexttoSpeech_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/CloudTexttoSpeech_png.png"
+    },
+    {
+      "tag": "CloudTranslationAPI_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/CloudTranslationAPI_png.png"
+    },
+    {
+      "tag": "CloudVideoIntelligenceAPI_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/CloudVideoIntelligenceAPI_png.png"
+    },
+    {
+      "tag": "CloudVisionAPI_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/CloudVisionAPI_png.png"
+    },
+    {
+      "tag": "DialogFlowEnterpriseEdition_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/DialogFlowEnterpriseEdition_png.png"
+    },
+    {
+      "tag": "RecommendationsAI_png",
+      "stroke": "#4284F3",
+      "icon": "AIandMachineLearning/RecommendationsAI_png.png"
+    },
+    {
+      "tag": "APIAnalytics_png",
+      "stroke": "#4284F3",
+      "icon": "APIManagement/APIAnalytics_png.png"
+    },
+    {
+      "tag": "APIMonetization_png",
+      "stroke": "#4284F3",
+      "icon": "APIManagement/APIMonetization_png.png"
+    },
+    {
+      "tag": "ApigeeAPIPlatform_png",
+      "stroke": "#4284F3",
+      "icon": "APIManagement/ApigeeAPIPlatform_png.png"
+    },
+    {
+      "tag": "ApigeeSense_png",
+      "stroke": "#4284F3",
+      "icon": "APIManagement/ApigeeSense_png.png"
+    },
+    {
+      "tag": "CloudEndpoints_png",
+      "stroke": "#4284F3",
+      "icon": "APIManagement/CloudEndpoints_png.png"
+    },
+    {
+      "tag": "DeveloperPortal_png",
+      "stroke": "#4284F3",
+      "icon": "APIManagement/DeveloperPortal_png.png"
+    },
+    {
+      "tag": "GoogleMapsPlatform_png",
+      "stroke": "#4284F3",
+      "icon": "APIManagement/GoogleMapsPlatform_png.png"
+    },
+    {
+      "tag": "AnalyticsHub_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/AnalyticsHub_png.png"
+    },
+    {
+      "tag": "BigQuery_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/BigQuery_png.png"
+    },
+    {
+      "tag": "CloudComposer_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/CloudComposer_png.png"
+    },
+    {
+      "tag": "DataCatalog_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/DataCatalog_png.png"
+    },
+    {
+      "tag": "DataQnA_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/DataQnA_png.png"
+    },
+    {
+      "tag": "DataStudio_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/DataStudio_png.png"
+    },
+    {
+      "tag": "Dataflow_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/Dataflow_png.png"
+    },
+    {
+      "tag": "Datalab_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/Datalab_png.png"
+    },
+    {
+      "tag": "Dataplex_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/Dataplex_png.png"
+    },
+    {
+      "tag": "Dataprep_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/Dataprep_png.png"
+    },
+    {
+      "tag": "DataprocMetastore_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/DataprocMetastore_png.png"
+    },
+    {
+      "tag": "Dataproc_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/Dataproc_png.png"
+    },
+    {
+      "tag": "Datashare_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/Datashare_png.png"
+    },
+    {
+      "tag": "Genomics_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/Genomics_png.png"
+    },
+    {
+      "tag": "Looker_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/Looker_png.png"
+    },
+    {
+      "tag": "PubSub_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/PubSub_png.png"
+    },
+    {
+      "tag": "RealworldInsights_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/RealworldInsights_png.png"
+    },
+    {
+      "tag": "StreamSuite_png",
+      "stroke": "#4284F3",
+      "icon": "BigData/StreamSuite_png.png"
+    },
+    {
+      "tag": "AppEngine_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/AppEngine_png.png"
+    },
+    {
+      "tag": "BareMetalSolutions_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/BareMetalSolutions_png.png"
+    },
+    {
+      "tag": "Batch_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/Batch_png.png"
+    },
+    {
+      "tag": "CloudFunctions_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/CloudFunctions_png.png"
+    },
+    {
+      "tag": "CloudGPU_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/CloudGPU_png.png"
+    },
+    {
+      "tag": "CloudRunForAnthos_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/CloudRunForAnthos_png.png"
+    },
+    {
+      "tag": "CloudRun_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/CloudRun_png.png"
+    },
+    {
+      "tag": "Cloud_Run_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/Cloud_Run_png.png"
+    },
+    {
+      "tag": "ComputeEngine_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/ComputeEngine_png.png"
+    },
+    {
+      "tag": "ContainerOptimizedOS_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/ContainerOptimizedOS_png.png"
+    },
+    {
+      "tag": "ContainerRegistry_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/ContainerRegistry_png.png"
+    },
+    {
+      "tag": "GKEOnPrem_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/GKEOnPrem_png.png"
+    },
+    {
+      "tag": "GKEOnprem_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/GKEOnprem_png.png"
+    },
+    {
+      "tag": "GPU_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/GPU_png.png"
+    },
+    {
+      "tag": "GameServers_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/GameServers_png.png"
+    },
+    {
+      "tag": "GoogleKubernetesEngine_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/GoogleKubernetesEngine_png.png"
+    },
+    {
+      "tag": "KubernetesEngine_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/KubernetesEngine_png.png"
+    },
+    {
+      "tag": "Kuberun_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/Kuberun_png.png"
+    },
+    {
+      "tag": "MigrateForComputeEngine_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/MigrateForComputeEngine_png.png"
+    },
+    {
+      "tag": "QuantumEngine_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/QuantumEngine_png.png"
+    },
+    {
+      "tag": "VMwareEngine_png",
+      "stroke": "#4284F3",
+      "icon": "Compute/VMwareEngine_png.png"
+    },
+    {
+      "tag": "BigQuery_png",
+      "stroke": "#4284F3",
+      "icon": "DataAnalytics/BigQuery_png.png"
+    },
+    {
+      "tag": "CloudComposer_png",
+      "stroke": "#4284F3",
+      "icon": "DataAnalytics/CloudComposer_png.png"
+    },
+    {
+      "tag": "CloudDataCatalog_png",
+      "stroke": "#4284F3",
+      "icon": "DataAnalytics/CloudDataCatalog_png.png"
+    },
+    {
+      "tag": "CloudDataFusion_png",
+      "stroke": "#4284F3",
+      "icon": "DataAnalytics/CloudDataFusion_png.png"
+    },
+    {
+      "tag": "CloudDataflow_png",
+      "stroke": "#4284F3",
+      "icon": "DataAnalytics/CloudDataflow_png.png"
+    },
+    {
+      "tag": "CloudDatalab_png",
+      "stroke": "#4284F3",
+      "icon": "DataAnalytics/CloudDatalab_png.png"
+    },
+    {
+      "tag": "CloudDataprep_png",
+      "stroke": "#4284F3",
+      "icon": "DataAnalytics/CloudDataprep_png.png"
+    },
+    {
+      "tag": "CloudDataproc_png",
+      "stroke": "#4284F3",
+      "icon": "DataAnalytics/CloudDataproc_png.png"
+    },
+    {
+      "tag": "CloudPubSub_png",
+      "stroke": "#4284F3",
+      "icon": "DataAnalytics/CloudPubSub_png.png"
+    },
+    {
+      "tag": "Genomics_png",
+      "stroke": "#4284F3",
+      "icon": "DataAnalytics/Genomics_png.png"
+    },
+    {
+      "tag": "Bigtable_png",
+      "stroke": "#4284F3",
+      "icon": "Databases/Bigtable_png.png"
+    },
+    {
+      "tag": "CloudBigtable_png",
+      "stroke": "#4284F3",
+      "icon": "Databases/CloudBigtable_png.png"
+    },
+    {
+      "tag": "CloudDatastore_png",
+      "stroke": "#4284F3",
+      "icon": "Databases/CloudDatastore_png.png"
+    },
+    {
+      "tag": "CloudFirestore_png",
+      "stroke": "#4284F3",
+      "icon": "Databases/CloudFirestore_png.png"
+    },
+    {
+      "tag": "CloudMemorystore_png",
+      "stroke": "#4284F3",
+      "icon": "Databases/CloudMemorystore_png.png"
+    },
+    {
+      "tag": "CloudSQL_png",
+      "stroke": "#4284F3",
+      "icon": "Databases/CloudSQL_png.png"
+    },
+    {
+      "tag": "CloudSpanner_png",
+      "stroke": "#4284F3",
+      "icon": "Databases/CloudSpanner_png.png"
+    },
+    {
+      "tag": "Datastore_png",
+      "stroke": "#4284F3",
+      "icon": "Databases/Datastore_png.png"
+    },
+    {
+      "tag": "Datastream_png",
+      "stroke": "#4284F3",
+      "icon": "Databases/Datastream_png.png"
+    },
+    {
+      "tag": "Firestore_png",
+      "stroke": "#4284F3",
+      "icon": "Databases/Firestore_png.png"
+    },
+    {
+      "tag": "Memorystore_png",
+      "stroke": "#4284F3",
+      "icon": "Databases/Memorystore_png.png"
+    },
+    {
+      "tag": "ApigeeAPIPlatform_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/ApigeeAPIPlatform_png.png"
+    },
+    {
+      "tag": "ApigeeSense_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/ApigeeSense_png.png"
+    },
+    {
+      "tag": "ArtifactRegistry_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/ArtifactRegistry_png.png"
+    },
+    {
+      "tag": "CloudAPIGateway_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudAPIGateway_png.png"
+    },
+    {
+      "tag": "CloudBuild_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudBuild_png.png"
+    },
+    {
+      "tag": "CloudCode_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudCode_png.png"
+    },
+    {
+      "tag": "CloudCodeforIntelliJ_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudCodeforIntelliJ_png.png"
+    },
+    {
+      "tag": "CloudDeploy_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudDeploy_png.png"
+    },
+    {
+      "tag": "CloudSDK_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudSDK_png.png"
+    },
+    {
+      "tag": "CloudScheduler_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudScheduler_png.png"
+    },
+    {
+      "tag": "CloudSourceRepositories_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudSourceRepositories_png.png"
+    },
+    {
+      "tag": "CloudTasks_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudTasks_png.png"
+    },
+    {
+      "tag": "CloudTestLab_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudTestLab_png.png"
+    },
+    {
+      "tag": "CloudToolsforEclipse_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudToolsforEclipse_png.png"
+    },
+    {
+      "tag": "CloudToolsforPowerShell_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudToolsforPowerShell_png.png"
+    },
+    {
+      "tag": "CloudToolsforVisualStudio_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/CloudToolsforVisualStudio_png.png"
+    },
+    {
+      "tag": "ContainerRegistry_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/ContainerRegistry_png.png"
+    },
+    {
+      "tag": "DeveloperPortal_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/DeveloperPortal_png.png"
+    },
+    {
+      "tag": "EarlyAccessCenter_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/EarlyAccessCenter_png.png"
+    },
+    {
+      "tag": "GradleAppEnginePlugin_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/GradleAppEnginePlugin_png.png"
+    },
+    {
+      "tag": "IDEPlugins_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/IDEPlugins_png.png"
+    },
+    {
+      "tag": "MavenAppEnginePlugin_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/MavenAppEnginePlugin_png.png"
+    },
+    {
+      "tag": "PartnerPortal_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/PartnerPortal_png.png"
+    },
+    {
+      "tag": "ProducerPortal_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/ProducerPortal_png.png"
+    },
+    {
+      "tag": "ToolsForPowershell_png",
+      "stroke": "#4284F3",
+      "icon": "DeveloperTools/ToolsForPowershell_png.png"
+    },
+    {
+      "tag": "CloudGeneric_png",
+      "stroke": "#4284F3",
+      "icon": "General/CloudGeneric_png.png"
+    },
+    {
+      "tag": "Stackdriver_png",
+      "stroke": "#4284F3",
+      "icon": "HybridandMultiCloud/Stackdriver_png.png"
+    },
+    {
+      "tag": "TrafficDirector_png",
+      "stroke": "#4284F3",
+      "icon": "HybridandMultiCloud/TrafficDirector_png.png"
+    },
+    {
+      "tag": "AccessContextManager_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/AccessContextManager_png.png"
+    },
+    {
+      "tag": "AssuredWorkloads_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/AssuredWorkloads_png.png"
+    },
+    {
+      "tag": "Beyondcorp_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/Beyondcorp_png.png"
+    },
+    {
+      "tag": "BinaryAuthorization_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/BinaryAuthorization_png.png"
+    },
+    {
+      "tag": "CertificateAuthorityService_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/CertificateAuthorityService_png.png"
+    },
+    {
+      "tag": "CertificateManager_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/CertificateManager_png.png"
+    },
+    {
+      "tag": "CloudAuditLogs_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/CloudAuditLogs_png.png"
+    },
+    {
+      "tag": "CloudEKM_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/CloudEKM_png.png"
+    },
+    {
+      "tag": "CloudHSM_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/CloudHSM_png.png"
+    },
+    {
+      "tag": "CloudIDS_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/CloudIDS_png.png"
+    },
+    {
+      "tag": "CloudSecurityScanner_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/CloudSecurityScanner_png.png"
+    },
+    {
+      "tag": "DataLossPreventionAPI_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/DataLossPreventionAPI_png.png"
+    },
+    {
+      "tag": "Datapol_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/Datapol_png.png"
+    },
+    {
+      "tag": "IdentityAndAccessManagement_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/IdentityAndAccessManagement_png.png"
+    },
+    {
+      "tag": "IdentityAwareProxy_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/IdentityAwareProxy_png.png"
+    },
+    {
+      "tag": "IdentityPlatform_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/IdentityPlatform_png.png"
+    },
+    {
+      "tag": "KeyAccessJustifications_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/KeyAccessJustifications_png.png"
+    },
+    {
+      "tag": "KeyManagementService_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/KeyManagementService_png.png"
+    },
+    {
+      "tag": "ManagedServiceForMicrosoftActiveDirectory_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/ManagedServiceForMicrosoftActiveDirectory_png.png"
+    },
+    {
+      "tag": "Permissions_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/Permissions_png.png"
+    },
+    {
+      "tag": "PhishingProtection_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/PhishingProtection_png.png"
+    },
+    {
+      "tag": "PolicyAnalyzer_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/PolicyAnalyzer_png.png"
+    },
+    {
+      "tag": "RiskManager_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/RiskManager_png.png"
+    },
+    {
+      "tag": "SecretManager_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/SecretManager_png.png"
+    },
+    {
+      "tag": "SecurityCommandCenter_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/SecurityCommandCenter_png.png"
+    },
+    {
+      "tag": "SecurityHealthAdvisor_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/SecurityHealthAdvisor_png.png"
+    },
+    {
+      "tag": "SecurityKeyEnforcement_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/SecurityKeyEnforcement_png.png"
+    },
+    {
+      "tag": "Security_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/Security_png.png"
+    },
+    {
+      "tag": "WebRisk_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/WebRisk_png.png"
+    },
+    {
+      "tag": "WebSecurityScanner_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/WebSecurityScanner_png.png"
+    },
+    {
+      "tag": "WorkloadIdentityPool_png",
+      "stroke": "#4284F3",
+      "icon": "IdentityandSecurity/WorkloadIdentityPool_png.png"
+    },
+    {
+      "tag": "CloudForMarketing_png",
+      "stroke": "#4284F3",
+      "icon": "IndustrySolutions/CloudForMarketing_png.png"
+    },
+    {
+      "tag": "CloudHealthcareMarketplace_png",
+      "stroke": "#4284F3",
+      "icon": "IndustrySolutions/CloudHealthcareMarketplace_png.png"
+    },
+    {
+      "tag": "FinancialServicesMarketplace_png",
+      "stroke": "#4284F3",
+      "icon": "IndustrySolutions/FinancialServicesMarketplace_png.png"
+    },
+    {
+      "tag": "CloudIoTCore_png",
+      "stroke": "#4284F3",
+      "icon": "InternetofThings/CloudIoTCore_png.png"
+    },
+    {
+      "tag": "IotCore_png",
+      "stroke": "#4284F3",
+      "icon": "InternetofThings/IotCore_png.png"
+    },
+    {
+      "tag": "IotEdge_png",
+      "stroke": "#4284F3",
+      "icon": "InternetofThings/IotEdge_png.png"
+    },
+    {
+      "tag": "AIHub_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/AIHub_png.png"
+    },
+    {
+      "tag": "AIPlatformUnified_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/AIPlatformUnified_png.png"
+    },
+    {
+      "tag": "AIPlatform_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/AIPlatform_png.png"
+    },
+    {
+      "tag": "AdvancedAgentModeling_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/AdvancedAgentModeling_png.png"
+    },
+    {
+      "tag": "AdvancedSolutionsLab_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/AdvancedSolutionsLab_png.png"
+    },
+    {
+      "tag": "AgentAssist_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/AgentAssist_png.png"
+    },
+    {
+      "tag": "AutoMLNaturalLanguage_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/AutoMLNaturalLanguage_png.png"
+    },
+    {
+      "tag": "AutoMLTables_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/AutoMLTables_png.png"
+    },
+    {
+      "tag": "AutoMLTranslation_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/AutoMLTranslation_png.png"
+    },
+    {
+      "tag": "AutoMLVideoIntelligence_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/AutoMLVideoIntelligence_png.png"
+    },
+    {
+      "tag": "AutoMLVision_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/AutoMLVision_png.png"
+    },
+    {
+      "tag": "AutoML_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/AutoML_png.png"
+    },
+    {
+      "tag": "CloudHealthcareAPI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/CloudHealthcareAPI_png.png"
+    },
+    {
+      "tag": "CloudInferenceAPI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/CloudInferenceAPI_png.png"
+    },
+    {
+      "tag": "CloudJobsAPI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/CloudJobsAPI_png.png"
+    },
+    {
+      "tag": "CloudNaturalLanguageAPI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/CloudNaturalLanguageAPI_png.png"
+    },
+    {
+      "tag": "CloudOptimizationAIFleetRoutingAPI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/CloudOptimizationAIFleetRoutingAPI_png.png"
+    },
+    {
+      "tag": "CloudOptimizationAI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/CloudOptimizationAI_png.png"
+    },
+    {
+      "tag": "CloudTPU_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/CloudTPU_png.png"
+    },
+    {
+      "tag": "CloudTranslationAPI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/CloudTranslationAPI_png.png"
+    },
+    {
+      "tag": "CloudVisionAPI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/CloudVisionAPI_png.png"
+    },
+    {
+      "tag": "ContactCenterAI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/ContactCenterAI_png.png"
+    },
+    {
+      "tag": "DataLabeling_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/DataLabeling_png.png"
+    },
+    {
+      "tag": "DialogflowCX_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/DialogflowCX_png.png"
+    },
+    {
+      "tag": "DialogflowInsights_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/DialogflowInsights_png.png"
+    },
+    {
+      "tag": "Dialogflow_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/Dialogflow_png.png"
+    },
+    {
+      "tag": "DocumentAI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/DocumentAI_png.png"
+    },
+    {
+      "tag": "HealthcareNLPAPI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/HealthcareNLPAPI_png.png"
+    },
+    {
+      "tag": "MediaTranslationAPI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/MediaTranslationAPI_png.png"
+    },
+    {
+      "tag": "RecommendationsAI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/RecommendationsAI_png.png"
+    },
+    {
+      "tag": "RetailAPI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/RetailAPI_png.png"
+    },
+    {
+      "tag": "SpeechToText_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/SpeechToText_png.png"
+    },
+    {
+      "tag": "TensorflowEnterprise_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/TensorflowEnterprise_png.png"
+    },
+    {
+      "tag": "TextToSpeech_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/TextToSpeech_png.png"
+    },
+    {
+      "tag": "VertexAI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/VertexAI_png.png"
+    },
+    {
+      "tag": "VideoIntelligenceAPI_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/VideoIntelligenceAPI_png.png"
+    },
+    {
+      "tag": "VisualInspection_png",
+      "stroke": "#4284F3",
+      "icon": "MachineLearning/VisualInspection_png.png"
+    },
+    {
+      "tag": "API_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/API_png.png"
+    },
+    {
+      "tag": "Administration_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Administration_png.png"
+    },
+    {
+      "tag": "AnthosConfigManagement_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/AnthosConfigManagement_png.png"
+    },
+    {
+      "tag": "AnthosServiceMesh_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/AnthosServiceMesh_png.png"
+    },
+    {
+      "tag": "Anthos_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Anthos_png.png"
+    },
+    {
+      "tag": "AssetInventory_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/AssetInventory_png.png"
+    },
+    {
+      "tag": "Billing_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Billing_png.png"
+    },
+    {
+      "tag": "Catalog_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Catalog_png.png"
+    },
+    {
+      "tag": "CloudAPIs_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/CloudAPIs_png.png"
+    },
+    {
+      "tag": "CloudAssetInventory_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/CloudAssetInventory_png.png"
+    },
+    {
+      "tag": "CloudBillingAPI_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/CloudBillingAPI_png.png"
+    },
+    {
+      "tag": "CloudConsole_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/CloudConsole_png.png"
+    },
+    {
+      "tag": "CloudDeploymentManager_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/CloudDeploymentManager_png.png"
+    },
+    {
+      "tag": "CloudDomains_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/CloudDomains_png.png"
+    },
+    {
+      "tag": "CloudLogging_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/CloudLogging_png.png"
+    },
+    {
+      "tag": "CloudMobileApp_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/CloudMobileApp_png.png"
+    },
+    {
+      "tag": "CloudMonitoring_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/CloudMonitoring_png.png"
+    },
+    {
+      "tag": "CloudOps_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/CloudOps_png.png"
+    },
+    {
+      "tag": "CloudServiceMesh_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/CloudServiceMesh_png.png"
+    },
+    {
+      "tag": "CloudShell_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/CloudShell_png.png"
+    },
+    {
+      "tag": "ConfigurationManagement_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/ConfigurationManagement_png.png"
+    },
+    {
+      "tag": "Debugger_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Debugger_png.png"
+    },
+    {
+      "tag": "ErrorReporting_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/ErrorReporting_png.png"
+    },
+    {
+      "tag": "Eventarc_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Eventarc_png.png"
+    },
+    {
+      "tag": "FleetEngine_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/FleetEngine_png.png"
+    },
+    {
+      "tag": "FreeTrial_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/FreeTrial_png.png"
+    },
+    {
+      "tag": "GCESystemsManagement_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/GCESystemsManagement_png.png"
+    },
+    {
+      "tag": "GoogleCloudMarketplace_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/GoogleCloudMarketplace_png.png"
+    },
+    {
+      "tag": "Home_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Home_png.png"
+    },
+    {
+      "tag": "Launcher_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Launcher_png.png"
+    },
+    {
+      "tag": "Logging_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Logging_png.png"
+    },
+    {
+      "tag": "MigrateForAnthos_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/MigrateForAnthos_png.png"
+    },
+    {
+      "tag": "Monitoring_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Monitoring_png.png"
+    },
+    {
+      "tag": "MyCloud_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/MyCloud_png.png"
+    },
+    {
+      "tag": "OSConfigurationManagement_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/OSConfigurationManagement_png.png"
+    },
+    {
+      "tag": "OSInventoryManagement_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/OSInventoryManagement_png.png"
+    },
+    {
+      "tag": "OSPatchManagement_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/OSPatchManagement_png.png"
+    },
+    {
+      "tag": "Onboarding_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Onboarding_png.png"
+    },
+    {
+      "tag": "PerformanceDashboard_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/PerformanceDashboard_png.png"
+    },
+    {
+      "tag": "Profiler_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Profiler_png.png"
+    },
+    {
+      "tag": "Project_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Project_png.png"
+    },
+    {
+      "tag": "Quotas_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Quotas_png.png"
+    },
+    {
+      "tag": "ReleaseNotes_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/ReleaseNotes_png.png"
+    },
+    {
+      "tag": "RuntimeConfig_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/RuntimeConfig_png.png"
+    },
+    {
+      "tag": "Stackdriver_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Stackdriver_png.png"
+    },
+    {
+      "tag": "Support_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Support_png.png"
+    },
+    {
+      "tag": "Trace_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Trace_png.png"
+    },
+    {
+      "tag": "UserPreferences_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/UserPreferences_png.png"
+    },
+    {
+      "tag": "Workflows_png",
+      "stroke": "#4284F3",
+      "icon": "ManagementTools/Workflows_png.png"
+    },
+    {
+      "tag": "DataTransfer_png",
+      "stroke": "#4284F3",
+      "icon": "Migration/DataTransfer_png.png"
+    },
+    {
+      "tag": "DatabaseMigrationService_png",
+      "stroke": "#4284F3",
+      "icon": "Migration/DatabaseMigrationService_png.png"
+    },
+    {
+      "tag": "TransferAppliance_png",
+      "stroke": "#4284F3",
+      "icon": "Migration/TransferAppliance_png.png"
+    },
+    {
+      "tag": "Transfer_Appliance_png",
+      "stroke": "#4284F3",
+      "icon": "Migration/Transfer_Appliance_png.png"
+    },
+    {
+      "tag": "Transfer_png",
+      "stroke": "#4284F3",
+      "icon": "Migration/Transfer_png.png"
+    },
+    {
+      "tag": "CloudArmor_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudArmor_png.png"
+    },
+    {
+      "tag": "CloudCDN_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudCDN_png.png"
+    },
+    {
+      "tag": "CloudDNS_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudDNS_png.png"
+    },
+    {
+      "tag": "CloudEndpoints_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudEndpoints_png.png"
+    },
+    {
+      "tag": "CloudExternalIPAddresses_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudExternalIPAddresses_png.png"
+    },
+    {
+      "tag": "CloudFirewallRules_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudFirewallRules_png.png"
+    },
+    {
+      "tag": "CloudInterconnect_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudInterconnect_png.png"
+    },
+    {
+      "tag": "CloudLoadBalancing_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudLoadBalancing_png.png"
+    },
+    {
+      "tag": "CloudMediaEdge_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudMediaEdge_png.png"
+    },
+    {
+      "tag": "CloudNAT_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudNAT_png.png"
+    },
+    {
+      "tag": "CloudNetwork_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudNetwork_png.png"
+    },
+    {
+      "tag": "CloudRouter_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudRouter_png.png"
+    },
+    {
+      "tag": "CloudRoutes_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudRoutes_png.png"
+    },
+    {
+      "tag": "CloudVPN_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/CloudVPN_png.png"
+    },
+    {
+      "tag": "Cloud_Network_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/Cloud_Network_png.png"
+    },
+    {
+      "tag": "ConnectivityTest_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/ConnectivityTest_png.png"
+    },
+    {
+      "tag": "Connectors_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/Connectors_png.png"
+    },
+    {
+      "tag": "DedicatedInterconnect_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/DedicatedInterconnect_png.png"
+    },
+    {
+      "tag": "NetworkConnectivityCenter_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/NetworkConnectivityCenter_png.png"
+    },
+    {
+      "tag": "NetworkIntelligenceCenter_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/NetworkIntelligenceCenter_png.png"
+    },
+    {
+      "tag": "NetworkSecurity_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/NetworkSecurity_png.png"
+    },
+    {
+      "tag": "NetworkTiers_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/NetworkTiers_png.png"
+    },
+    {
+      "tag": "NetworkTopology_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/NetworkTopology_png.png"
+    },
+    {
+      "tag": "PartnerInterconnect_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/PartnerInterconnect_png.png"
+    },
+    {
+      "tag": "PremiumNetworkTier_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/PremiumNetworkTier_png.png"
+    },
+    {
+      "tag": "PrivateConnectivity_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/PrivateConnectivity_png.png"
+    },
+    {
+      "tag": "PrivateServiceConnect_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/PrivateServiceConnect_png.png"
+    },
+    {
+      "tag": "ServiceDiscovery_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/ServiceDiscovery_png.png"
+    },
+    {
+      "tag": "StandardNetworkTier_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/StandardNetworkTier_png.png"
+    },
+    {
+      "tag": "TrafficDirector_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/TrafficDirector_png.png"
+    },
+    {
+      "tag": "VirtualPrivateCloud_png",
+      "stroke": "#4284F3",
+      "icon": "Networking/VirtualPrivateCloud_png.png"
+    },
+    {
+      "tag": "CloudIAM_png",
+      "stroke": "#4284F3",
+      "icon": "Security/CloudIAM_png.png"
+    },
+    {
+      "tag": "CloudResourceManager_png",
+      "stroke": "#4284F3",
+      "icon": "Security/CloudResourceManager_png.png"
+    },
+    {
+      "tag": "CloudSecurityCommandCenter_png",
+      "stroke": "#4284F3",
+      "icon": "Security/CloudSecurityCommandCenter_png.png"
+    },
+    {
+      "tag": "CloudSecurityScanner_png",
+      "stroke": "#4284F3",
+      "icon": "Security/CloudSecurityScanner_png.png"
+    },
+    {
+      "tag": "KeyManagementService_png",
+      "stroke": "#4284F3",
+      "icon": "Security/KeyManagementService_png.png"
+    },
+    {
+      "tag": "CloudFilestore_png",
+      "stroke": "#4284F3",
+      "icon": "Storage/CloudFilestore_png.png"
+    },
+    {
+      "tag": "CloudStorage_png",
+      "stroke": "#4284F3",
+      "icon": "Storage/CloudStorage_png.png"
+    },
+    {
+      "tag": "DataLayers_png",
+      "stroke": "#4284F3",
+      "icon": "Storage/DataLayers_png.png"
+    },
+    {
+      "tag": "Filestore_png",
+      "stroke": "#4284F3",
+      "icon": "Storage/Filestore_png.png"
+    },
+    {
+      "tag": "LocalSSD_png",
+      "stroke": "#4284F3",
+      "icon": "Storage/LocalSSD_png.png"
+    },
+    {
+      "tag": "PersistentDisk_png",
+      "stroke": "#4284F3",
+      "icon": "Storage/PersistentDisk_png.png"
+    },
+    {
+      "tag": "Persistent_Disk_png",
+      "stroke": "#4284F3",
+      "icon": "Storage/Persistent_Disk_png.png"
+    }
+  ]
+}

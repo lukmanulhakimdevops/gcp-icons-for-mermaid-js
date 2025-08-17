@@ -1,0 +1,19 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $DatabaseMigrationService_png [128x128/16z] {
+xTc7Sg0m40DGR87Y___Xw-bMB6wZL3JzIjxYNPZrP7DovSgLArUk3BwdVZC6kR-NZl4h9Fa-_1YtFlbU-grFldNZd_hiRwVtSH_Uv-sEVkwJRwDhdqTQvn3-
+RLfIRsEiV39vz8vFfdJJZtoIzs7ukICOAbHv4_ttJ9wlu3ZxiHN1lnz74IYVcnye_MQxY_2xzFaAH_yevywVP5L_cYvqvRFI-EdxBNJbSwLt_V0YOl24puKF
+gUlCVp155ZwWT1sGawTLMVdOd-Z7TZQDBsNb0uTuU3DSPEa3DpcTvDA_7ODsMj_fnF21mUB3wtJ71wgwvZqVlQHhtlK1MqU1bxvV0Okyze6AhddVHxDr_POT
+3hzrpBFfTAbF_FL0GqG_l7SRE0HlLz3F7VtCxvkLvXx18VM9R_9-4vhGczX_BDwlGEY7shyStXy3YkYc6gJzBkwENWz4Z4zRj8BSmyEgmDATocQQCGQ-VjwV
+LB3qzubUyD4M5In-F5ZqWPS_oSRHL_nb4mozxAFhlpCQN_UXtqMdyNLVZu5pz7LVZm59DaEl-NeCoCFGgxuU0z7uWEzT0CY0RrTWghNTinNrq154LX68f1xU
+tpr3kZy6OTrl0enxNwW2_-5JOv3H_Ii8fsc9_TlsZngizs_FDtxTvCJPVe6btid_zeqhoEfZIvPyqGJbJ_IoZsxitwBnHT-uWhpO-Bg_R8Ap_jTzNO5i_Alw
+-bqKZG_uyp4WsMJZw_wo2MBzbtv-_mxuSWnauxKVl00Ooq2o0egqmDhZwqTaxO7NU3AtUxgDprMGQhn_4pKQdpq2e_7P2WmzMe7J-EGOYCQ7ulXRDC8NUhw2
+JEFzJx9eV3PpFmZg2WmzMe7H-EWOwCRdS-jlxnR0q9DfzSPVkNBbofKhFm4
+}
+
+GCPEntityColoring(DatabaseMigrationService_png)
+!define DatabaseMigrationService_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, DatabaseMigrationService_png, DatabaseMigrationService_png)
+!define DatabaseMigrationService_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, DatabaseMigrationService_png, DatabaseMigrationService_png)
+!define DatabaseMigrationService_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, DatabaseMigrationService_png, DatabaseMigrationService_png)
+!define DatabaseMigrationService_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, DatabaseMigrationService_png, DatabaseMigrationService_png)

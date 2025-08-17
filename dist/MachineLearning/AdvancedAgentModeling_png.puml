@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $AdvancedAgentModeling_png [128x128/16z] {
+xTe7SlCW501X8QndnFtl-zVik7V3fl2bCNLvnEEgwUiPXc4OyZzMVSxGXaVIwX3gsWvIFclMXeTNXtJqExCsFBmwMj_TtQOD3wyEhmujZwJLuTNH-ExkjgGD
+3w-E5lc8MF8_IqIyVmFvbVxh6qXoFx-fZ-_H7_r0hRN4gSRzkDX7qtxSxYzM7rtwzJ-hNokKVjrPU_V9yzVeaosiUlU9AlqYz6FFzceVRVfKLxbVjxjyXpxu
+1-oHxt-AqO_YpiyELkV-PwTMh4e_wexIZxhJih_yTo5VzZUm_DVc_WSWosAdVV_qeQXxltRguqQ_--r_LVjKMMZtFzkrqZVlVun-QFU_ADhZ3nXUxMFJf8_R
+_TocZ-LwVzFp_QUJ9LxgZ_xeZ_wS8Nq2e_MXvU7beTKnQvz_mXiUMXr9gyFBmwj3goFlI1TXUSF3giCwUbZ3usRTxAT9xKyTM7LOHmzhU5XrM7LOrrp36XvM
+7TRHmneULXtMqOFXBTIzVfg-Ws4OXk4t
+}
+
+GCPEntityColoring(AdvancedAgentModeling_png)
+!define AdvancedAgentModeling_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, AdvancedAgentModeling_png, AdvancedAgentModeling_png)
+!define AdvancedAgentModeling_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, AdvancedAgentModeling_png, AdvancedAgentModeling_png)
+!define AdvancedAgentModeling_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, AdvancedAgentModeling_png, AdvancedAgentModeling_png)
+!define AdvancedAgentModeling_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, AdvancedAgentModeling_png, AdvancedAgentModeling_png)

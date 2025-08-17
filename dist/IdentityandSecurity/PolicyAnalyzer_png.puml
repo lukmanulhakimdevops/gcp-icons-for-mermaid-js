@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $PolicyAnalyzer_png [128x128/16z] {
+xTe5SWGn44FHDerr_mk7OLHU7hixe5yKtATbD4uffPHgE5ApOsKSBTc1Db3U9q72ZEpXWD015NFA0KUVEkJBx_PO_QWlNxvy-VBbovUFQyb_JRvy-RhznT_n
+vSkNZvkI_v9y-Id8tpN9Fr24psq1FhiHFjwAyl5LzVSJgCtNBnZpypUSpiV7XTAosxzRRnxhIZ_XXlegl-BMrlZWvCjlAPKGdsziPlcNktIFu-oFXBC_tj0x
+-VpNVJV5msU0l-j-VgFlQOwBFvpXKJxzTtRrj_4Qzv1_AGRufWTnVfleTzpM_a_xHDzmMzMiqE6NI_wQ4s3GlifyYRHxUjGlPuz-jWK3nXk0Jj_olFaBJft0
+TDF1wvOq4ZcF7wFj3ZwCeW6sh7fvG5dj6yuCwBjzsTRLiM__q-y1jZ9GuvY6R2khLmVOsd0-SoX-G8qUW9yxm7mAuBa0dki1F9K2U2vM7r__ZrkGBR1iFpsb
+b7e6
+}
+
+GCPEntityColoring(PolicyAnalyzer_png)
+!define PolicyAnalyzer_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, PolicyAnalyzer_png, PolicyAnalyzer_png)
+!define PolicyAnalyzer_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, PolicyAnalyzer_png, PolicyAnalyzer_png)
+!define PolicyAnalyzer_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, PolicyAnalyzer_png, PolicyAnalyzer_png)
+!define PolicyAnalyzer_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, PolicyAnalyzer_png, PolicyAnalyzer_png)

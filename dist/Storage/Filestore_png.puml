@@ -1,0 +1,14 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Filestore_png [128x128/16z] {
+xT17LWGn303HRWGozpynE_9CXtgEh_xUBadRQ2H9agIuPPb-tBH8FsvReX_00lr0fky7jCr6YYgcwKSba_IZcYdwKT44_QXg-7vKzYSeINfvRgS_VVd_KHuu
+dT_pm46V3f2L-e7ol9_i-hoVR7tUB--7icO_3_C5zVa0MRbVK9xtarsVzvEjp_i5vNa_sVLvFzdwl5zGdlVpxL-uNvjz-_RjsxTltxvz-_RjsxTlVtzjPkj3
+aYH9-W
+}
+
+GCPEntityColoring(Filestore_png)
+!define Filestore_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Filestore_png, Filestore_png)
+!define Filestore_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Filestore_png, Filestore_png)
+!define Filestore_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, Filestore_png, Filestore_png)
+!define Filestore_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Filestore_png, Filestore_png)

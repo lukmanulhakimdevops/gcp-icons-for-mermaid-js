@@ -1,0 +1,14 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudStorage_png [128x128/16z] {
+xTY5cSDG30HXcVIk_uOlR6PRtmRcRs02nZK90000eF1Q4Q7wg_ruFudxhkpJTsMVVXBtFRvlTwg-rIHzQndfUt3VEZw-RmlcyvRr-ocwtzFlkx9FtxVsimKB
+_NpG5vn_kdxHwwVuVc6DhD_tm7wj_-tZ-trPVUX9-hL-tvLz-adSTsMVli_rwUTLBOzGL3K30B3_i__JPtzd_sV_P_zd_sV_fy_-p_xF_i_-VmxwxF_qsV_P
+_m40080B
+}
+
+GCPEntityColoring(CloudStorage_png)
+!define CloudStorage_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudStorage_png, CloudStorage_png)
+!define CloudStorage_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudStorage_png, CloudStorage_png)
+!define CloudStorage_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, CloudStorage_png, CloudStorage_png)
+!define CloudStorage_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudStorage_png, CloudStorage_png)

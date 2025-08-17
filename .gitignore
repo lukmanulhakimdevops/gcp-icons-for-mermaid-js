@@ -1,0 +1,16 @@
+.DS_Store
+
+.vscode/settings.json
+.vscode/launch.json
+__pycache__/
+*.py[cod]
+.python-version
+# source/
+!source/*.puml
+!source/.gitignore
+!source/official/.gitignore
+# Force create of source/official as empty directory
+
+
+config-template.yml
+out/*

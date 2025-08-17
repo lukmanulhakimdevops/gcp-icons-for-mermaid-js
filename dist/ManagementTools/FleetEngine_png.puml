@@ -1,0 +1,20 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $FleetEngine_png [128x128/16z] {
+xLhfUYGX20HFtl-5zzxroz9TeIt7FMBzIJAZL0a4JnauE3WuE3WuEB1lA7A9PczGrhF_WifR5Bk1BgKVg3BG3I8lf1-G7yWMm6h-OJDP3BgQtfBx64FNy8_V
+F7zJ4H0NeJ1if2j-SV0Y-Xf--Ps_X-Esdjy55jUbjZ3-0A0y4Vn4UUsqW4HcCot0o6JEj01sVbiiGBOB45P0NrCBvwrKBeTu0OMRbNW1RSdgfD0v00t4hLIw
+aCRxNPhH2x_qHF1ZZrTdvyvm1MKGjSEoGGxY5Gzg5Ozt4oJ0W-07myS2iFK-nTylcvQu0BoGZWyV_nUgMSt5RGJf_2_lHLDHd1iC035yN8ZRZO3fxDEdCy5D
+ZDdaZmj8rr_EyNV10fvywK83WQNcY80EdOfHSKlfS2ou4XeHVbTs4b1lBF-LuISfC1-0-_xjWO06YXg40lqQAIfa01gQHqAR4uP_k0z_d800-uPAyUjxlTkz
+03WJf_dqyomtinxYRtFy1V3VV0KMDG2uinFKHQBybU1tpXkiBj-02rd-SfLDmpVOHERvgv-anwyR-BjBY54AzAN-Rtp-DuPVQVxXGhx-u3aeunHs0CqGVy7r
+twZwRu6F4vp_T98_m-o5ssISvyJw1wHFs87AyWVxrpNhlpfhm21_8TRV8GktQ_EdsryWREQaiiJvuGYmZMw4UD0K7Z_u1ZtiLB2DHlOnlO4J9Se12XYaeI-D
+vFV7cUhPGJz83seTF4zDb_SCmWuVDv-v_IyWRzSAQD3S4dufOF2u9j82y1iGdJBsx1m9FpZWwUETaWrqwl8AdYEnoEGDjf2OlddRUtaAYlrkUdnzpDFllq1F
+yaS4WAAyGK1rnO4HK7Q-GE7Dg2kDl83ATU85cCQcYevwS8ye4f3N7Rkzu35c1wiX__TQ0Jwcn1j8_a4QvfUrIFO8iXw5PEUHM7OU1a0N75w2R0BWtmZ5sw_z
+Vf3TwDJpjlLJmtvqCFgT2ghyIpWuE3Wu-0m
+}
+
+GCPEntityColoring(FleetEngine_png)
+!define FleetEngine_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, FleetEngine_png, FleetEngine_png)
+!define FleetEngine_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, FleetEngine_png, FleetEngine_png)
+!define FleetEngine_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, #4284F3, FleetEngine_png, FleetEngine_png)
+!define FleetEngine_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, FleetEngine_png, FleetEngine_png)
