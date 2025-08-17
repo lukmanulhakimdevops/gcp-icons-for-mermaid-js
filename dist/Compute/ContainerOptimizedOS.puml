@@ -1,0 +1,19 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $ContainerOptimizedOS [128x128/16z] {
+xPj7WYCX34L5bEv_ujdtPsI-IkN8MpRXYTWOOmbmE1mEXr9hUOLM3PZo79ev5BcNOGzfSXV5DhcfwGGbtqvIa-SSZwHXGIG5jJ0jhV6lwe9k_wFlJP0x6g_C
+6kd9UgKNIcxh0uKozHPPC8bw2nLDq1TXgd8225T0rQJN0e36Wv-iGg_eHG9-YU_57VJWvmE85_Jz-G70mA4_D0kZXU9-SVnqcUiBALB2ztF_3vGzworgWf7g
+H01ayyNrzxrQ2nN0XEu2FzakpCXdHh_z8Ic00LcNVkNEMVj-s_5NMvBG0GKpeZzmsWvC5NKIwGZWdY8If-tGhtJ0uFq8uUTosIxX07Rhy9bHVuFJKjuKr9nL
+qcaxLju9Fza5BJIsc6M80z5uob-z70rsITTktjOgv1J1Wyxqhzp6gWwedTxyd46OYxJfZYxlNrlCYQnI4y2TnejURb0TdWnYVYSHczhz-nTCY_in5U9njkC4
+_yxyGKgo7pFWaeHZzqD_8VoGfK3wduWU-olbD_Mx7WVjeXzfti0xIT7-Hxma_aRq5h-8ljWlycg_oAlzCYX_J_UBC7wxmIyly7C7u9djzxStv5Q_CNvziT_U
+pg-SlpYJgsxSlam12FzyqkTlzy_vVXaxVhTc_xDbPVQejRzoBUEpkNwLDPfuKrgMVhzghuFuVffhFzsiUCw5lmMkDP6oTQCymQzqe-9v2uw_U3J6N_YhJEEQ
+HEIUV6L-2IFpUzT_BL-F1TXvx0z-lnJnzUzo0o6RjuNoUhwGGKmzgE-nOXRjUYcN7m0W5runq4MH4cz3mgExUV452rqyhmE7i3Xwlh0AJxm3ZD1J0MXsCP-a
+vtT3eYZv037zBNBT_vPttFC2rHnqjDhQK7DuxVlR8GbO67df2-Z-sXVWaieBxNm4AhSmsLVl-T0hBf_E_-WYdv6ms5x8uN0u7Fu1
+}
+
+GCPEntityColoring(ContainerOptimizedOS)
+!define ContainerOptimizedOS(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, ContainerOptimizedOS, ContainerOptimizedOS)
+!define ContainerOptimizedOS(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, ContainerOptimizedOS, ContainerOptimizedOS)
+!define ContainerOptimizedOSParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ContainerOptimizedOS, ContainerOptimizedOS)
+!define ContainerOptimizedOSParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ContainerOptimizedOS, ContainerOptimizedOS)

@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudEndpoints [128x128/16z] {
+xPS5OiH04CCsSM3-_-4oJGg-digr7d3oQ8lZlnD2226444888GGT68uwC12JElDW0_Zvdkhi7wl_qW2cFXW0phTCrTc-LEy3yFfy03-Vlm3Nym2yFX_0p_Sl
+i78z3C3hym7y_DEPgxCmFGy0_Nm0q_CN4DFp0D3F1tonVgWQ-yJrChmLGC9-EPRN1-WAVBxbrHVOJ_7FG6y2w0PwlcTqkbxwMBqFiDpLDtvJt_Xz03s0p_S1
+EbqlMRq_tmVeBx0RFwll0wW1p_VuJ_P-rJXG9-F_clC3zZfct96-d-_zLMS7y7e_eAun0K1zD-1M9HC0d6_yLIO0qVi1htqOzy_33z3ZdNgtVxBdUt_L-G6i
+tWzuu_Fm-PP9Uprb7etLuFGUaNzSWHxyrq3yFi3yPNeUWElv0EvVm0imFG_0zNm0zw_LcRZ-ImFCICy72Fitym9OpmFm-dm0Fv-_0DVp0Bm-7y3FDtzlGpqF
+0Elp0Uny_W90_ry98OGGGWWXX1329G
+}
+
+GCPEntityColoring(CloudEndpoints)
+!define CloudEndpoints(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudEndpoints, CloudEndpoints)
+!define CloudEndpoints(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudEndpoints, CloudEndpoints)
+!define CloudEndpointsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudEndpoints, CloudEndpoints)
+!define CloudEndpointsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudEndpoints, CloudEndpoints)

@@ -1,0 +1,18 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $RealworldInsights [128x128/16z] {
+xPe7akCm30J1pFz_-7BiMfP8M3kueAdW1AW7OhPjR-lHeqUFSkkzPNEfjDvhDgVIX4vS8tNOeUfyKschxEDSQgxLNyWTBZerJd8f1_tWJhPvgRRLwNnbk79v
+1VT5yjnKtSRdTQVE1Wq4f7NktC6FYy-hCtTj0ELHBB8TvlOB0wXjeRUd0jgwTc_KzY250MSk0xUAP-XOlB7MM1ZOBO2y0-iS2ndJ3l3Rjv4TRwqrwW1F0y0x
+303lDL2Er_R4grNp6oYEt9FoAJ_U34aE_7eslXQ9cBay1gepDS7CcPnuC9Fx8eORv-2Z_5C1VswWlCOtu3qt0FX3EV7MlsCB-2fznyvOVWhcTyoVQdvK-TQ3
+-IMOduFvwJ-llmRp1m_5OaqeYDz6BDzICDzm611fa3y3oe_dP-nYrUNZUGY_umO8yGbcr7nCXMfym-iYNdeMRmXs7YXNX5ysTuh5cmNW1zxMuXqy4JvNFPuH
+EHHF0_VZq-KFQ6eyGx8OpvWXnZEeY_6CKkCP5uEt_ixupLYxLzv3pesZm8EtUQC15_v60yc1Xm6jRfW9i-DOS-DKx9XBxfoBwumrCC4N6Y1VRO3yrmsq03uD
+-Fcn1in23TXhSdn7_1DPaICnW9NkHWDbDzpY3CmPQk2zDx3vAZ3C03VQQWCCKXfWI96VdpbLYWrmjTOR6C3B310_pCG6Y9SO01xlYmq8y42rrHS76WF5eAx2
+cwt_OMqQ0OHt1KhsJUsNbgXH_w6m86N7c1FCHVyBFqVN_x_p1_1ouLWOvC3-KZrwzEWZ
+}
+
+GCPEntityColoring(RealworldInsights)
+!define RealworldInsights(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, RealworldInsights, RealworldInsights)
+!define RealworldInsights(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, RealworldInsights, RealworldInsights)
+!define RealworldInsightsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, RealworldInsights, RealworldInsights)
+!define RealworldInsightsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, RealworldInsights, RealworldInsights)

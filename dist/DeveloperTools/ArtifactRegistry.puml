@@ -1,0 +1,19 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $ArtifactRegistry [128x128/16z] {
+xTg7bjmW38NX2nY4tl-1KxRSa_KH60_8QVofwn7-fdVySUrskzrkTmWcawd5Ck-BJ2oTy6Tt8hBEbmCtIxBK5xcxQfdFxgoPyAVtLSJBbuJBeeY3pmR6VNpM
+7_RtfRGlU5-V1HW54NUVDURyVUQjioXs6UmGkuWb5R6xEFK50vKqSI5q3yP01w_DLutxutgyCnpk-C7ZaIMF-lc6pcRMJEnfPXrNpElZDvY-h_gQFdx9QMtx
+LQ_z8jtIfQ_QybK7V9Gf7c-8vQlIlsZcxCS7S_QhqfzuK1ttzQklEkPhu9A6djEOhohqLOTz3i3KW-gmh_KbdoD167Zm7LzVz3aKp_fJFiUoIE11p_cyy5ZH
+ftnMmA8oTz-WL1_s6RVzy_xsjx_zUkr75vzT-08u-Qpd0wv-uBpf0xu-dsl0yi6XiDAttn0FPpyQGojz4OQtqgz-COPM-iLwbPFfcsyZhVDZwyb-VLlTUeEZ
+BFB5QcWeBV2brT3Gh3_qObTw-VaoD1IcV8Ivyp_FN_-EZiwYc04pVj7MgJi-xWJnzjTRkQLNVTrNCOy1bxtvgfsXf3hZy_cCfTDlt_-gplhSTDBfMuy_YLFp
+FZScNl1Pppw70kzueRh8v-O2KAH_7ifyghZGrzhQGp1NPzL5FikSRVigF8VM-OmxPZ0tgVuj_lQtlttvFRxG5p5dWPxFuGl_iFTuUlvOJHz7n-TGwFXrvFEN
+jqmVg9P_7imj7p1z-_cpkG2m_DWPWg4pweOlLHLMPxzqXs3gdEg-Vb3OVV7H6QAVO5R5zXdi8dsq2_IbCJ3o-WbsvSr7l-FDRqqDlduhSEd6wyU8vHKPyHdM
+5k-_ViR2NdhzNfnqTla5gEJzzIScZTo__iMSZi3uRiDpFkpoCtv0imVyWcxUFgwAdZv6Abv-n60-FcwqtiUzqbeVzrle7tYfLJvUReMFcGwujDljThll
+}
+
+GCPEntityColoring(ArtifactRegistry)
+!define ArtifactRegistry(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, ArtifactRegistry, ArtifactRegistry)
+!define ArtifactRegistry(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, ArtifactRegistry, ArtifactRegistry)
+!define ArtifactRegistryParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ArtifactRegistry, ArtifactRegistry)
+!define ArtifactRegistryParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ArtifactRegistry, ArtifactRegistry)

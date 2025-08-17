@@ -1,0 +1,18 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Dataproc [128x128/16z] {
+xTg9Tfmw3CPnIPyHUlydlivEE48neunys_hVlM7uoJ3h8JJQQhLQhLOhnaT2zU5xKgmx5Uf-zVoKau2W2ZviCW-kvEiF06Fk0DxHBZm3ug-Kgmx0vJhhVUhL
+3X0ZnJxDzINyulFz-E3yfJw7Waps-IzO_zzn_vFd-oqSxlc-Jdx-KypsMy1N-83wV9cFdHqTNE8tl2RCE4Kblk8YcklpP9_c-ZJL5whpjvcVVKLLSQfHeKzD
+Jxhr2dsYNG_uUtkTtxFlxRkPeSxl7V2ttm1K-YJlxklFXhVg_1wSfC2F9wZqYU5Kv_VWLU77TuC2FvwWme_l1dL-3ruLVdmtAF3Z2Ifz4ZWL-C-v6yX14ulz
+U0A-RP_d5xDjpASjVmXmJiHw8_wkgicJ02_z641Y7jWk9iXUvh0UOj_UON-2qSK70-oH3zlnaMfxQ00W7k3QPvZXqAR1014V3t3buvq_fZZ5sKjSPary7Riv
+HtoxTm3mKyrCBcvsNhwukxp7Y-2KuxF77xPwq6T_AbF_HcQNZ3_NiNXG2NoyjzkUka0MRuP3wavc5jtDXtovtafy7_3zQ6dfAspg7PJjwClmliUtEL3klVBe
+KzQd7tt1FLz-pLSz_6lOvr_octOVS7pAhfy7V0tUt1IS_wvllbxYNonURZryv67Vrv6uG3--4QDf2_JuwJFl8pZn0oyVsUT_12VULN2JZxU3swst3x4VBw05
+UZIci3Yt2eAtWXkNUX1qtx-_6qdnlPJUI_B4ARsNuCSEW51SoES7IEoWx3jCKtnm9yxiWUwKv7kSq7iSwCD9wg9qSAUlYiMPFzTgjLgjLglLwZy
+}
+
+GCPEntityColoring(Dataproc)
+!define Dataproc(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Dataproc, Dataproc)
+!define Dataproc(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Dataproc, Dataproc)
+!define DataprocParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Dataproc, Dataproc)
+!define DataprocParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Dataproc, Dataproc)

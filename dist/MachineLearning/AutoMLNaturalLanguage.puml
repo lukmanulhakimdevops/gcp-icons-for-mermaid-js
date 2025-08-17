@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $AutoMLNaturalLanguage [128x128/16z] {
+xPdPaSKW30J5tVb7lFzcBooUvIgc4sX6t63lGmWXX11225QmxQHWFuGseBD6YOqFmNf6i9zWFTWsSh0_M3-uGRLj75nznIzSwV_Wa_7jIKQiVevV8_NnyUsa
+-ErjySVPWw-S53-TFVVwh_g0RNyywcV2OltPvySTt-KluBlmcCyFfC2vDm023rq0zFlnsmOzXAryE1kGd7gltoRI3vZDrFKwpdh7_Fjn4VkPkj4F-0fW6_rZ
+lG7LvmTd0SpbJpWRO3u_LrRNuEsdgBK2nDrWCi08FCD-8dws1Q247k71VgBzmC8foWKpiu1O_t3f_Nwkz4VzJ5YiFptdZxy-borwFHlhsLZFndesrhEn_Y8L
+lt63VdRryzc3ttOIxMyEVKW1ckqbEU87523PTdpnXH12226445y
+}
+
+GCPEntityColoring(AutoMLNaturalLanguage)
+!define AutoMLNaturalLanguage(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, AutoMLNaturalLanguage, AutoMLNaturalLanguage)
+!define AutoMLNaturalLanguage(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, AutoMLNaturalLanguage, AutoMLNaturalLanguage)
+!define AutoMLNaturalLanguageParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, AutoMLNaturalLanguage, AutoMLNaturalLanguage)
+!define AutoMLNaturalLanguageParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, AutoMLNaturalLanguage, AutoMLNaturalLanguage)

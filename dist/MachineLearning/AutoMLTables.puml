@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $AutoMLTables [128x128/16z] {
+xTh9aiOW20JWLXHz_oUU8mTh8bBy8QdGrra-Elk6HoQJoMGocSmy3iVm4lYbpjW1Pgm_Pkm0qvWQmqkYVVRXGnS01ViprXylhjzVl_JnxOslVwt-dX_15rt1
+VCLjAS7rWtaEzX_8yxVh5zoMgg_F7BlqcPdWd77cCyVK5v_vrtpR-Dn2welF7C2BxpS1sNtkDzONttKHZFr5LrryvGHpkjIlHBO1vYGBJwjFrR0Af8grllX4
+a3ILJx8gxRpuH8TxeU8athJ-rGIR3TjUV_K94jhuq-RpfK-qRWMxVttcO-CJdVhjP82wzwae_AMISWF4XI_P-cqg1rXubLzsllv2sjzVMqsjZn_vHJT0T_Bd
+4jq963v-ERkL4zx1DrpHaBFFHxxC2oTVoqjiFhhu6xuhV1pxWCPNNWKrYu-w-1OUVFqxPV7_lH-l9X-xNrbyv-Se1Rle_B7pxL7vZloQnRVToTjJBJuy8_wz
+lEJ2fpjyY1_r35DyrPsyVsfvoIDS2lQ_m_UlrizNb_dgCZ-5ULfz_lQdCENrzLj-2cCEOlktO1yk2URHWtsO-T01Hh0FX0v0S4mz3nwPJ2QJoMGoVm
+}
+
+GCPEntityColoring(AutoMLTables)
+!define AutoMLTables(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, AutoMLTables, AutoMLTables)
+!define AutoMLTables(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, AutoMLTables, AutoMLTables)
+!define AutoMLTablesParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, AutoMLTables, AutoMLTables)
+!define AutoMLTablesParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, AutoMLTables, AutoMLTables)

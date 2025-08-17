@@ -1,0 +1,13 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $RuntimeConfig [128x128/16z] {
+xTQr0KCn3431ZxRtNpXCKXFcUmjS9UWaINrgZ0rFvhCtjrZvIv_Fv_Flh_BvV3x_XVk_7Pe_rEVp-VnkY8qbDjtjtzbF-tm-dp_UsUVxV3wVp-Vp_JzyFf_F
+v_CVydICgPRYx-Bp-Nm-dy_d3xTqdtz_V3wVpxymIT8I
+}
+
+GCPEntityColoring(RuntimeConfig)
+!define RuntimeConfig(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, RuntimeConfig, RuntimeConfig)
+!define RuntimeConfig(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, RuntimeConfig, RuntimeConfig)
+!define RuntimeConfigParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, RuntimeConfig, RuntimeConfig)
+!define RuntimeConfigParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, RuntimeConfig, RuntimeConfig)

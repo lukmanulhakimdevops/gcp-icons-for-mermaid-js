@@ -1,0 +1,13 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudLogging [128x128/16z] {
+xTU53G915431yz1_nSHmvzPtNWCJ_J98aiRtHUVdzqtPVJv_2n6Vp-Vp-Nm-dv_r_kNpX-dSUcawDmx9EbmQBdNjy_by_XQYBtq-VxehjNzVBf_Fv_DxtZzy
+_XAYgkvlFf_Fv_FvKuZAkt_uVFyddy_dhwzBuB-D7o1-nqcIf2C
+}
+
+GCPEntityColoring(CloudLogging)
+!define CloudLogging(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudLogging, CloudLogging)
+!define CloudLogging(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudLogging, CloudLogging)
+!define CloudLoggingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudLogging, CloudLogging)
+!define CloudLoggingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudLogging, CloudLogging)

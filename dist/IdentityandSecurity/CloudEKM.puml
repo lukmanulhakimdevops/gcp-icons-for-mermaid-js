@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudEKM [128x128/16z] {
+xTP7UiCm34JXOJDv_nDduyfF0fWoO1BFMzeIVdK9IYcbSbZ7_0Zhh_hovSkNBr--_CjjnRx1jrRc-pWepiT9CNx5QH4-h0hTXrqY-_1AL1z-ZUXNJ9LM4wQ8
+_gjzDe_c6ygqONJV74doRM6QHFMxCvJY9sy-sSSzVmDPlls82_B75Z_xmnlJnxs5PJhHJmlBLA9VlhoCxQTcbc-LXMLgCyCN6lSMbi7FrpVxsHy-EFuyFM_p
+xUafoayRTj-Vt-FyOJ--EYXLQmFAz2UZyPJnLmUfjFR12Lg7x_iqNWEnuTUnTmF0BO2tsylR6r0HKJlZ4PNnWHvKd_M4w2wnksw_Z-EJBr--VFdo8yav-VBb
+ouzF_YtvykL7i_BbovUlvw_yFvPIIgaF
+}
+
+GCPEntityColoring(CloudEKM)
+!define CloudEKM(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudEKM, CloudEKM)
+!define CloudEKM(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudEKM, CloudEKM)
+!define CloudEKMParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudEKM, CloudEKM)
+!define CloudEKMParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudEKM, CloudEKM)

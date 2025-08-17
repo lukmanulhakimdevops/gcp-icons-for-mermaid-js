@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Datapol [128x128/16z] {
+xPlNSiKW44FDoZRx_p-Stjr6Z6A52UTTzxZH5kvqoc0m60pAJmGH0cnfY4ZzqH0Hwe7M24zWbyO83_PfY2ZrG4D4wY-t-75CIuIbWFyr22y0OhJwt66cBa3l
+Xz2FAsWz8FKllBz8FpvQ3_ogVnRw_U-_u9mvDrIS4-Rsv-x_b7v1n3B-YJv1NSG__-4le0WYXladJthd_vap_sEXzATp_RVVfyTbJhJyM_AJoS0VqO_RNmnw
+ZAV_xsu_FfZVoCnw7jcWhVLbqX6b7bdeoDHfhG-xQ2DytH2SNb_hAmqHeHuW8ltM-ioble8pwXxBVKljog_rbNg0rWDI_yBxWzBJ3q1Rwg8leE8Qy_sBQxtq
+0x1__xeBcFds7qg_86Bl__NZNxd9BuZqlDSfZFZdl_mSH1lXrpzynBV-q_kJzzlB3-eBM1t-Qdy0vWi8YR__Jt31XePAGgFVk_-GcTRzdzdidpBD-szLDoc9
+3kTaWKC4aQvhKcY8IFrhqel2qjNvhmBw0bPSO3z_vZx_PVSBBs0LdByplFzkpdy5xry8Vz_dlq8GCOn_plc7sUy-_-KjIeLzJzh__n-_tyzWC1WC7W4
+}
+
+GCPEntityColoring(Datapol)
+!define Datapol(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Datapol, Datapol)
+!define Datapol(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Datapol, Datapol)
+!define DatapolParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Datapol, Datapol)
+!define DatapolParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Datapol, Datapol)

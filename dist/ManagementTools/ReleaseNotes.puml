@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $ReleaseNotes [128x128/16z] {
+xTK7akCm44DHA3RkV-7ToNIWL6oRHKp0h-Z4fzGcValEEUSevkL-GDXE4i98SeMicQz15j-Q82hu7YIHfLMab_QnprqjZ6iwvYV93TW5VyX5NqGR0j-x6SdH
+_kqxoBViqHQkk_NNHmOXs5x5hroGz2pd_GBUZsLqEFbclpOHQ6xdS_vSzLUqnYTzBDN5ElDj2w_yAiRxmUjwygNCIkDy7ZIDy2UUjBJwqLRjeJjlR_FnSC6p
+WAoVR-D10NJpyvl81dJpyxCq0qDz83Vx_NtmAoZyyXI4n2_hGUHlIhyi29aVFNncggo8F-o3dCG-f3vMiOyVxDktdq_lsxUldx-DfPHltxvz-_RpTVRjsrzE
+6k7pf0w-VVlsxTlt_cVVldtxzlksYtsqjObzgFtGye3ewIk9JhyavW7sRKAwOBTcVB-SSyxz1m
+}
+
+GCPEntityColoring(ReleaseNotes)
+!define ReleaseNotes(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, ReleaseNotes, ReleaseNotes)
+!define ReleaseNotes(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, ReleaseNotes, ReleaseNotes)
+!define ReleaseNotesParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ReleaseNotes, ReleaseNotes)
+!define ReleaseNotesParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ReleaseNotes, ReleaseNotes)

@@ -1,0 +1,22 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Anthos [128x128/16z] {
+xDKt0e0020H1WVl_byrPQzR0TbHp7SqxgwggaiE-O1uTOB2lCPRdVS6y7FO5yUW0XtqTWdaPx0lc5R0lWCS61EphDfYN0VxXoESTU0Ds0hDzRH5_C2vShd_L
+F7D0rsvzQBkjta0KLjUtt_-1qnF6-ete58bfPvPMkzVc7Wm6D9UqbqBkElxE6rX7tRE2ywhtuA-StGEOCRlpdoncl_7N_tVUT_prV-vrUxjMS5tnR627z7SF
+uFdZt_ifDk271Uqo_futkE1thU1wU_jMy3mzE9E1NT8NEmGmFPRe_JSuuKCCD_ZkyOdWlHiu3lW8qf3LEs-FWAGXWFUbZoA9l2-0t-CJ1H63t_UC3wb4X75V
+hnyVG2GAmms-Vdm941BXfHkOPo49128oPFRQsokI8BPVXW1UcJwY4XqEDZvU5C0SP281cw48Ljyl7PyYehPh497xAp_5LZnjiEqZX0YvBxrztVZAHjh-O0II
+-wisS5xmGcpJhmQi1bvqUwIjUh-8GEI-1F2Az4L2Z_Zj_uRSNl4fze0FID9XKOGajyN_TySN8h7XrnKa7WsSl_lHbKH93h-LIC1jkS7lZ8zGo65GIC1rYV3h
+jnSYLlngG5O3txazLDk_SRC0WkiImDVIhuslmx-KWCZbbp6-UdiW0OSdYWXn-MTzSNmXHHoUYX3vge7Z8nvByqU94FaI_xBfuUDYaTlGWK1kbqrVmc_yXhgF
+2I2tR_0XOEKS0HZU0nJNmS1pV4XOfx_0fkCIJ2I_63XzYe-2jVbtYyvh1oBO37mIJw0iQrzrMpiWdpHmUZYy8C_eQn42eJO37nvVYA2rTCyT44LysC2o-s0j
+dLd7fGFX-Ya-4LJcqi5SnH2P3CnuaKZFrZvNCKBGtmoSd_CXfB_Zvwolp4KWH6K9OC3VHH4rbyxVJyRylub8dXeu_nMVYAAjT0FzIJoo_Pxm_pvzY6WgtVtm
+eB6AU5p14xpjDsXzmdmUDoBAtn8uplmx91br7FS7LaM4B06iUAbkyzfd7SqgCXeuRit7U5LF1LPjHxNn7yU_GMbOvVNm8PcAa3GOEFyP7tFjFl41VsLseD_n
+_uIFMOVFwMHGVolXYeVxQ-Zp6WYMJx7B3JVpk-Q53kwuN1xntQTtpTSrlvFwnS3nEhzhlgdBbC7bULyTV5-tesV1djv7PtxGt1FSBbwe8tElpnQTlLgtsnZ0
+ku9_FjIAnyNRT7fqjF3ltglR4W2RhlRMuRudVGKT_btwqOz-zAC_0W
+}
+
+GCPEntityColoring(Anthos)
+!define Anthos(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Anthos, Anthos)
+!define Anthos(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Anthos, Anthos)
+!define AnthosParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Anthos, Anthos)
+!define AnthosParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Anthos, Anthos)

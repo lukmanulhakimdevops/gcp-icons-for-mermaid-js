@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $DataLabeling [128x128/16z] {
+xTg7ReKm38LXEoQXx__4lPgM42xDaCy5pgVPnO_JcHJvFaH4H4H4jWAgxa1vX-uh9k_krxTtz-tTVVkQlemRxzlNz0NHjw_f2w9lJX2m-VkFp_6r76Zc-ErK
+slWja3H-2s76TodZww9-SDLjljy_VjTbrlJ5RUreh6zZutTFidRyTgfqtu3rv6rWc7bd-L3ABpvjCSpuBc7yqlwIFduD-rekwFGN_yaT1RSPw1zVBrf1lky6
+oi-_7Mj1FlI8VZbSJvFxrjg-hezVVwsXtTDx_PZic_HQ_FqtqszRy9gFnTExoNdcVML_zpno0IH3pSohkro0tlt_yDvx8Bzszrady_FRptQm9Up_BBncpTd_
+ds-hDxcYDpX_09s_WC-V37p-XZr_DF3nC_xy-MKBm0LG1rY06___KU1z1-aBlByGd__Wypzy_giVE2y5t1T5vLsPfm96H4H4HFGB
+}
+
+GCPEntityColoring(DataLabeling)
+!define DataLabeling(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, DataLabeling, DataLabeling)
+!define DataLabeling(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, DataLabeling, DataLabeling)
+!define DataLabelingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, DataLabeling, DataLabeling)
+!define DataLabelingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, DataLabeling, DataLabeling)

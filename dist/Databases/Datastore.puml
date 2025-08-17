@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Datastore [128x128/16z] {
+xTU5RiDG58FXx7WNtl-5nui2zxXM6VmBIfQ-SflfzNBEEUUSSywvDzxlA0uaZSPyWFR-i-eyIAEnZm2fAZuK7vcF8BpYG_6H-uYKLtmeFfYFI7Z5X-A3-pc_
+zATX6t-idEmtnM_4V-p7R_-bNt_xZVX-_ktxys_VVdlKnzz7bOsFF674_3wkh7meFexnUrPP-51y7EFtl3BxK7mSutTM-VEX-3Z6BxouoF6_SywvwBpuMK7v
+QW_mZl4X-VLt57nqX0_9hty-WeqE-crt1f9VPnz1HiHFWkJNsITte78VMKi_Hg6kVCImUi2VHYtzj9sFKTnlD_RxO_dsxTktRz--VV__U7mVQKk_3rlu-QXG
+7vBVanP-FYh4X-JtJMrv1qQZjbgLr8VaBy5jizz99V4X-PrMvr7-1FGoNJldd7FEEUUSSvy
+}
+
+GCPEntityColoring(Datastore)
+!define Datastore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Datastore, Datastore)
+!define Datastore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Datastore, Datastore)
+!define DatastoreParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Datastore, Datastore)
+!define DatastoreParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Datastore, Datastore)

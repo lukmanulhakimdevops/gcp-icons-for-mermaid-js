@@ -1,0 +1,19 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $RiskManager [128x128/16z] {
+xPe7jgum28JJOVyRVltTulYFnZ7SEgSg2H-GOZb97qpV-bRkvlyqQYpQV5SXKGodoc69nuVWPsKBuDMdT3Eza5AtfH5WvSVJvSQyYT9MqFkB9G0jjetp7VJi
+pzhG801OeRSc3oneXdFrFlpcLjxT6N2r3B7sRAoVXL7P3INeEpjx1gUFxii1s9u3M5jG0Eml33smm2EpA06OOqQOFlAb011F82i3wFlznWHV2I3JLKPVJGef
+v6b17y87Aw-0ZhSpVFHM9Jm2K0K6WFlZWtysGRGB0T0gTp0mFXh6EVnS-XXWGZNUTNQ7vNqjAIFWAvKFySMNAZPzLDK-CtJ5feyg9_WsiJ24vpDfGXzlyNoq
+yVcJBdemgVTpgtpHW-jyjj6tv-18vohmjHG6c4FvQCQDkKdySeBVPeg3Cg66yrrHxReJa_Xw4hwUdm_v_HP-cLZX6BdERzpBSlwuu2LBV7qMzMLyQsVMc2tW
+mxGcpsTVmj_yZisnV7ptZEGxw9XV7WdCH-ryLuGVfM--bs0-gW5_UAp6Xb_rzUTpClNvfm-WnDVntlcRIppVFnU_dxUd-iRyz2xuJZziIYmVh6CblmW38F01
+yMNv6UPO81yPyNpRCc1xQeluUW4c_hA_Epw7nFDRFF-OKi2qWcykQ9hVqFZM_1p9BmaLoIVcQ3xQ-rR-H-EVmFgaygISdbIUTSIt1ukZqlGkxF_S5SxE03uD
+0EwA_74qHGOx6g7pJypHqmDW0fy7W13INk7p07W1nWL-cpq1ny_cSBwoJy6zml0w7_jW0NH-JeTg_bz60rZmc03FzkfeNfNnRVxG_OC2z6NfOtOx0RG5wRD3
+GVRQW_d2z7cA1Im2FlPaK9fN05ulGZ81BrQXqmRylKESZfPdnYcjLJ0U5On71UDH0dvf09QYDCW1r1W5rnxL23ry44eOb7-onIkdTwnlVUid
+}
+
+GCPEntityColoring(RiskManager)
+!define RiskManager(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, RiskManager, RiskManager)
+!define RiskManager(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, RiskManager, RiskManager)
+!define RiskManagerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, RiskManager, RiskManager)
+!define RiskManagerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, RiskManager, RiskManager)

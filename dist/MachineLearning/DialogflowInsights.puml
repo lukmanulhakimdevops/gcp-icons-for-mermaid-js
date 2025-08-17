@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $DialogflowInsights [128x128/16z] {
+xTe5ZWD130LHDsJe_lTT-08hBONJhWMNqA8NPt31VbzPbcLPKwIkAgahYwwq8MfvZzILnLJRnQZbFL9NXTGLoYjILvNKrOJR7VW9sbEHkYgJRtUtevRtI5rL
+KbTHrzpbmfPVJasDnMo_gAQ68jRlL_mQu4j_qnTGORyzxtV6z_CFyPLupbV_nq__D9nmsrU1Vb-KyohENnRbl5gY_Uw-WlTV0Pyv_irvjNppVPgVzv_qXyjh
+tRQpyJZwJByF5vX6V-K_r2nVdhemxeVgqNxtzTL_yzkvtuFFloNk_9DuSTGPcE_Vy_pqZ-ykZel6YVvmWzbzL8UAyI-FUxI_-AZ-Zvz--kcVO7_yEFD-_xiE
+BtWQzmdt_siFm67iv-FM9lZ0Nw4A-FgXI5uLabUapl_zKnLeUG_L5V3L3q7BUvNK5QehabU5rDKJUhHV3VNDID-Cz8kXliqFr1MgN_QheJxzRzUaNmprBJPG
+LuDE-jLGtv1S9_rYg6zW4tIaBCkox1C
+}
+
+GCPEntityColoring(DialogflowInsights)
+!define DialogflowInsights(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, DialogflowInsights, DialogflowInsights)
+!define DialogflowInsights(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, DialogflowInsights, DialogflowInsights)
+!define DialogflowInsightsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, DialogflowInsights, DialogflowInsights)
+!define DialogflowInsightsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, DialogflowInsights, DialogflowInsights)

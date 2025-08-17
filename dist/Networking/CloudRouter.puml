@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudRouter [128x128/16z] {
+xDQtSGGm54D1UMt_5IkN9_5dS8QlWKM8XsliT3gTJfHvoZnbdZ9FcQVCK-OfyvHvoZnbdZ9FcQVCK-OfyvHvoZnbdZ9FcQVCK-OfyvHvKlDfSSvhndtrJVas
+VJE-RT-4B_3bliYN-a9VvejzYK_ks_UD-7PzGxuztvXlnpVeM_UD-bPzmxurtxXlnRVXF_cZkRkovylut9VnkI_ZSr_6vxwCptqPd_ioFlTbVExB-DptqPuT
+7HW0104ClOFqtp7a2m0GsDT007PdZkHVrQVjqxx-j9y_skyVxUyFxUylxVyFxVylxVc3vvw__kVRE9wV7F9__07CTzno7kQPv-_pVThx1-tzY_R-INl_ffq_
+qCvVQETFjFCtslaZxVoLTlvCEt-dtJ_Gxb_-Z__V7-npv3mGxT_uUwGohpAlCgyohpAlCgyohpAlCgyohpAlCgyohpAlCgyohpAlCgyohpAlCgyohp8lyoNp
+dsSOXc5O0W
+}
+
+GCPEntityColoring(CloudRouter)
+!define CloudRouter(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudRouter, CloudRouter)
+!define CloudRouter(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudRouter, CloudRouter)
+!define CloudRouterParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudRouter, CloudRouter)
+!define CloudRouterParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudRouter, CloudRouter)

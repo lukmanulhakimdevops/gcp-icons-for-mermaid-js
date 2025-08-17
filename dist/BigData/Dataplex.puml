@@ -1,0 +1,19 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Dataplex [128x128/16z] {
+xPhdWjiW48JfE-__mka9uSReRXaBf_3zSSFwLdGGuM_aS3WS3i0hxGt0woA8-45xKTPtzjiD8tlj6OHjpdecRROpE-mLLso-UQPijZDxsjp-229P-bkCjFkp
+tiBl_f0m4cyEOFo6umFkzEV0ViwXsmAOVL4naXKJNo0FClRhXS0NeH_g94EU5y55VyRniCGmKfrwnwZ6VZqBGBZz8GaHW77x-IhcrVUINF9p1D7b3zyelGgw
+_JnFSFWv6h-Vim1kVtFv6TLVH7yI_T3yo_blt1hy_eXbFygR-Ctl1-DPsBI20QS_0emqmpMFNvYNOih7_H3y1LFQswG__q5smK-Zbrg2qUSVhf0RHgf_-k3r
+zq9Ow4GuDVczEBB0Q0Ai-_ccd0brVx29dg2Pg-hd2tlIiL_EWapLj3pglqiG_Sp5KcEIYlnw09CwOKEg6YP-bO-iz4X3Ve54dGBr2Z7eViVIWvFky0FCDl_n
+Du1f-_nuo8lzjizV0AQS-h_Dtowg_x_S_zhxuryBKrH_v5aLRoy1T_bx8wCS69kctUAdRp9jKtCgtNzT92az_cTxbf-NX1zyBljCFrRM7rNtGrz_wNvUL4xW
+f5Ntw-llHCEpms_EnxlyXvNoqFPVveZ-IiciLgFhcXo0lFysPTrVXVt7ZgtwlTE4DzAaxO4sPVzv-9nM_DBpbp9-zFjDMoQCpSBl3nt9Nvp-pelklrC5FvN_
+qXwuu7VL_tadkk0tH_jdmEE-lampvLcysr_8hvqrCtMP9X_uYk_wnoaAwUK8hlqq6uYYdizQjha_Fl94AZir2sP-nttA4R2_Ke0t7hxBvB_x96h3oEYd7tUS
+0Eov8UY52FOVGItYwKyTmRuXWXGsaEQBYqsOcFKwgbs7PgYxQUBDwwXs7PgNxgOW_8qS3eV3uJC
+}
+
+GCPEntityColoring(Dataplex)
+!define Dataplex(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Dataplex, Dataplex)
+!define Dataplex(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Dataplex, Dataplex)
+!define DataplexParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Dataplex, Dataplex)
+!define DataplexParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Dataplex, Dataplex)

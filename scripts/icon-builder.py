@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Copyright (c) 2020 David Holsgrove
 # Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-# SPDX-License-Identifier: MIT (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+# SPDX-License-Identifier: MIT (For details, see https://github.com/lukmanulhakimdevops/gcp-icons-for-mermaid-js/blob/master/LICENSE-CODE)
 
 """icon-builder.py: Build GCP Icons for PlantUML"""
 
@@ -30,6 +30,57 @@ release_date_obj = datetime.strptime("2025-02-07", "%Y-%m-%d")
 release_utc_seconds = int(release_date_obj.replace(tzinfo=timezone.utc).timestamp())
 
 
+def create_config_template(path="config-template.yml"):
+    """Generate full config-template.yml dari isi ../source/official/*"""
+    base_path = Path("../source/official")
+    if not base_path.exists():
+        print("source/official tidak ditemukan!")
+        sys.exit(1)
+
+    config_data = {
+        "Defaults": {
+            "Category": {"Color": "Blue"},
+            "Colors": {
+                "Blue": "#4284F3",
+                "Black": "#000000",
+                "White": "#FFFFFF"
+            }
+        },
+        "Categories": []
+    }
+
+    for category_dir in sorted(base_path.iterdir()):
+        if not category_dir.is_dir():
+            continue
+
+        category_entry = {
+            "Name": category_dir.name,
+            "SourceDir": category_dir.name,
+            "Services": []
+        }
+
+        for icon_file in sorted(category_dir.glob("*.png")):
+            source_name = icon_file.name
+            target_name = Path(source_name).stem
+            # hilangkan suffix _png dari target
+            target_name = re.sub(r"_png$", "", target_name)
+            service_entry = {
+                "Source": source_name,
+                "Target": target_name,
+                "Color": "Blue"
+            }
+            category_entry["Services"].append(service_entry)
+
+        config_data["Categories"].append(category_entry)
+
+    # tulis ke file YAML
+    cfg_path = Path(path)
+    with open(cfg_path, "w") as f:
+        yaml.dump(config_data, f, sort_keys=False, allow_unicode=True)
+
+    print(f"Template {cfg_path.name} lengkap dibuat di: {cfg_path.resolve()}")
+
+
 def verify_environment():
     """Test all dependencies to verify that builder can run correctly"""
     global config
@@ -38,7 +89,7 @@ def verify_environment():
         print("Working directory must be gcp-icons-for-plantuml/scripts")
         sys.exit(1)
     try:
-        with open("config.yml") as f:
+        with open("config.yml") as f:   # tetap pakai config.yml asli
             config = yaml.safe_load(f)
     except Exception as e:
         print(f"Error: {e}\ncheck config.yml file")
@@ -174,11 +225,14 @@ def main():
         markdown.append(f"{cat} | {tgt} | ![{tgt}](dist/{cat}/{tgt}.png?raw=true) | {cat}/{tgt}.puml\n")
         structerizr["elements"].append({"tag": tgt, "stroke": "#4284F3", "icon": f"{cat}/{tgt}.png"})
         try:
+            mermaid_target = Path(j.filename).stem.lower()
+            mermaid_target = re.sub(r'_png$', '', mermaid_target)
+
             svg_filename = re.sub(r'\.png$', '.svg', str(j.filename))
             if Path(svg_filename).exists():
-                build_mermaid_icon(mermaid, svg_filename, cat, tgt)
+                build_mermaid_icon(mermaid, svg_filename, cat, mermaid_target)
             else:
-                build_mermaid_icon(mermaid, str(j.filename), cat, tgt)
+                build_mermaid_icon(mermaid, str(j.filename), cat, mermaid_target)
         except Exception as e:
             print(f"Error: {e} adding {tgt} to gcp-icons-mermaid.json")
 
@@ -195,5 +249,12 @@ def main():
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generates GCP icons for PlantUML")
     parser.add_argument("--check-env", action="store_true", default=False)
+    parser.add_argument("--create-config-template", action="store_true", default=False,
+                        help="Generate a full config-template.yml and exit")
     args = vars(parser.parse_args())
+
+    if args["create_config_template"]:
+        create_config_template(path="config-template.yml")
+        sys.exit(0)
+
     main()

@@ -1,0 +1,13 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudExternalIPAddresses [128x128/16z] {
+xTMr0SCm5411aM7_YTE46hD_yDu29rOwd2Ifh2i7yUFgOcQ_r-Vp-VpSRs_1Ju_Qej_lwSbVcEUINuBzyYQVp-VpQuJVPlrovFrjArhw_uPoguxR_83_z-Ty
+Ff_Fv_Fv-Sr-MiqFQ_p8Wdq-dy_dzq-zmU-VAs_s6v_Fv_FvV3wVp-Vp-Nm-d__eD7wz7nEVp-Vp5mhswvlzz459aYu
+}
+
+GCPEntityColoring(CloudExternalIPAddresses)
+!define CloudExternalIPAddresses(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudExternalIPAddresses, CloudExternalIPAddresses)
+!define CloudExternalIPAddresses(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudExternalIPAddresses, CloudExternalIPAddresses)
+!define CloudExternalIPAddressesParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudExternalIPAddresses, CloudExternalIPAddresses)
+!define CloudExternalIPAddressesParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudExternalIPAddresses, CloudExternalIPAddresses)

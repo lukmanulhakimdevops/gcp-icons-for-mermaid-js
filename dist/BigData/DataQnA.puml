@@ -1,0 +1,13 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $DataQnA [128x128/16z] {
+xTYtLKH15C1GdNtxJVyL4q-46n16Qk3cuWTMLLLLTUxi4FWrcJyVid-AVdv-_hTc-zZ-o3vlzVFldLtlzk_DlTE_T_UG_NkNdv-VdpzhVzJFpyzdxGVw-Vdv
+vvhiv-Vdv-Vdv-VdvmECx3EopyW-8_kCy3-NHlOPsMTadv5zHlOPsMTadt_Zu_fymaT8vf5vP1wPH-QHUMGUcKVcaNc-dg-ggggg5m
+}
+
+GCPEntityColoring(DataQnA)
+!define DataQnA(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, DataQnA, DataQnA)
+!define DataQnA(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, DataQnA, DataQnA)
+!define DataQnAParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, DataQnA, DataQnA)
+!define DataQnAParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, DataQnA, DataQnA)

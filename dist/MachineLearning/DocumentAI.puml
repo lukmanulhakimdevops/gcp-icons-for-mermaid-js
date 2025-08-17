@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $DocumentAI [128x128/16z] {
+xTg7RWCX48JXvOuzvlrVE1qP8MyAsZ0fywjRMD_rRbDAAQMKKXVUpxwr2Z3z1gfVmVN1zR7YLm1Eyz7Z-AdhfNpPpzqmZg_wZh6Mw7jSlBuIVOjZ-_7sKZVx
+n-GxUVcNBRwslmt7duKZLYNuLj0xZU6RjVu7aczzFDMNBr--VFaLppdBHwza-SVKtSSb0zyxadnCtPjzt1kxnM_ZmWv6vlg1nFIlu7vWbn_S3zLDVXzPA7uy
+r59ydxhzM4_hfVjBNJG__VYpsCWpV4FF2FvqFloN_f7en-V_E6JxcFhC0m4d-MSm9jq7ulY-SNsZ-isO_cb1kUV_UikVglKy2k7-AqY-VFc4ytzGzl5FFZ3c
+HB_7zi7smVRTelBF_wsrwpbtlnhX_UUS_ASAsJ_9VYNxOFdeDOgF8OAFiOliOyltNp6FIlPXwt5z-PxWb-tVtsPUXQtuBV4Rk6F1jzGxWGNVhgIvj-LdcpNM
+bL9AAQKU0G
+}
+
+GCPEntityColoring(DocumentAI)
+!define DocumentAI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, DocumentAI, DocumentAI)
+!define DocumentAI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, DocumentAI, DocumentAI)
+!define DocumentAIParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, DocumentAI, DocumentAI)
+!define DocumentAIParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, DocumentAI, DocumentAI)

@@ -1,0 +1,19 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $PhishingProtection [128x128/16z] {
+xTa7TkCm38HXY22fkV-5qnDv55C3DtWB_zUty0ESGZ_PuircizbiDfjvVmjlbMVe_JDybg-pZpMTPn_8vzb7Fiy-yddsaS-pxq_saSEF_PRjr-mNm4zr-oZL
+P_xN03N3Pvu7-7_y-cI__SUlF_ik_CIVl_9eV_arWETU09to3YhLR-xELz1YUGFuHtmBMaBjS_Mlw1xEUl_bMtqBQuxlplvM3iu-LtDqzhaSd7skvkZiSpau
+-rpDuEsjX066-5TFy8-k9JpQFxuO03pILtSJtdkORwAEp-xWzsjydF5n7N-Xpppvk8ONlk3PxvVpmbSy-rWkv5tuccSVbwulVCdlVLp6Ar_pUn-Nyd6V-P6F
+E2zymO_y7kV7lk1jw8T_28hsn_oXZzZwsWS6lF0HuRLF9n6lV6XU-tGIyTfV5IzzvfZNFcxr2IH-Vu2VzI5uwJF9F9smdFVN6tr2cUSJRFCfmP_p5_BvH3wp
+QN-zt3VVEbwfQn-QrxxHWPVvvHw-dUNBuF4ifttV-ULW01kipxvBd__pxWZoQG0B-MvscMz3Vx5XVUIxdVfhwEAZ8uflQPzv--1jtGO8-PoV55wVUxHV-fRV
+qzS3wFMrlyHzLtozmY_7lf6lRku7-UC1wYbVWZv7lXvWp7TxY5_60pJc7-DRyFbRixCjSRzSD82JhjVNVWy_25oyxpFfhrVxPU_7-IBMZmqW_KMiVxdF2R_O
+e1hoBnyWo9lua30-GAjZ7n4U5lBR-C7Oo0SGu9lTC43jdGTW7f0yJFXRuxzlltryrGNl8rl_9lM-rTW_M12S_7YVepk6ilBj-mgkRkT1yboFrcZ7QCLKKTye
+n5fD5-KvXB98KPuBRw-ByXnKtQBL-BTUV02xfE3oN9Lyl19SdjDwF0_gN42FjzTZSuCJ8wlg-8sLdg7QljbiDflDPhDN
+}
+
+GCPEntityColoring(PhishingProtection)
+!define PhishingProtection(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, PhishingProtection, PhishingProtection)
+!define PhishingProtection(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, PhishingProtection, PhishingProtection)
+!define PhishingProtectionParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, PhishingProtection, PhishingProtection)
+!define PhishingProtectionParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, PhishingProtection, PhishingProtection)

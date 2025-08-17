@@ -1,0 +1,17 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $ToolsForPowershell [128x128/16z] {
+xPVNqZCX34CD1Y_l_y9_tOnJIEn1PBwcSq-E9Sfiv0P2226444888OGGeW7oNagWD_lO-6OVh3VxQBz-hDxie_rziwdazRS5z2i0lvpKfDy7i2jWlQJrLYy5
+cDDGlwRyU05uV3-2PMc02iN72vZfIrQF3z2W-BWVq-S7m0zVFNTcvc-JEwWxurTnN9yi03zySaDvFa3D3k2gEBuyiAc0h7vjW4FXkpVNksPotAxqMhR7Tw82
+ZkvhOts9ukTtuDGFNut4h-9a2t2zmbyTucGBqB_wqw_utSiFSEdgIg_WuQkoK40PuuW2A1nVdh-2nz3G7-WXl-WLeTy-s3_Qhlvr-hBCSVqOpwzVYVnn_DX_
+TFJ-vVMEwtsbxF2NUBsNtSSn6Ts1umS5_DV71SJ-Flc59gzm_K81FHK_yf_wXG8o-YglSNr-07ptdMPEotu2u7h7B5E00a_FmW0Q3Q0BUgm0RVuGLtkapbRA
+wW1b-eUpgrRjvgJZumMOazMx7n_0721-_8xftDyXFLv0e6-Olym6g73x-mf8wkl43mo0nSVzuDt3oSVVZ-zd0_GWcVXLtaZcwNcp7z7Zg7syFwydX1122264
+44888Ry1
+}
+
+GCPEntityColoring(ToolsForPowershell)
+!define ToolsForPowershell(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, ToolsForPowershell, ToolsForPowershell)
+!define ToolsForPowershell(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, ToolsForPowershell, ToolsForPowershell)
+!define ToolsForPowershellParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ToolsForPowershell, ToolsForPowershell)
+!define ToolsForPowershellParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ToolsForPowershell, ToolsForPowershell)

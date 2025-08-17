@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudAPIGateway [128x128/16z] {
+xPi5ZaKX301nUlyJR-nt1TP8qyaBdUZNGVlGT4OG145GCkUM5vHTcUxs8Py1CWycO0gQW2eREbJw2gAVG08-6qK1z4G25fslNrQ_0aLzJt_xoI_GG-yUVz70
+itrNe377xNwjWE7ahynOCBz81twN4H4z6E-mNyAFKAtyqG33B__0FW8sEV5NCx_yY-Ld6VPts2zFztVOdxA5dmz0kMpmzFkkqun585kcsmX0N0iWetxLXJyp
+wvIgApeaM1bMSL_PpKrFgCBwnSpVJlGPzXVOdt0_tFxIeFpsyUTdsFWx4_py6O3_Xl57_UFuKxp6dztNl_p_3thENzCVWETVJvv_XxzVjlvalm0zJzSVO_qt
+_FsQ_PUe_cX-jqK_zG1-_lm5V_wam_wzgJZuu_pNPzVOw8K_VwWGsppq-LDVVm6o_qbO4NsQpFbh_lov0f-_JmtAlZ9O_Le2zzo_CGZxzFsh80Y2u0q
+}
+
+GCPEntityColoring(CloudAPIGateway)
+!define CloudAPIGateway(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudAPIGateway, CloudAPIGateway)
+!define CloudAPIGateway(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudAPIGateway, CloudAPIGateway)
+!define CloudAPIGatewayParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudAPIGateway, CloudAPIGateway)
+!define CloudAPIGatewayParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudAPIGateway, CloudAPIGateway)

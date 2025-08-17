@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $AutoMLVision [64x64/16z] {
+tPT7WaCX34E3iIsu_u6dfWiGAQkytHJ_eeSD__1Xc4VaX0WtKUuG-B8yq0I8HRcXIM3p-jofpsbvHTi0TLQFjWMcsRSj9WuAsYOemfrsgDrfXzgTTgZTQOSS
+dWOYFCGDAHpIxUyD9JjSXHTaPnbXXLmW2uUyyBb3l5DzJXT-7aEvO8isuF3iNybk6yGmFDjj0sj3TxdNX-pE_vLijW6x8oNhDc1tHryCJmXCt9NsIm-pyWjE
+_zp9uVZsqOz9NYNS1m_Rw1TnLU0topDdKddnv4sFrtx-0rlbNvmBwlNjUrokTMC0ZH8uncMbs0ytMO049cXPDgRxwFR8tRcDyHGmiM-GLceWCNfvLN43EpQa
+_f9zF2Lb_RZHCHkVHtiNr9HCKBtB4OhLtWigBvp9XS3ghoDtBTVRPweDg8YpJyOD4FcW4VqQaGyv5DGNpYzqUmf8OkBy9eWNpe_aZXnA_4tdP-rGktlSOUhl
+btrtZqVepto_KVcKuX4vnUtmONm3
+}
+
+GCPEntityColoring(AutoMLVision)
+!define AutoMLVision(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, AutoMLVision, AutoMLVision)
+!define AutoMLVision(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, AutoMLVision, AutoMLVision)
+!define AutoMLVisionParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, AutoMLVision, AutoMLVision)
+!define AutoMLVisionParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, AutoMLVision, AutoMLVision)

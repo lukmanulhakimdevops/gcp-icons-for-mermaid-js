@@ -1,0 +1,14 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudInferenceAPI [128x128/16z] {
+xTW54eGm40NHJ6JkV-DrrpyKJdSfHDwwa3OV4H6LUzR79cK5FZu-FZw-0FNcu-FZu-Fha7wwPnyV7nyV7nyVFwTJbiVqluUlpyu1NyF32uA-fK1Pky6wBxhX
+LLdnS-gKbHwkA8qNlWN-bKwVtsiJ-uuVNDgL_E-xQpUzn77NVFSgR1LxrMPtrJ-dFNKct_MexrvxUEa8a7WQNrbQIxQSI_CsYNzlRJu-FZu-FZv-UIZiwvju
+KjFzB_Nbu-FZu-CBhS37nyV7nrzdH4Iq1m
+}
+
+GCPEntityColoring(CloudInferenceAPI)
+!define CloudInferenceAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudInferenceAPI, CloudInferenceAPI)
+!define CloudInferenceAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudInferenceAPI, CloudInferenceAPI)
+!define CloudInferenceAPIParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudInferenceAPI, CloudInferenceAPI)
+!define CloudInferenceAPIParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudInferenceAPI, CloudInferenceAPI)

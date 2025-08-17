@@ -1,0 +1,14 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $TransferAppliance [128x128/16z] {
+xTW7ZeGm40NHTg3P-rzuymmvWpyIzPHGeiZOjbi100000030nnbijo3kH_gl7GZxzalMjp-rk1_5VR-i7xolqwylll_9XphNF5_x_Fk8NF3zzp7b-c6c7yJd
+RsVaVKVVIbBb6x73_W7LOTaEUEBuBnJgnpIftm_fWdwQCHn_LcVtqwnM_tzRrhS_MTnF9VjXsDSzVnVrRVNxT-ZnP_vzw_yFaBJ3Vn-eDFc6kk_btlyWxjiT
+-w5Wttp8ElrqyVhhyEnVTEklJRIsFwg-YVjPrjVV_sO7Jnn_qOydvBEL0W000000W2y
+}
+
+GCPEntityColoring(TransferAppliance)
+!define TransferAppliance(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, TransferAppliance, TransferAppliance)
+!define TransferAppliance(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, TransferAppliance, TransferAppliance)
+!define TransferApplianceParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, TransferAppliance, TransferAppliance)
+!define TransferApplianceParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, TransferAppliance, TransferAppliance)

@@ -1,6 +1,6 @@
 # Copyright (c) 2020 David Holsgrove
 # Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-# SPDX-License-Identifier: MIT (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+# SPDX-License-Identifier: MIT (For details, see https://github.com/lukmanulhakimdevops/gcp-icons-for-mermaid-js/blob/master/LICENSE-CODE)
 """
 Modules to support creation of PlantUML icon files
 """
@@ -15,7 +15,7 @@ from PIL import Image
 
 PUML_LICENSE_HEADER = """' Copyright (c) 2020 David Holsgrove
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/lukmanulhakimdevops/gcp-icons-for-mermaid-js/blob/master/LICENSE-CODE)
 """
 
 
@@ -71,7 +71,7 @@ class Icon:
             puml_content += f"GCPEntityColoring({target})\n"
             puml_content += f"!define {target}(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, {color}, {target}, {target})\n"
             puml_content += f"!define {target}(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, {color}, {target}, {target})\n"
-            puml_content += f"!define {target}Participant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, {color}, {target}, {target})\n"
+            puml_content += f"!define {target}Participant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, {color}, {target}, {target})\n"
             puml_content += f"!define {target}Participant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, {color}, {target}, {target})\n"
 
             with open(f"{path}/{target}.puml", "w") as f:
@@ -90,6 +90,8 @@ class Icon:
                     try:
                         self.category = i["Name"]
                         self.target = j["Target"]
+                        # 🔧 FIX: buang suffix _png jika ada
+                        self.target = re.sub(r'_png$', '', self.target)
 
                         # Set color from service, category, default then black
                         if "Color" in j:
@@ -123,6 +125,8 @@ class Icon:
         try:
             self.category = "Uncategorized"
             self.target = self._make_name(self.source_name)
+            # 🔧 FIX: buang suffix _png jika ada
+            self.target = re.sub(r'_png$', '', self.target)
             self.color = self.config["Defaults"]["Category"]["Color"]
         except KeyError as e:
             print(f"Error: {e}")
@@ -130,57 +134,6 @@ class Icon:
                 "config.yml requires minimal config section, please see documentation"
             )
             sys.exit(1)
-
-
-
-    # def _set_values(self, source_name, source_category):
-    #     """Set values if entry found, otherwise set uncategorized and defaults"""
-    #     for i in self.config["Categories"]:
-    #         for j in i["Services"]:
-    #             if j["Source"] == source_name:
-    #                 try:
-    #                     self.category = i["Name"]
-    #                     self.target = j["Target"]
-
-    #                     # Set color from service, category, default then black
-    #                     if "Color" in j:
-    #                         self.color = self._color_name(j["Color"])
-    #                     elif "Color" in i:
-    #                         self.color = self._color_name(i["Color"])
-    #                     elif "Color" in self.config["Defaults"]["Category"]:
-    #                         self.color = self._color_name(
-    #                             self.config["Defaults"]["Category"]["Color"]
-    #                         )
-    #                     else:
-    #                         print(
-    #                             f"No color definition found for {source_name}, using black"
-    #                         )
-    #                         self.color = "#000000"
-    #                     return
-    #                 except KeyError as e:
-    #                     print(f"Error: {e}")
-    #                     print(
-    #                         "config.yml requires minimal config section, please see documentation"
-    #                     )
-    #                     sys.exit(1)
-    #                 except TypeError as e:
-    #                     print(f"Error: {e}")
-    #                     print(
-    #                         "config.yml requires Defaults->Color definition, please see documentation"
-    #                     )
-    #                     sys.exit(1)
-
-    #     # Entry not found, place into uncategorized
-    #     try:
-    #         self.category = "Uncategorized"
-    #         self.target = self._make_name(self.source_name)
-    #         self.color = self.config["Defaults"]["Category"]["Color"]
-    #     except KeyError as e:
-    #         print(f"Error: {e}")
-    #         print(
-    #             "config.yml requires minimal config section, please see documentation"
-    #         )
-    #         sys.exit(1)
 
     def _make_name(self, name=None):
         """Create PUML friendly name short name without directory or .png,

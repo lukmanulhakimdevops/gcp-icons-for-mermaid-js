@@ -1,0 +1,14 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Support [128x128/16z] {
+xTU5ZSL000FH3Lhkl-23pmmXHyfC0o-mM0P6r4YotKRmLhkygrbQhwLBtrwMrocVYl3okGH_wJl0oui_G1_szTptilozNuLzpyxNOL-l_JRiUyC-Fhxczhlm
+-bDMxMj-lthbX_V_RWldhzA4pv-b2v-_I_F8pro0Clnv6cRqyqLWWcb7fA5vO04V7nyV7nyVVq2V-cM6CZu-FZu-FZu-FZu-FZu-Fduvj4uV7nyV7nyV7nyV
+7nyV7n-VYEWN
+}
+
+GCPEntityColoring(Support)
+!define Support(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Support, Support)
+!define Support(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Support, Support)
+!define SupportParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Support, Support)
+!define SupportParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Support, Support)

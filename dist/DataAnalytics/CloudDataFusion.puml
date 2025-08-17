@@ -1,0 +1,14 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudDataFusion [128x128/16z] {
+xSw7LS103C3G5D1Z_uaPW7B5TaoH5lWwefcPsJbJ8NzFrktJwmETFhq-lJwzFhq-lJwzFcF_dclBP-XVTw7Fq3_lGf-nVnVwzFfC-6UTJwzFhq-lJwzFhq-f
+F-wt-lhw-lhNPpte3m5zVNrz_K01NrzVNrzVNrzVN__whFCv_-spNaU-lhw-lhw-lhw-Fdjb-UoMuxDVXa-ak4-ig4-qc4-yY4z6-puvxVfajUUJruvFPki-
+kQtwPBVcaz-AJqLJ_Z7WemCl4pxK3HnZdxec_8FAcdauVb1cPlOE
+}
+
+GCPEntityColoring(CloudDataFusion)
+!define CloudDataFusion(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudDataFusion, CloudDataFusion)
+!define CloudDataFusion(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudDataFusion, CloudDataFusion)
+!define CloudDataFusionParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudDataFusion, CloudDataFusion)
+!define CloudDataFusionParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudDataFusion, CloudDataFusion)

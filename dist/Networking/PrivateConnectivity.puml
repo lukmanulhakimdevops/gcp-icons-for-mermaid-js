@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $PrivateConnectivity [128x128/16z] {
+xTW7TWCX38HXWK3U-ryulUu4xuk5XCjyhxlzr1JBzICY8Y8Y8g9IjLPPGMsdIXxxMvSCpSue4gpRWPgqwsFP-uwIDnubJnxrv3nApgE4_C6piNaz75ze7b-3
+8lF0K0kxzp-RVJo0gEdlduWSW2659-AEW1h0sdW0OOVFVkj12z27qzyPlJXo-l4de0tx8AHl_hxTSDzczClaligB2iP_dqxj1xnbI2_vB6VV_r6sfybzCAtV
+OlkwCwklEpVIRm_UxrS__xwzAClwsxlJelD_sZuiwczVxgAFPlK5t4yVR-2yFy3g-RuSdN__tr_OnnlO9BMFulfzHbySxg3VnQ7u--Aokb-zVt-Bqye-Vbm9
+pli_Jpt_UldFKyWNe1UJANf8Fdu1LDOEGEP9pgFaF4hUUzII9u-IyoXxxL7sv55s7TbObnGbVUf8__4_7X4H4H4H4T4p
+}
+
+GCPEntityColoring(PrivateConnectivity)
+!define PrivateConnectivity(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, PrivateConnectivity, PrivateConnectivity)
+!define PrivateConnectivity(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, PrivateConnectivity, PrivateConnectivity)
+!define PrivateConnectivityParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, PrivateConnectivity, PrivateConnectivity)
+!define PrivateConnectivityParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, PrivateConnectivity, PrivateConnectivity)

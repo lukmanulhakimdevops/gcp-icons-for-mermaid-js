@@ -1,0 +1,18 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudSecurityScanner [128x128/16z] {
+xTZPrhCW38NX7QBK-x_XVzmTg6ZKGBw9zxJ34ocBkiGNR3GQZKQZqMYaYeyiwT_mOQco3_JP1_d61B8iEShNXBByf-Ll7RTVMQdJxpa1T6i9CdqMzYCyUVei
+TXlc5vyXQe8N7W24VWey2gWp3j3vM1TzLFB0MJzTEyzAVyRL0KJLCm1zNFPLVGFCAnzdV5Nd0DdbgyT7Gn-Nggw_qE_ACzN9iVyyF5lz0FJdCpuSqO-_VARJ
+vVEtu9qBm0cc2xp0bUZw_pU5N3xJ-TtFP-xd1Cq683-XrULhPidufbSV1-BRLJLXiroqlv8p_SCwtwu7T3OPIyaHpShj8aTujk_hEPx-8XPl3o1dTd9-ynU3
+B_8lG7xnsN4-pru_-VpizNF5lrcyFO3BNpwPd_UQT_mKu6TZ0tZzuQUUlbPy1FgmVUdg9_lyx-hZtTTW7wK_8Tg7lFYeDEMTPCSN72pHLx20yx-wO7BMdr1B
+hleA5l3_NvIAZqJSVzaViRUWDFUJSPTSbFON4_1i0FiKRleCJymF6RpXknQ06Rh1-tsUL7FoR6Lx06VfW_shNvDy0_WlewaF5hq0lkVNB7ppCR-lJf_vUUy0
+VZv-06tegukF6Q1uobdm4GDajh26vpTB5a-VDNj-_SpYwJFoBGSGWwVFt3nJQmcqxizebBuc1nwRCBHAou9zJh2v2hhbQxS1c0WWahVy6rgcMrLyXgR9MJy3
+4HDCMxwWVLffoqUVedtxXwZxw9-8R9x_DyHLyn7PsaTiKlg2-9u-Fd6ZqMWq6er6ezy
+}
+
+GCPEntityColoring(CloudSecurityScanner)
+!define CloudSecurityScanner(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudSecurityScanner, CloudSecurityScanner)
+!define CloudSecurityScanner(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudSecurityScanner, CloudSecurityScanner)
+!define CloudSecurityScannerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudSecurityScanner, CloudSecurityScanner)
+!define CloudSecurityScannerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudSecurityScanner, CloudSecurityScanner)

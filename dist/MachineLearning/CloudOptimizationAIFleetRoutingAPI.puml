@@ -1,0 +1,18 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudOptimizationAIFleetRoutingAPI [128x128/16z] {
+xTfdWkCW38PXIHJh_XVUlagmc1YDoSSMtZ_J63-akTC_qMwts-rsBCBBy6IjuYs1wvBQm3mRA_OTieP4-oOkcy3P0_jozWGx0Qz1_Tht5SIhVk1h0kY7Vkoh
+0XxyIryHl1Rt-JDV0RngpzTV0NZjhV_qxHEeQZrlTTdu-0JAx-M57hvMiYr_-XadjNXKp_f8ndW3KfCqVu-ydCF_nQU1p_nfUJN4MuF3vRm7ncx8w8giBO_v
+r-ycpQ67FpJjyA0uhyV0-4AlkkVhxINR2p3RhsD-6Nq2Sj0VNRUC-bLxoS1ov_X5Up7CP-r5C9_-Tp_rUA1FgttoFDPdnuDyo_4etwy5C-5zcq8b2-h7ptQL
+DNvw90lyr0JtqocmRwXz3_EDR7zYjE-c0_EzDzi_j5xv_kJVD5-kHdjjec_Zf_abvgVPFeLysm3AD9ySFzc_tWZO-1a-pppN7lVzjGQqBoOsFCOtCebzY_Rz
+zXVia-F1Fh7JGRwbF_2ijCAF7rUNHRu-Mk0V-XpSrrDWl-evhAy-fA_h_VW4oZIVrHKu3Pnl-qV4zxE-xMl0Zw_Nqc9VBwyJ7X2V9h__Q6oaH5S_yTEmjsSP
+uAEBJe59VjgNTdUBmozI3VFzXRjJRQCdIHqVyzLqom-8xN_49v3QcZyBNHRWhQnMUR3owxlFlPo50gbbUk--2j1z9T8Uz-Gu7--9J-V37blplpFpM-RXfoNt
+LTaBmFJkNjxNHO3uG_zOUryXmUg-_hpANtzVQqBw7XGqJ_myWKNtTRSHk5MynQjuI-RfkzrkjzljlW8
+}
+
+GCPEntityColoring(CloudOptimizationAIFleetRoutingAPI)
+!define CloudOptimizationAIFleetRoutingAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudOptimizationAIFleetRoutingAPI, CloudOptimizationAIFleetRoutingAPI)
+!define CloudOptimizationAIFleetRoutingAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudOptimizationAIFleetRoutingAPI, CloudOptimizationAIFleetRoutingAPI)
+!define CloudOptimizationAIFleetRoutingAPIParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudOptimizationAIFleetRoutingAPI, CloudOptimizationAIFleetRoutingAPI)
+!define CloudOptimizationAIFleetRoutingAPIParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudOptimizationAIFleetRoutingAPI, CloudOptimizationAIFleetRoutingAPI)

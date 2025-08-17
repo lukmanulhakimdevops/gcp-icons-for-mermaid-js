@@ -1,0 +1,19 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $ApigeeSense [128x128/16z] {
+xPhNbkqW24012VB_FtohjuGSWtfWd3Kh-pcwWJGRZFBmyF3mWDG1FWAzWo6RghViIx_nnVrriryzUBDVlxHVDllLvzZiLyW2TP0DkHlssHiLGc6TPb_oZHgi
+trM2Gti84oAnQ8-yv14CfA-W5Ft4jHAkBtFtIcBrDF-c1evsZfL6DUp9NwnQYQc-BD-s43t2An17de80FLoG__5QpyDU1sA0C-y-0cxyB1QdWp1zGwxqXqll
+-77OBznxVT_G2mpv6p5tOAIbCFwgyp4KGApU4Xp0mdp21h3kvyNxvWMWCkMU7y4Srm1aPdfMtnt2aJJmRan44qEj0bEWD6vpejMXdgNyucK5vdl59RyDOTrF
+4thhBzGDW1BzMCgr1BO0YNue_s7y7E376N_f543M_J3bH-S6XFjj4EVF8ARxRG1a2f3kjm44-mL6oV4pZ48fVe9XJW_0SVRNLJ_2sWtWir_UzQFymgZo_GID
+KNzh847rvxEV-dxAVV_4Aq19yUkjdup-u_msWDS_m2FSRtq5sxrlPFt_R9VDQEb4Y-j-SWfmWimGE7By9JO0FtqCz5_lQJTxA2dZJscOeMz_0d3SRPtCpNzi
+jmqozawW6keNjDzTUZa7vmK_wfN32S0Wg-dxZqgH1itemT6x2n1yxLnSFIzi83WBTtu0HRpqoyhwKtMMc1eKiFxajZChdUvQE9ayuW9e7CoZ2w0noy_YmK4h
+uBrv2CejPZbjNkyt7ahUlib7v0P0ntvsaEaWCW1WkO3Ww8Etl_2KkOK3jY3VE5TJ4pO0DQfXTZyOfGVIXQxKW97dlMJMhX9yuAmwzYXzGyRNxul6wzlJvFTR
+yqv3Qfyg8jfdz_cZA6IVlX5hppy1Lo6S6fHyVWHxpvz-vVEtvPEVltxy1AdWjlGRdznVOMy0a4--Ff-7XuU7X-y
+}
+
+GCPEntityColoring(ApigeeSense)
+!define ApigeeSense(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, ApigeeSense, ApigeeSense)
+!define ApigeeSense(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, ApigeeSense, ApigeeSense)
+!define ApigeeSenseParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ApigeeSense, ApigeeSense)
+!define ApigeeSenseParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, ApigeeSense, ApigeeSense)

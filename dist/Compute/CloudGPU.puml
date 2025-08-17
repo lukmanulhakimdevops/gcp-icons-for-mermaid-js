@@ -1,0 +1,15 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudGPU [128x128/16z] {
+xTe5ZiGm58DXD_EQ-FudNk7gBQGOnGF-XODVcV5_pZddIWwfK-zVhpA5r8dtNystRz--VVl1cnNSY4F2nHe7LHGZdriLOvzR5AEV4_EiOfyuLuXzZcx1NgMc
+EBfMK__xdDQB-IikDSp7nJx2jq-j7sAVMfzQdtVyVaU_7aVzG6gSJwrFhK-j7sAVMfzQdre_n3wrFeVxooErv_EiNn-fs_kVO4gm_sEdcEEp5wRux8KfVh0J
+vlZirERux8KfFdlDF_vaxY7seVMXzIN7__okIO__I6XzQFqYzg7reVMXzQlOXzQ7rb_4FYxvm_O_skkVXDOFiOyFyEtRvs2Ull-v5qSNI0bydAk8VRoPNrxj
+-HiK1PzR9NnEmkUgPj7BBOsfI1rwtyz_shTltxxz9yevvzmN
+}
+
+GCPEntityColoring(CloudGPU)
+!define CloudGPU(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudGPU, CloudGPU)
+!define CloudGPU(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudGPU, CloudGPU)
+!define CloudGPUParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudGPU, CloudGPU)
+!define CloudGPUParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudGPU, CloudGPU)

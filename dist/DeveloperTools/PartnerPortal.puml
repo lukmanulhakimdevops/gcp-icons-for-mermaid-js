@@ -1,0 +1,20 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $PartnerPortal [128x128/16z] {
+xTi7jkiW30HGKGVsl-3VYqCmWr1u_98vzTKh4P1zKaILTzx1G-er-62-zIiE-_Mq7mxxsCtxmtu-xEFFzkjP_-s7mpxsylwmdy_w0FMn3Ky0zRy6VcVhtAyL
+pWZnnxtr-JO0eEYJDC_yMY3N1BuvMofDw93SmriCz7JqBSxBe82IvMkSPZosM1Gtv8S5L8X0DnwWYGWhe5JTV78wdXUWz7Nyomj8QbvVG1duAdwr06pWLGLu
+kozYA00RU5K1sUXBFzcs06E7yFO2ugmlzyc6CuYn7mclAm2SRod2AmjOzOKb_mOq2m3gomp_MnKPLn0dVFyzrr-XV7bOtp2v01Z5NNSWvw_-x2E0OHv-ISEd
+IJyfV13-UhvdZq30C6coWDByQypw0iq2WF6vQP_xufZFPs1f_tDH3I3D0c38-udsvJaQ7nrUqxxqaia8Q0eWl5XkmFW2u8wlb9Vxy1tuEsFU4LvPGEpylCFp
+zekC4wSV0630HzAyUWMwFsvuqhxMvmk0EnxBVk0xy9g6fvDtkNsGrr_8wB7x8FxSv4rcNmO-dxnbtO_K5yM5H-z3UY5dRuFFudRvUSwlX_edazUy__na-pO_
+szftzAaF4c_YKKcIi30VWrGQJtqbNtNX_5w_MdchNztAqz-P-9h0SFPWyEaC00o-AbeUPDof4yZS8JwFTXC06ts-2S1YyNa1QQlFHt44pUlzf7pg_zM-4DyK
+paUvnWZfK-IiBx9MG1J9jtuMjteH2fY9UxfGFRUaRrz_17p7r-nzo4e1gVFBlOxMBe2w2J3oPUqksEGNXL_azRwdFhy5jFXfteVS97tCuo-tUP6V5Eshtduo
+EdzLrRvn1mpc7-EpM0e8xMyzxUjaUW80sfZkl7a1j2IsrOhX-OyuSNV8TvfRVFvxxb6PEcVjz_WJC6bsCatkCtzfdmMQg_Fy8IyLOed23x8bnAUwFOdxJdQ6
+-f3_sy-7VN_u_VToylC7xy-VbCC-_dC_7_RzuS_VoVOSzji2BFmxxtm6
+}
+
+GCPEntityColoring(PartnerPortal)
+!define PartnerPortal(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, PartnerPortal, PartnerPortal)
+!define PartnerPortal(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, PartnerPortal, PartnerPortal)
+!define PartnerPortalParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, PartnerPortal, PartnerPortal)
+!define PartnerPortalParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, PartnerPortal, PartnerPortal)

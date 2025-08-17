@@ -1,662 +1,917 @@
-Categories:
-- Name: AIandMachineLearning
-  Services:
-  - Source: AIHub.png
-    Target: AIHub_png
-  - Source: AIPlatform.png
-    Target: AIPlatform_png
-  - Source: AIPlatformDataLabelingService.png
-    Target: AIPlatformDataLabelingService_png
-  - Source: AdvancedSolutionsLab.png
-    Target: AdvancedSolutionsLab_png
-  - Source: AutoMLNaturalLanguage.png
-    Target: AutoMLNaturalLanguage_png
-  - Source: AutoMLTables.png
-    Target: AutoMLTables_png
-  - Source: AutoMLTranslation.png
-    Target: AutoMLTranslation_png
-  - Source: AutoMLVideoIntelligence.png
-    Target: AutoMLVideoIntelligence_png
-  - Source: AutoMLVision.png
-    Target: AutoMLVision_png
-  - Source: CloudAutoML.png
-    Target: CloudAutoML_png
-  - Source: CloudInferenceAPI.png
-    Target: CloudInferenceAPI_png
-  - Source: CloudJobsAPI.png
-    Target: CloudJobsAPI_png
-  - Source: CloudNaturalLanguageAPI.png
-    Target: CloudNaturalLanguageAPI_png
-  - Source: CloudSpeechtoText.png
-    Target: CloudSpeechtoText_png
-  - Source: CloudTPU.png
-    Target: CloudTPU_png
-  - Source: CloudTexttoSpeech.png
-    Target: CloudTexttoSpeech_png
-  - Source: CloudTranslationAPI.png
-    Target: CloudTranslationAPI_png
-  - Source: CloudVideoIntelligenceAPI.png
-    Target: CloudVideoIntelligenceAPI_png
-  - Source: CloudVisionAPI.png
-    Target: CloudVisionAPI_png
-  - Source: DialogFlowEnterpriseEdition.png
-    Target: DialogFlowEnterpriseEdition_png
-  - Source: RecommendationsAI.png
-    Target: RecommendationsAI_png
-  SourceDir: AIandMachineLearning
-- Name: APIManagement
-  Services:
-  - Source: APIAnalytics.png
-    Target: APIAnalytics_png
-  - Source: APIMonetization.png
-    Target: APIMonetization_png
-  - Source: ApigeeAPIPlatform.png
-    Target: ApigeeAPIPlatform_png
-  - Source: ApigeeSense.png
-    Target: ApigeeSense_png
-  - Source: CloudEndpoints.png
-    Target: CloudEndpoints_png
-  - Source: DeveloperPortal.png
-    Target: DeveloperPortal_png
-  - Source: GoogleMapsPlatform.png
-    Target: GoogleMapsPlatform_png
-  SourceDir: APIManagement
-- Name: BigData
-  Services:
-  - Source: AnalyticsHub.png
-    Target: AnalyticsHub_png
-  - Source: BigQuery.png
-    Target: BigQuery_png
-  - Source: CloudComposer.png
-    Target: CloudComposer_png
-  - Source: DataCatalog.png
-    Target: DataCatalog_png
-  - Source: DataQnA.png
-    Target: DataQnA_png
-  - Source: DataStudio.png
-    Target: DataStudio_png
-  - Source: Dataflow.png
-    Target: Dataflow_png
-  - Source: Datalab.png
-    Target: Datalab_png
-  - Source: Dataplex.png
-    Target: Dataplex_png
-  - Source: Dataprep.png
-    Target: Dataprep_png
-  - Source: Dataproc.png
-    Target: Dataproc_png
-  - Source: DataprocMetastore.png
-    Target: DataprocMetastore_png
-  - Source: Datashare.png
-    Target: Datashare_png
-  - Source: Genomics.png
-    Target: Genomics_png
-  - Source: Looker.png
-    Target: Looker_png
-  - Source: PubSub.png
-    Target: PubSub_png
-  - Source: RealworldInsights.png
-    Target: RealworldInsights_png
-  - Source: StreamSuite.png
-    Target: StreamSuite_png
-  SourceDir: BigData
-- Name: Compute
-  Services:
-  - Source: AppEngine.png
-    Target: AppEngine_png
-  - Source: BareMetalSolutions.png
-    Target: BareMetalSolutions_png
-  - Source: Batch.png
-    Target: Batch_png
-  - Source: CloudFunctions.png
-    Target: CloudFunctions_png
-  - Source: CloudGPU.png
-    Target: CloudGPU_png
-  - Source: CloudRun.png
-    Target: CloudRun_png
-  - Source: CloudRunForAnthos.png
-    Target: CloudRunForAnthos_png
-  - Source: Cloud_Run.png
-    Target: Cloud_Run_png
-  - Source: ComputeEngine.png
-    Target: ComputeEngine_png
-  - Source: ContainerOptimizedOS.png
-    Target: ContainerOptimizedOS_png
-  - Source: ContainerRegistry.png
-    Target: ContainerRegistry_png
-  - Source: GKEOnPrem.png
-    Target: GKEOnPrem_png
-  - Source: GKEOnprem.png
-    Target: GKEOnprem_png
-  - Source: GPU.png
-    Target: GPU_png
-  - Source: GameServers.png
-    Target: GameServers_png
-  - Source: GoogleKubernetesEngine.png
-    Target: GoogleKubernetesEngine_png
-  - Source: KubernetesEngine.png
-    Target: KubernetesEngine_png
-  - Source: Kuberun.png
-    Target: Kuberun_png
-  - Source: MigrateForComputeEngine.png
-    Target: MigrateForComputeEngine_png
-  - Source: QuantumEngine.png
-    Target: QuantumEngine_png
-  - Source: VMwareEngine.png
-    Target: VMwareEngine_png
-  SourceDir: Compute
-- Name: DataAnalytics
-  Services:
-  - Source: BigQuery.png
-    Target: BigQuery_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: CloudComposer.png
-    Target: CloudComposer_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: CloudDataCatalog.png
-    Target: CloudDataCatalog_png
-  - Source: CloudDataFusion.png
-    Target: CloudDataFusion_png
-  - Source: CloudDataflow.png
-    Target: CloudDataflow_png
-  - Source: CloudDatalab.png
-    Target: CloudDatalab_png
-  - Source: CloudDataprep.png
-    Target: CloudDataprep_png
-  - Source: CloudDataproc.png
-    Target: CloudDataproc_png
-  - Source: CloudPubSub.png
-    Target: CloudPubSub_png
-  - Source: Genomics.png
-    Target: Genomics_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  SourceDir: DataAnalytics
-- Name: Databases
-  Services:
-  - Source: Bigtable.png
-    Target: Bigtable_png
-  - Source: CloudBigtable.png
-    Target: CloudBigtable_png
-  - Source: CloudDatastore.png
-    Target: CloudDatastore_png
-  - Source: CloudFirestore.png
-    Target: CloudFirestore_png
-  - Source: CloudMemorystore.png
-    Target: CloudMemorystore_png
-  - Source: CloudSQL.png
-    Target: CloudSQL_png
-  - Source: CloudSpanner.png
-    Target: CloudSpanner_png
-  - Source: Datastore.png
-    Target: Datastore_png
-  - Source: Datastream.png
-    Target: Datastream_png
-  - Source: Firestore.png
-    Target: Firestore_png
-  - Source: Memorystore.png
-    Target: Memorystore_png
-  SourceDir: Databases
-- Name: DeveloperTools
-  Services:
-  - Source: ApigeeAPIPlatform.png
-    Target: ApigeeAPIPlatform_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: ApigeeSense.png
-    Target: ApigeeSense_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: ArtifactRegistry.png
-    Target: ArtifactRegistry_png
-  - Source: CloudAPIGateway.png
-    Target: CloudAPIGateway_png
-  - Source: CloudBuild.png
-    Target: CloudBuild_png
-  - Source: CloudCode.png
-    Target: CloudCode_png
-  - Source: CloudCodeforIntelliJ.png
-    Target: CloudCodeforIntelliJ_png
-  - Source: CloudDeploy.png
-    Target: CloudDeploy_png
-  - Source: CloudSDK.png
-    Target: CloudSDK_png
-  - Source: CloudScheduler.png
-    Target: CloudScheduler_png
-  - Source: CloudSourceRepositories.png
-    Target: CloudSourceRepositories_png
-  - Source: CloudTasks.png
-    Target: CloudTasks_png
-  - Source: CloudTestLab.png
-    Target: CloudTestLab_png
-  - Source: CloudToolsforEclipse.png
-    Target: CloudToolsforEclipse_png
-  - Source: CloudToolsforPowerShell.png
-    Target: CloudToolsforPowerShell_png
-  - Source: CloudToolsforVisualStudio.png
-    Target: CloudToolsforVisualStudio_png
-  - Source: ContainerRegistry.png
-    Target: ContainerRegistry_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: DeveloperPortal.png
-    Target: DeveloperPortal_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: EarlyAccessCenter.png
-    Target: EarlyAccessCenter_png
-  - Source: GradleAppEnginePlugin.png
-    Target: GradleAppEnginePlugin_png
-  - Source: IDEPlugins.png
-    Target: IDEPlugins_png
-  - Source: MavenAppEnginePlugin.png
-    Target: MavenAppEnginePlugin_png
-  - Source: PartnerPortal.png
-    Target: PartnerPortal_png
-  - Source: ProducerPortal.png
-    Target: ProducerPortal_png
-  - Source: ToolsForPowershell.png
-    Target: ToolsForPowershell_png
-  SourceDir: DeveloperTools
-- Name: General
-  Services:
-  - Source: CloudGeneric.png
-    Target: CloudGeneric_png
-  SourceDir: General
-- Name: HybridandMultiCloud
-  Services:
-  - Source: Stackdriver.png
-    Target: Stackdriver_png
-  - Source: TrafficDirector.png
-    Target: TrafficDirector_png
-  SourceDir: HybridandMultiCloud
-- Name: IdentityandSecurity
-  Services:
-  - Source: AccessContextManager.png
-    Target: AccessContextManager_png
-  - Source: AssuredWorkloads.png
-    Target: AssuredWorkloads_png
-  - Source: Beyondcorp.png
-    Target: Beyondcorp_png
-  - Source: BinaryAuthorization.png
-    Target: BinaryAuthorization_png
-  - Source: CertificateAuthorityService.png
-    Target: CertificateAuthorityService_png
-  - Source: CertificateManager.png
-    Target: CertificateManager_png
-  - Source: CloudAuditLogs.png
-    Target: CloudAuditLogs_png
-  - Source: CloudEKM.png
-    Target: CloudEKM_png
-  - Source: CloudHSM.png
-    Target: CloudHSM_png
-  - Source: CloudIDS.png
-    Target: CloudIDS_png
-  - Source: CloudSecurityScanner.png
-    Target: CloudSecurityScanner_png
-  - Source: DataLossPreventionAPI.png
-    Target: DataLossPreventionAPI_png
-  - Source: Datapol.png
-    Target: Datapol_png
-  - Source: IdentityAndAccessManagement.png
-    Target: IdentityAndAccessManagement_png
-  - Source: IdentityAwareProxy.png
-    Target: IdentityAwareProxy_png
-  - Source: IdentityPlatform.png
-    Target: IdentityPlatform_png
-  - Source: KeyAccessJustifications.png
-    Target: KeyAccessJustifications_png
-  - Source: KeyManagementService.png
-    Target: KeyManagementService_png
-  - Source: ManagedServiceForMicrosoftActiveDirectory.png
-    Target: ManagedServiceForMicrosoftActiveDirectory_png
-  - Source: Permissions.png
-    Target: Permissions_png
-  - Source: PhishingProtection.png
-    Target: PhishingProtection_png
-  - Source: PolicyAnalyzer.png
-    Target: PolicyAnalyzer_png
-  - Source: RiskManager.png
-    Target: RiskManager_png
-  - Source: SecretManager.png
-    Target: SecretManager_png
-  - Source: Security.png
-    Target: Security_png
-  - Source: SecurityCommandCenter.png
-    Target: SecurityCommandCenter_png
-  - Source: SecurityHealthAdvisor.png
-    Target: SecurityHealthAdvisor_png
-  - Source: SecurityKeyEnforcement.png
-    Target: SecurityKeyEnforcement_png
-  - Source: WebRisk.png
-    Target: WebRisk_png
-  - Source: WebSecurityScanner.png
-    Target: WebSecurityScanner_png
-  - Source: WorkloadIdentityPool.png
-    Target: WorkloadIdentityPool_png
-  SourceDir: IdentityandSecurity
-- Name: IndustrySolutions
-  Services:
-  - Source: CloudForMarketing.png
-    Target: CloudForMarketing_png
-  - Source: CloudHealthcareMarketplace.png
-    Target: CloudHealthcareMarketplace_png
-  - Source: FinancialServicesMarketplace.png
-    Target: FinancialServicesMarketplace_png
-  SourceDir: IndustrySolutions
-- Name: InternetofThings
-  Services:
-  - Source: CloudIoTCore.png
-    Target: CloudIoTCore_png
-  - Source: IotCore.png
-    Target: IotCore_png
-  - Source: IotEdge.png
-    Target: IotEdge_png
-  SourceDir: InternetofThings
-- Name: MachineLearning
-  Services:
-  - Source: AIHub.png
-    Target: AIHub_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: AIPlatform.png
-    Target: AIPlatform_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: AIPlatformUnified.png
-    Target: AIPlatformUnified_png
-  - Source: AdvancedAgentModeling.png
-    Target: AdvancedAgentModeling_png
-  - Source: AdvancedSolutionsLab.png
-    Target: AdvancedSolutionsLab_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: AgentAssist.png
-    Target: AgentAssist_png
-  - Source: AutoML.png
-    Target: AutoML_png
-  - Source: AutoMLNaturalLanguage.png
-    Target: AutoMLNaturalLanguage_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: AutoMLTables.png
-    Target: AutoMLTables_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: AutoMLTranslation.png
-    Target: AutoMLTranslation_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: AutoMLVideoIntelligence.png
-    Target: AutoMLVideoIntelligence_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: AutoMLVision.png
-    Target: AutoMLVision_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: CloudHealthcareAPI.png
-    Target: CloudHealthcareAPI_png
-  - Source: CloudInferenceAPI.png
-    Target: CloudInferenceAPI_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: CloudJobsAPI.png
-    Target: CloudJobsAPI_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: CloudNaturalLanguageAPI.png
-    Target: CloudNaturalLanguageAPI_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: CloudOptimizationAI.png
-    Target: CloudOptimizationAI_png
-  - Source: CloudOptimizationAIFleetRoutingAPI.png
-    Target: CloudOptimizationAIFleetRoutingAPI_png
-  - Source: CloudTPU.png
-    Target: CloudTPU_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: CloudTranslationAPI.png
-    Target: CloudTranslationAPI_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: CloudVisionAPI.png
-    Target: CloudVisionAPI_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: ContactCenterAI.png
-    Target: ContactCenterAI_png
-  - Source: DataLabeling.png
-    Target: DataLabeling_png
-  - Source: Dialogflow.png
-    Target: Dialogflow_png
-  - Source: DialogflowCX.png
-    Target: DialogflowCX_png
-  - Source: DialogflowInsights.png
-    Target: DialogflowInsights_png
-  - Source: DocumentAI.png
-    Target: DocumentAI_png
-  - Source: HealthcareNLPAPI.png
-    Target: HealthcareNLPAPI_png
-  - Source: MediaTranslationAPI.png
-    Target: MediaTranslationAPI_png
-  - Source: RecommendationsAI.png
-    Target: RecommendationsAI_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: RetailAPI.png
-    Target: RetailAPI_png
-  - Source: SpeechToText.png
-    Target: SpeechToText_png
-  - Source: TensorflowEnterprise.png
-    Target: TensorflowEnterprise_png
-  - Source: TextToSpeech.png
-    Target: TextToSpeech_png
-  - Source: VertexAI.png
-    Target: VertexAI_png
-  - Source: VideoIntelligenceAPI.png
-    Target: VideoIntelligenceAPI_png
-  - Source: VisualInspection.png
-    Target: VisualInspection_png
-  SourceDir: MachineLearning
-- Name: ManagementTools
-  Services:
-  - Source: API.png
-    Target: API_png
-  - Source: Administration.png
-    Target: Administration_png
-  - Source: Anthos.png
-    Target: Anthos_png
-  - Source: AnthosConfigManagement.png
-    Target: AnthosConfigManagement_png
-  - Source: AnthosServiceMesh.png
-    Target: AnthosServiceMesh_png
-  - Source: AssetInventory.png
-    Target: AssetInventory_png
-  - Source: Billing.png
-    Target: Billing_png
-  - Source: Catalog.png
-    Target: Catalog_png
-  - Source: CloudAPIs.png
-    Target: CloudAPIs_png
-  - Source: CloudAssetInventory.png
-    Target: CloudAssetInventory_png
-  - Source: CloudBillingAPI.png
-    Target: CloudBillingAPI_png
-  - Source: CloudConsole.png
-    Target: CloudConsole_png
-  - Source: CloudDeploymentManager.png
-    Target: CloudDeploymentManager_png
-  - Source: CloudDomains.png
-    Target: CloudDomains_png
-  - Source: CloudLogging.png
-    Target: CloudLogging_png
-  - Source: CloudMobileApp.png
-    Target: CloudMobileApp_png
-  - Source: CloudMonitoring.png
-    Target: CloudMonitoring_png
-  - Source: CloudOps.png
-    Target: CloudOps_png
-  - Source: CloudServiceMesh.png
-    Target: CloudServiceMesh_png
-  - Source: CloudShell.png
-    Target: CloudShell_png
-  - Source: ConfigurationManagement.png
-    Target: ConfigurationManagement_png
-  - Source: Debugger.png
-    Target: Debugger_png
-  - Source: ErrorReporting.png
-    Target: ErrorReporting_png
-  - Source: Eventarc.png
-    Target: Eventarc_png
-  - Source: FleetEngine.png
-    Target: FleetEngine_png
-  - Source: FreeTrial.png
-    Target: FreeTrial_png
-  - Source: GCESystemsManagement.png
-    Target: GCESystemsManagement_png
-  - Source: GoogleCloudMarketplace.png
-    Target: GoogleCloudMarketplace_png
-  - Source: Home.png
-    Target: Home_png
-  - Source: Launcher.png
-    Target: Launcher_png
-  - Source: Logging.png
-    Target: Logging_png
-  - Source: MigrateForAnthos.png
-    Target: MigrateForAnthos_png
-  - Source: Monitoring.png
-    Target: Monitoring_png
-  - Source: MyCloud.png
-    Target: MyCloud_png
-  - Source: OSConfigurationManagement.png
-    Target: OSConfigurationManagement_png
-  - Source: OSInventoryManagement.png
-    Target: OSInventoryManagement_png
-  - Source: OSPatchManagement.png
-    Target: OSPatchManagement_png
-  - Source: Onboarding.png
-    Target: Onboarding_png
-  - Source: PerformanceDashboard.png
-    Target: PerformanceDashboard_png
-  - Source: Profiler.png
-    Target: Profiler_png
-  - Source: Project.png
-    Target: Project_png
-  - Source: Quotas.png
-    Target: Quotas_png
-  - Source: ReleaseNotes.png
-    Target: ReleaseNotes_png
-  - Source: RuntimeConfig.png
-    Target: RuntimeConfig_png
-  - Source: Stackdriver.png
-    Target: Stackdriver_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: Support.png
-    Target: Support_png
-  - Source: Trace.png
-    Target: Trace_png
-  - Source: UserPreferences.png
-    Target: UserPreferences_png
-  - Source: Workflows.png
-    Target: Workflows_png
-  SourceDir: ManagementTools
-- Name: Migration
-  Services:
-  - Source: DataTransfer.png
-    Target: DataTransfer_png
-  - Source: DatabaseMigrationService.png
-    Target: DatabaseMigrationService_png
-  - Source: Transfer.png
-    Target: Transfer_png
-  - Source: TransferAppliance.png
-    Target: TransferAppliance_png
-  - Source: Transfer_Appliance.png
-    Target: Transfer_Appliance_png
-  SourceDir: Migration
-- Name: Networking
-  Services:
-  - Source: CloudArmor.png
-    Target: CloudArmor_png
-  - Source: CloudCDN.png
-    Target: CloudCDN_png
-  - Source: CloudDNS.png
-    Target: CloudDNS_png
-  - Source: CloudEndpoints.png
-    Target: CloudEndpoints_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: CloudExternalIPAddresses.png
-    Target: CloudExternalIPAddresses_png
-  - Source: CloudFirewallRules.png
-    Target: CloudFirewallRules_png
-  - Source: CloudInterconnect.png
-    Target: CloudInterconnect_png
-  - Source: CloudLoadBalancing.png
-    Target: CloudLoadBalancing_png
-  - Source: CloudMediaEdge.png
-    Target: CloudMediaEdge_png
-  - Source: CloudNAT.png
-    Target: CloudNAT_png
-  - Source: CloudNetwork.png
-    Target: CloudNetwork_png
-  - Source: CloudRouter.png
-    Target: CloudRouter_png
-  - Source: CloudRoutes.png
-    Target: CloudRoutes_png
-  - Source: CloudVPN.png
-    Target: CloudVPN_png
-  - Source: Cloud_Network.png
-    Target: Cloud_Network_png
-  - Source: ConnectivityTest.png
-    Target: ConnectivityTest_png
-  - Source: Connectors.png
-    Target: Connectors_png
-  - Source: DedicatedInterconnect.png
-    Target: DedicatedInterconnect_png
-  - Source: NetworkConnectivityCenter.png
-    Target: NetworkConnectivityCenter_png
-  - Source: NetworkIntelligenceCenter.png
-    Target: NetworkIntelligenceCenter_png
-  - Source: NetworkSecurity.png
-    Target: NetworkSecurity_png
-  - Source: NetworkTiers.png
-    Target: NetworkTiers_png
-  - Source: NetworkTopology.png
-    Target: NetworkTopology_png
-  - Source: PartnerInterconnect.png
-    Target: PartnerInterconnect_png
-  - Source: PremiumNetworkTier.png
-    Target: PremiumNetworkTier_png
-  - Source: PrivateConnectivity.png
-    Target: PrivateConnectivity_png
-  - Source: PrivateServiceConnect.png
-    Target: PrivateServiceConnect_png
-  - Source: ServiceDiscovery.png
-    Target: ServiceDiscovery_png
-  - Source: StandardNetworkTier.png
-    Target: StandardNetworkTier_png
-  - Source: TrafficDirector.png
-    Target: TrafficDirector_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: VirtualPrivateCloud.png
-    Target: VirtualPrivateCloud_png
-  SourceDir: Networking
-- Name: Security
-  Services:
-  - Source: CloudIAM.png
-    Target: CloudIAM_png
-  - Source: CloudResourceManager.png
-    Target: CloudResourceManager_png
-  - Source: CloudSecurityCommandCenter.png
-    Target: CloudSecurityCommandCenter_png
-  - Source: CloudSecurityScanner.png
-    Target: CloudSecurityScanner_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  - Source: KeyManagementService.png
-    Target: KeyManagementService_png
-    ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
-  SourceDir: Security
-- Name: Storage
-  Services:
-  - Source: CloudFilestore.png
-    Target: CloudFilestore_png
-  - Source: CloudStorage.png
-    Target: CloudStorage_png
-  - Source: DataLayers.png
-    Target: DataLayers_png
-  - Source: Filestore.png
-    Target: Filestore_png
-  - Source: LocalSSD.png
-    Target: LocalSSD_png
-  - Source: PersistentDisk.png
-    Target: PersistentDisk_png
-  - Source: Persistent_Disk.png
-    Target: Persistent_Disk_png
-  SourceDir: Storage
 Defaults:
   Category:
-    Color: GoogleBlue
+    Color: Blue
   Colors:
-    GoogleBlue: '#4284F3'
-  TargetMaxSize: 64
+    Blue: '#4284F3'
+    Black: '#000000'
+    White: '#FFFFFF'
+Categories:
+- Name: AIandMachineLearning
+  SourceDir: AIandMachineLearning
+  Services:
+  - Source: AIHub.png
+    Target: AIHub
+    Color: Blue
+  - Source: AIPlatform.png
+    Target: AIPlatform
+    Color: Blue
+  - Source: AIPlatformDataLabelingService.png
+    Target: AIPlatformDataLabelingService
+    Color: Blue
+  - Source: AdvancedSolutionsLab.png
+    Target: AdvancedSolutionsLab
+    Color: Blue
+  - Source: AutoMLNaturalLanguage.png
+    Target: AutoMLNaturalLanguage
+    Color: Blue
+  - Source: AutoMLTables.png
+    Target: AutoMLTables
+    Color: Blue
+  - Source: AutoMLTranslation.png
+    Target: AutoMLTranslation
+    Color: Blue
+  - Source: AutoMLVideoIntelligence.png
+    Target: AutoMLVideoIntelligence
+    Color: Blue
+  - Source: AutoMLVision.png
+    Target: AutoMLVision
+    Color: Blue
+  - Source: CloudAutoML.png
+    Target: CloudAutoML
+    Color: Blue
+  - Source: CloudInferenceAPI.png
+    Target: CloudInferenceAPI
+    Color: Blue
+  - Source: CloudJobsAPI.png
+    Target: CloudJobsAPI
+    Color: Blue
+  - Source: CloudNaturalLanguageAPI.png
+    Target: CloudNaturalLanguageAPI
+    Color: Blue
+  - Source: CloudSpeechtoText.png
+    Target: CloudSpeechtoText
+    Color: Blue
+  - Source: CloudTPU.png
+    Target: CloudTPU
+    Color: Blue
+  - Source: CloudTexttoSpeech.png
+    Target: CloudTexttoSpeech
+    Color: Blue
+  - Source: CloudTranslationAPI.png
+    Target: CloudTranslationAPI
+    Color: Blue
+  - Source: CloudVideoIntelligenceAPI.png
+    Target: CloudVideoIntelligenceAPI
+    Color: Blue
+  - Source: CloudVisionAPI.png
+    Target: CloudVisionAPI
+    Color: Blue
+  - Source: DialogFlowEnterpriseEdition.png
+    Target: DialogFlowEnterpriseEdition
+    Color: Blue
+  - Source: RecommendationsAI.png
+    Target: RecommendationsAI
+    Color: Blue
+- Name: APIManagement
+  SourceDir: APIManagement
+  Services:
+  - Source: APIAnalytics.png
+    Target: APIAnalytics
+    Color: Blue
+  - Source: APIMonetization.png
+    Target: APIMonetization
+    Color: Blue
+  - Source: ApigeeAPIPlatform.png
+    Target: ApigeeAPIPlatform
+    Color: Blue
+  - Source: ApigeeSense.png
+    Target: ApigeeSense
+    Color: Blue
+  - Source: CloudEndpoints.png
+    Target: CloudEndpoints
+    Color: Blue
+  - Source: DeveloperPortal.png
+    Target: DeveloperPortal
+    Color: Blue
+  - Source: GoogleMapsPlatform.png
+    Target: GoogleMapsPlatform
+    Color: Blue
+- Name: BigData
+  SourceDir: BigData
+  Services:
+  - Source: AnalyticsHub.png
+    Target: AnalyticsHub
+    Color: Blue
+  - Source: BigQuery.png
+    Target: BigQuery
+    Color: Blue
+  - Source: CloudComposer.png
+    Target: CloudComposer
+    Color: Blue
+  - Source: DataCatalog.png
+    Target: DataCatalog
+    Color: Blue
+  - Source: DataQnA.png
+    Target: DataQnA
+    Color: Blue
+  - Source: DataStudio.png
+    Target: DataStudio
+    Color: Blue
+  - Source: Dataflow.png
+    Target: Dataflow
+    Color: Blue
+  - Source: Datalab.png
+    Target: Datalab
+    Color: Blue
+  - Source: Dataplex.png
+    Target: Dataplex
+    Color: Blue
+  - Source: Dataprep.png
+    Target: Dataprep
+    Color: Blue
+  - Source: Dataproc.png
+    Target: Dataproc
+    Color: Blue
+  - Source: DataprocMetastore.png
+    Target: DataprocMetastore
+    Color: Blue
+  - Source: Datashare.png
+    Target: Datashare
+    Color: Blue
+  - Source: Genomics.png
+    Target: Genomics
+    Color: Blue
+  - Source: Looker.png
+    Target: Looker
+    Color: Blue
+  - Source: PubSub.png
+    Target: PubSub
+    Color: Blue
+  - Source: RealworldInsights.png
+    Target: RealworldInsights
+    Color: Blue
+  - Source: StreamSuite.png
+    Target: StreamSuite
+    Color: Blue
+- Name: Compute
+  SourceDir: Compute
+  Services:
+  - Source: AppEngine.png
+    Target: AppEngine
+    Color: Blue
+  - Source: BareMetalSolutions.png
+    Target: BareMetalSolutions
+    Color: Blue
+  - Source: Batch.png
+    Target: Batch
+    Color: Blue
+  - Source: CloudFunctions.png
+    Target: CloudFunctions
+    Color: Blue
+  - Source: CloudGPU.png
+    Target: CloudGPU
+    Color: Blue
+  - Source: CloudRun.png
+    Target: CloudRun
+    Color: Blue
+  - Source: CloudRunForAnthos.png
+    Target: CloudRunForAnthos
+    Color: Blue
+  - Source: Cloud_Run.png
+    Target: Cloud_Run
+    Color: Blue
+  - Source: ComputeEngine.png
+    Target: ComputeEngine
+    Color: Blue
+  - Source: ContainerOptimizedOS.png
+    Target: ContainerOptimizedOS
+    Color: Blue
+  - Source: ContainerRegistry.png
+    Target: ContainerRegistry
+    Color: Blue
+  - Source: GKEOnPrem.png
+    Target: GKEOnPrem
+    Color: Blue
+  - Source: GPU.png
+    Target: GPU
+    Color: Blue
+  - Source: GameServers.png
+    Target: GameServers
+    Color: Blue
+  - Source: GoogleKubernetesEngine.png
+    Target: GoogleKubernetesEngine
+    Color: Blue
+  - Source: KubernetesEngine.png
+    Target: KubernetesEngine
+    Color: Blue
+  - Source: Kuberun.png
+    Target: Kuberun
+    Color: Blue
+  - Source: MigrateForComputeEngine.png
+    Target: MigrateForComputeEngine
+    Color: Blue
+  - Source: QuantumEngine.png
+    Target: QuantumEngine
+    Color: Blue
+  - Source: VMwareEngine.png
+    Target: VMwareEngine
+    Color: Blue
+- Name: DataAnalytics
+  SourceDir: DataAnalytics
+  Services:
+  - Source: BigQuery.png
+    Target: BigQuery
+    Color: Blue
+  - Source: CloudComposer.png
+    Target: CloudComposer
+    Color: Blue
+  - Source: CloudDataCatalog.png
+    Target: CloudDataCatalog
+    Color: Blue
+  - Source: CloudDataFusion.png
+    Target: CloudDataFusion
+    Color: Blue
+  - Source: CloudDataflow.png
+    Target: CloudDataflow
+    Color: Blue
+  - Source: CloudDatalab.png
+    Target: CloudDatalab
+    Color: Blue
+  - Source: CloudDataprep.png
+    Target: CloudDataprep
+    Color: Blue
+  - Source: CloudDataproc.png
+    Target: CloudDataproc
+    Color: Blue
+  - Source: CloudPubSub.png
+    Target: CloudPubSub
+    Color: Blue
+  - Source: Genomics.png
+    Target: Genomics
+    Color: Blue
+- Name: Databases
+  SourceDir: Databases
+  Services:
+  - Source: Bigtable.png
+    Target: Bigtable
+    Color: Blue
+  - Source: CloudBigtable.png
+    Target: CloudBigtable
+    Color: Blue
+  - Source: CloudDatastore.png
+    Target: CloudDatastore
+    Color: Blue
+  - Source: CloudFirestore.png
+    Target: CloudFirestore
+    Color: Blue
+  - Source: CloudMemorystore.png
+    Target: CloudMemorystore
+    Color: Blue
+  - Source: CloudSQL.png
+    Target: CloudSQL
+    Color: Blue
+  - Source: CloudSpanner.png
+    Target: CloudSpanner
+    Color: Blue
+  - Source: Datastore.png
+    Target: Datastore
+    Color: Blue
+  - Source: Datastream.png
+    Target: Datastream
+    Color: Blue
+  - Source: Firestore.png
+    Target: Firestore
+    Color: Blue
+  - Source: Memorystore.png
+    Target: Memorystore
+    Color: Blue
+- Name: DeveloperTools
+  SourceDir: DeveloperTools
+  Services:
+  - Source: ApigeeAPIPlatform.png
+    Target: ApigeeAPIPlatform
+    Color: Blue
+  - Source: ApigeeSense.png
+    Target: ApigeeSense
+    Color: Blue
+  - Source: ArtifactRegistry.png
+    Target: ArtifactRegistry
+    Color: Blue
+  - Source: CloudAPIGateway.png
+    Target: CloudAPIGateway
+    Color: Blue
+  - Source: CloudBuild.png
+    Target: CloudBuild
+    Color: Blue
+  - Source: CloudCode.png
+    Target: CloudCode
+    Color: Blue
+  - Source: CloudCodeforIntelliJ.png
+    Target: CloudCodeforIntelliJ
+    Color: Blue
+  - Source: CloudDeploy.png
+    Target: CloudDeploy
+    Color: Blue
+  - Source: CloudSDK.png
+    Target: CloudSDK
+    Color: Blue
+  - Source: CloudScheduler.png
+    Target: CloudScheduler
+    Color: Blue
+  - Source: CloudSourceRepositories.png
+    Target: CloudSourceRepositories
+    Color: Blue
+  - Source: CloudTasks.png
+    Target: CloudTasks
+    Color: Blue
+  - Source: CloudTestLab.png
+    Target: CloudTestLab
+    Color: Blue
+  - Source: CloudToolsforEclipse.png
+    Target: CloudToolsforEclipse
+    Color: Blue
+  - Source: CloudToolsforPowerShell.png
+    Target: CloudToolsforPowerShell
+    Color: Blue
+  - Source: CloudToolsforVisualStudio.png
+    Target: CloudToolsforVisualStudio
+    Color: Blue
+  - Source: ContainerRegistry.png
+    Target: ContainerRegistry
+    Color: Blue
+  - Source: DeveloperPortal.png
+    Target: DeveloperPortal
+    Color: Blue
+  - Source: EarlyAccessCenter.png
+    Target: EarlyAccessCenter
+    Color: Blue
+  - Source: GradleAppEnginePlugin.png
+    Target: GradleAppEnginePlugin
+    Color: Blue
+  - Source: IDEPlugins.png
+    Target: IDEPlugins
+    Color: Blue
+  - Source: MavenAppEnginePlugin.png
+    Target: MavenAppEnginePlugin
+    Color: Blue
+  - Source: PartnerPortal.png
+    Target: PartnerPortal
+    Color: Blue
+  - Source: ProducerPortal.png
+    Target: ProducerPortal
+    Color: Blue
+  - Source: ToolsForPowershell.png
+    Target: ToolsForPowershell
+    Color: Blue
+- Name: General
+  SourceDir: General
+  Services:
+  - Source: CloudGeneric.png
+    Target: CloudGeneric
+    Color: Blue
+- Name: HybridandMultiCloud
+  SourceDir: HybridandMultiCloud
+  Services:
+  - Source: Stackdriver.png
+    Target: Stackdriver
+    Color: Blue
+  - Source: TrafficDirector.png
+    Target: TrafficDirector
+    Color: Blue
+- Name: IdentityandSecurity
+  SourceDir: IdentityandSecurity
+  Services:
+  - Source: AccessContextManager.png
+    Target: AccessContextManager
+    Color: Blue
+  - Source: AssuredWorkloads.png
+    Target: AssuredWorkloads
+    Color: Blue
+  - Source: Beyondcorp.png
+    Target: Beyondcorp
+    Color: Blue
+  - Source: BinaryAuthorization.png
+    Target: BinaryAuthorization
+    Color: Blue
+  - Source: CertificateAuthorityService.png
+    Target: CertificateAuthorityService
+    Color: Blue
+  - Source: CertificateManager.png
+    Target: CertificateManager
+    Color: Blue
+  - Source: CloudAuditLogs.png
+    Target: CloudAuditLogs
+    Color: Blue
+  - Source: CloudEKM.png
+    Target: CloudEKM
+    Color: Blue
+  - Source: CloudHSM.png
+    Target: CloudHSM
+    Color: Blue
+  - Source: CloudIDS.png
+    Target: CloudIDS
+    Color: Blue
+  - Source: CloudSecurityScanner.png
+    Target: CloudSecurityScanner
+    Color: Blue
+  - Source: DataLossPreventionAPI.png
+    Target: DataLossPreventionAPI
+    Color: Blue
+  - Source: Datapol.png
+    Target: Datapol
+    Color: Blue
+  - Source: IdentityAndAccessManagement.png
+    Target: IdentityAndAccessManagement
+    Color: Blue
+  - Source: IdentityAwareProxy.png
+    Target: IdentityAwareProxy
+    Color: Blue
+  - Source: IdentityPlatform.png
+    Target: IdentityPlatform
+    Color: Blue
+  - Source: KeyAccessJustifications.png
+    Target: KeyAccessJustifications
+    Color: Blue
+  - Source: KeyManagementService.png
+    Target: KeyManagementService
+    Color: Blue
+  - Source: ManagedServiceForMicrosoftActiveDirectory.png
+    Target: ManagedServiceForMicrosoftActiveDirectory
+    Color: Blue
+  - Source: Permissions.png
+    Target: Permissions
+    Color: Blue
+  - Source: PhishingProtection.png
+    Target: PhishingProtection
+    Color: Blue
+  - Source: PolicyAnalyzer.png
+    Target: PolicyAnalyzer
+    Color: Blue
+  - Source: RiskManager.png
+    Target: RiskManager
+    Color: Blue
+  - Source: SecretManager.png
+    Target: SecretManager
+    Color: Blue
+  - Source: Security.png
+    Target: Security
+    Color: Blue
+  - Source: SecurityCommandCenter.png
+    Target: SecurityCommandCenter
+    Color: Blue
+  - Source: SecurityHealthAdvisor.png
+    Target: SecurityHealthAdvisor
+    Color: Blue
+  - Source: SecurityKeyEnforcement.png
+    Target: SecurityKeyEnforcement
+    Color: Blue
+  - Source: WebRisk.png
+    Target: WebRisk
+    Color: Blue
+  - Source: WebSecurityScanner.png
+    Target: WebSecurityScanner
+    Color: Blue
+  - Source: WorkloadIdentityPool.png
+    Target: WorkloadIdentityPool
+    Color: Blue
+- Name: IndustrySolutions
+  SourceDir: IndustrySolutions
+  Services:
+  - Source: CloudForMarketing.png
+    Target: CloudForMarketing
+    Color: Blue
+  - Source: CloudHealthcareMarketplace.png
+    Target: CloudHealthcareMarketplace
+    Color: Blue
+  - Source: FinancialServicesMarketplace.png
+    Target: FinancialServicesMarketplace
+    Color: Blue
+- Name: InternetofThings
+  SourceDir: InternetofThings
+  Services:
+  - Source: CloudIoTCore.png
+    Target: CloudIoTCore
+    Color: Blue
+  - Source: IotCore.png
+    Target: IotCore
+    Color: Blue
+  - Source: IotEdge.png
+    Target: IotEdge
+    Color: Blue
+- Name: MachineLearning
+  SourceDir: MachineLearning
+  Services:
+  - Source: AIHub.png
+    Target: AIHub
+    Color: Blue
+  - Source: AIPlatform.png
+    Target: AIPlatform
+    Color: Blue
+  - Source: AIPlatformUnified.png
+    Target: AIPlatformUnified
+    Color: Blue
+  - Source: AdvancedAgentModeling.png
+    Target: AdvancedAgentModeling
+    Color: Blue
+  - Source: AdvancedSolutionsLab.png
+    Target: AdvancedSolutionsLab
+    Color: Blue
+  - Source: AgentAssist.png
+    Target: AgentAssist
+    Color: Blue
+  - Source: AutoML.png
+    Target: AutoML
+    Color: Blue
+  - Source: AutoMLNaturalLanguage.png
+    Target: AutoMLNaturalLanguage
+    Color: Blue
+  - Source: AutoMLTables.png
+    Target: AutoMLTables
+    Color: Blue
+  - Source: AutoMLTranslation.png
+    Target: AutoMLTranslation
+    Color: Blue
+  - Source: AutoMLVideoIntelligence.png
+    Target: AutoMLVideoIntelligence
+    Color: Blue
+  - Source: AutoMLVision.png
+    Target: AutoMLVision
+    Color: Blue
+  - Source: CloudHealthcareAPI.png
+    Target: CloudHealthcareAPI
+    Color: Blue
+  - Source: CloudInferenceAPI.png
+    Target: CloudInferenceAPI
+    Color: Blue
+  - Source: CloudJobsAPI.png
+    Target: CloudJobsAPI
+    Color: Blue
+  - Source: CloudNaturalLanguageAPI.png
+    Target: CloudNaturalLanguageAPI
+    Color: Blue
+  - Source: CloudOptimizationAI.png
+    Target: CloudOptimizationAI
+    Color: Blue
+  - Source: CloudOptimizationAIFleetRoutingAPI.png
+    Target: CloudOptimizationAIFleetRoutingAPI
+    Color: Blue
+  - Source: CloudTPU.png
+    Target: CloudTPU
+    Color: Blue
+  - Source: CloudTranslationAPI.png
+    Target: CloudTranslationAPI
+    Color: Blue
+  - Source: CloudVisionAPI.png
+    Target: CloudVisionAPI
+    Color: Blue
+  - Source: ContactCenterAI.png
+    Target: ContactCenterAI
+    Color: Blue
+  - Source: DataLabeling.png
+    Target: DataLabeling
+    Color: Blue
+  - Source: Dialogflow.png
+    Target: Dialogflow
+    Color: Blue
+  - Source: DialogflowCX.png
+    Target: DialogflowCX
+    Color: Blue
+  - Source: DialogflowInsights.png
+    Target: DialogflowInsights
+    Color: Blue
+  - Source: DocumentAI.png
+    Target: DocumentAI
+    Color: Blue
+  - Source: HealthcareNLPAPI.png
+    Target: HealthcareNLPAPI
+    Color: Blue
+  - Source: MediaTranslationAPI.png
+    Target: MediaTranslationAPI
+    Color: Blue
+  - Source: RecommendationsAI.png
+    Target: RecommendationsAI
+    Color: Blue
+  - Source: RetailAPI.png
+    Target: RetailAPI
+    Color: Blue
+  - Source: SpeechToText.png
+    Target: SpeechToText
+    Color: Blue
+  - Source: TensorflowEnterprise.png
+    Target: TensorflowEnterprise
+    Color: Blue
+  - Source: TextToSpeech.png
+    Target: TextToSpeech
+    Color: Blue
+  - Source: VertexAI.png
+    Target: VertexAI
+    Color: Blue
+  - Source: VideoIntelligenceAPI.png
+    Target: VideoIntelligenceAPI
+    Color: Blue
+  - Source: VisualInspection.png
+    Target: VisualInspection
+    Color: Blue
+- Name: ManagementTools
+  SourceDir: ManagementTools
+  Services:
+  - Source: API.png
+    Target: API
+    Color: Blue
+  - Source: Administration.png
+    Target: Administration
+    Color: Blue
+  - Source: Anthos.png
+    Target: Anthos
+    Color: Blue
+  - Source: AnthosConfigManagement.png
+    Target: AnthosConfigManagement
+    Color: Blue
+  - Source: AnthosServiceMesh.png
+    Target: AnthosServiceMesh
+    Color: Blue
+  - Source: AssetInventory.png
+    Target: AssetInventory
+    Color: Blue
+  - Source: Billing.png
+    Target: Billing
+    Color: Blue
+  - Source: Catalog.png
+    Target: Catalog
+    Color: Blue
+  - Source: CloudAPIs.png
+    Target: CloudAPIs
+    Color: Blue
+  - Source: CloudAssetInventory.png
+    Target: CloudAssetInventory
+    Color: Blue
+  - Source: CloudBillingAPI.png
+    Target: CloudBillingAPI
+    Color: Blue
+  - Source: CloudConsole.png
+    Target: CloudConsole
+    Color: Blue
+  - Source: CloudDeploymentManager.png
+    Target: CloudDeploymentManager
+    Color: Blue
+  - Source: CloudDomains.png
+    Target: CloudDomains
+    Color: Blue
+  - Source: CloudLogging.png
+    Target: CloudLogging
+    Color: Blue
+  - Source: CloudMobileApp.png
+    Target: CloudMobileApp
+    Color: Blue
+  - Source: CloudMonitoring.png
+    Target: CloudMonitoring
+    Color: Blue
+  - Source: CloudOps.png
+    Target: CloudOps
+    Color: Blue
+  - Source: CloudServiceMesh.png
+    Target: CloudServiceMesh
+    Color: Blue
+  - Source: CloudShell.png
+    Target: CloudShell
+    Color: Blue
+  - Source: ConfigurationManagement.png
+    Target: ConfigurationManagement
+    Color: Blue
+  - Source: Debugger.png
+    Target: Debugger
+    Color: Blue
+  - Source: ErrorReporting.png
+    Target: ErrorReporting
+    Color: Blue
+  - Source: Eventarc.png
+    Target: Eventarc
+    Color: Blue
+  - Source: FleetEngine.png
+    Target: FleetEngine
+    Color: Blue
+  - Source: FreeTrial.png
+    Target: FreeTrial
+    Color: Blue
+  - Source: GCESystemsManagement.png
+    Target: GCESystemsManagement
+    Color: Blue
+  - Source: GoogleCloudMarketplace.png
+    Target: GoogleCloudMarketplace
+    Color: Blue
+  - Source: Home.png
+    Target: Home
+    Color: Blue
+  - Source: Launcher.png
+    Target: Launcher
+    Color: Blue
+  - Source: Logging.png
+    Target: Logging
+    Color: Blue
+  - Source: MigrateForAnthos.png
+    Target: MigrateForAnthos
+    Color: Blue
+  - Source: Monitoring.png
+    Target: Monitoring
+    Color: Blue
+  - Source: MyCloud.png
+    Target: MyCloud
+    Color: Blue
+  - Source: OSConfigurationManagement.png
+    Target: OSConfigurationManagement
+    Color: Blue
+  - Source: OSInventoryManagement.png
+    Target: OSInventoryManagement
+    Color: Blue
+  - Source: OSPatchManagement.png
+    Target: OSPatchManagement
+    Color: Blue
+  - Source: Onboarding.png
+    Target: Onboarding
+    Color: Blue
+  - Source: PerformanceDashboard.png
+    Target: PerformanceDashboard
+    Color: Blue
+  - Source: Profiler.png
+    Target: Profiler
+    Color: Blue
+  - Source: Project.png
+    Target: Project
+    Color: Blue
+  - Source: Quotas.png
+    Target: Quotas
+    Color: Blue
+  - Source: ReleaseNotes.png
+    Target: ReleaseNotes
+    Color: Blue
+  - Source: RuntimeConfig.png
+    Target: RuntimeConfig
+    Color: Blue
+  - Source: Stackdriver.png
+    Target: Stackdriver
+    Color: Blue
+  - Source: Support.png
+    Target: Support
+    Color: Blue
+  - Source: Trace.png
+    Target: Trace
+    Color: Blue
+  - Source: UserPreferences.png
+    Target: UserPreferences
+    Color: Blue
+  - Source: Workflows.png
+    Target: Workflows
+    Color: Blue
+- Name: Migration
+  SourceDir: Migration
+  Services:
+  - Source: DataTransfer.png
+    Target: DataTransfer
+    Color: Blue
+  - Source: DatabaseMigrationService.png
+    Target: DatabaseMigrationService
+    Color: Blue
+  - Source: Transfer.png
+    Target: Transfer
+    Color: Blue
+  - Source: TransferAppliance.png
+    Target: TransferAppliance
+    Color: Blue
+  - Source: Transfer_Appliance.png
+    Target: Transfer_Appliance
+    Color: Blue
+- Name: Networking
+  SourceDir: Networking
+  Services:
+  - Source: CloudArmor.png
+    Target: CloudArmor
+    Color: Blue
+  - Source: CloudCDN.png
+    Target: CloudCDN
+    Color: Blue
+  - Source: CloudDNS.png
+    Target: CloudDNS
+    Color: Blue
+  - Source: CloudEndpoints.png
+    Target: CloudEndpoints
+    Color: Blue
+  - Source: CloudExternalIPAddresses.png
+    Target: CloudExternalIPAddresses
+    Color: Blue
+  - Source: CloudFirewallRules.png
+    Target: CloudFirewallRules
+    Color: Blue
+  - Source: CloudInterconnect.png
+    Target: CloudInterconnect
+    Color: Blue
+  - Source: CloudLoadBalancing.png
+    Target: CloudLoadBalancing
+    Color: Blue
+  - Source: CloudMediaEdge.png
+    Target: CloudMediaEdge
+    Color: Blue
+  - Source: CloudNAT.png
+    Target: CloudNAT
+    Color: Blue
+  - Source: CloudNetwork.png
+    Target: CloudNetwork
+    Color: Blue
+  - Source: CloudRouter.png
+    Target: CloudRouter
+    Color: Blue
+  - Source: CloudRoutes.png
+    Target: CloudRoutes
+    Color: Blue
+  - Source: CloudVPN.png
+    Target: CloudVPN
+    Color: Blue
+  - Source: ConnectivityTest.png
+    Target: ConnectivityTest
+    Color: Blue
+  - Source: Connectors.png
+    Target: Connectors
+    Color: Blue
+  - Source: DedicatedInterconnect.png
+    Target: DedicatedInterconnect
+    Color: Blue
+  - Source: NetworkConnectivityCenter.png
+    Target: NetworkConnectivityCenter
+    Color: Blue
+  - Source: NetworkIntelligenceCenter.png
+    Target: NetworkIntelligenceCenter
+    Color: Blue
+  - Source: NetworkSecurity.png
+    Target: NetworkSecurity
+    Color: Blue
+  - Source: NetworkTiers.png
+    Target: NetworkTiers
+    Color: Blue
+  - Source: NetworkTopology.png
+    Target: NetworkTopology
+    Color: Blue
+  - Source: PartnerInterconnect.png
+    Target: PartnerInterconnect
+    Color: Blue
+  - Source: PremiumNetworkTier.png
+    Target: PremiumNetworkTier
+    Color: Blue
+  - Source: PrivateConnectivity.png
+    Target: PrivateConnectivity
+    Color: Blue
+  - Source: PrivateServiceConnect.png
+    Target: PrivateServiceConnect
+    Color: Blue
+  - Source: ServiceDiscovery.png
+    Target: ServiceDiscovery
+    Color: Blue
+  - Source: StandardNetworkTier.png
+    Target: StandardNetworkTier
+    Color: Blue
+  - Source: TrafficDirector.png
+    Target: TrafficDirector
+    Color: Blue
+  - Source: VirtualPrivateCloud.png
+    Target: VirtualPrivateCloud
+    Color: Blue
+- Name: Security
+  SourceDir: Security
+  Services:
+  - Source: CloudIAM.png
+    Target: CloudIAM
+    Color: Blue
+  - Source: CloudResourceManager.png
+    Target: CloudResourceManager
+    Color: Blue
+  - Source: CloudSecurityCommandCenter.png
+    Target: CloudSecurityCommandCenter
+    Color: Blue
+  - Source: CloudSecurityScanner.png
+    Target: CloudSecurityScanner
+    Color: Blue
+  - Source: KeyManagementService.png
+    Target: KeyManagementService
+    Color: Blue
+- Name: Storage
+  SourceDir: Storage
+  Services:
+  - Source: CloudFilestore.png
+    Target: CloudFilestore
+    Color: Blue
+  - Source: CloudStorage.png
+    Target: CloudStorage
+    Color: Blue
+  - Source: DataLayers.png
+    Target: DataLayers
+    Color: Blue
+  - Source: Filestore.png
+    Target: Filestore
+    Color: Blue
+  - Source: LocalSSD.png
+    Target: LocalSSD
+    Color: Blue
+  - Source: PersistentDisk.png
+    Target: PersistentDisk
+    Color: Blue
+  - Source: Persistent_Disk.png
+    Target: Persistent_Disk
+    Color: Blue

@@ -1,0 +1,18 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $AnthosConfigManagement [128x128/16z] {
+xThP4fuW38RXX4ZC_TzmLsOOpSzNJJ5suJtjyg18kYZTRRLQhLQh8g9AhoNVqc-zfZTVzHsz-ogK6altMvIOzBINgtjVQywPStwFqow-jUcfL5tiMtegJoVx
+7h4Usr8sNfYQJrJrMCh5K_U9z5I2tltm2kAwzwbeQ_P8PhVnpaUtOFx5En-iOBxkVR22Eb_7FeaUA_FuGi07cp3zuhsFLp1VnxuRoJKmRB6EVJ-IUTB6Onzl
+GlpMOt_o2fmUzOaZ2s0tRB5V2LJl-mSUwor2tPv55_NTMZTMiDto2IHsYa0bv1F8VEZtvhc-VIx9tsrOWbyCzhHllsfxqhShJVRznWiH6-eHlnn_TqFjq_tk
+5K9PwpcVNlMNNr_syVEVuDjEf9Rl-vQ_SydslPBgwoldV_dBzss9p__uxpb_nlnRlgRx3ipsdVVs_9T_TFvKk-wt9lfiFUohzVPPlbs8F_rKcU7lrjeCjNrS
+wM_xOYrjIxcGk8COzWVd6xMxKH3qdNvj3lepiyNyQYsv_XzGWyCOylqnQgaDAgDniCTzC6LQS39mt7SwNW4Dqe3VKXfNJZh8L6E-N9srXK1L8twBK7xZVNp_
+9PZSMm6Xz53mvHk8R-ZAmHV-56kBluML2Ii0NyKah41FJNZvdghZTz0u0SzTmYRC_0H3JYNSUhm23kb9jw20RqychY3Zul5PJDNnDrYjEjOJDe7Ztvx5Lv1n
+w_5ZaAFZaRm1FM4Jed_AnaC-fJJoAQlooI-KcFCh9NVqAJ_kFhrJyuLUIoIoyQlLQhLQVGK
+}
+
+GCPEntityColoring(AnthosConfigManagement)
+!define AnthosConfigManagement(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, AnthosConfigManagement, AnthosConfigManagement)
+!define AnthosConfigManagement(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, AnthosConfigManagement, AnthosConfigManagement)
+!define AnthosConfigManagementParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, AnthosConfigManagement, AnthosConfigManagement)
+!define AnthosConfigManagementParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, AnthosConfigManagement, AnthosConfigManagement)

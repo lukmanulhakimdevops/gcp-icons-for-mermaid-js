@@ -1,0 +1,16 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $CloudJobsAPI [128x128/16z] {
+xTS5iiCm38HXoKdjlV-5onIKPkgj7kWVBkJRb2lUiYpBigmwAbpUJbWTQko06kYddxvrVBwVVleDXW-Ytm3i-W1uFcx9HisutjT0gt1vkmZV7f1--kcddtxw
+wQUVVlf5vP96-39BsRwTidsxQ5-KxDj5-rA-vO-uLsNQDtpCAl8MsozOgSahhe-DHdb6z1ksw_8-D4_UCu3bmwXyFi3Djxk4z_JZ0KvUtbAy8leJPPhs6-1u
+sm-xumZ-L32kriy6cBnv0wu_cW_GmF0RxibsNHu0wzZnlZsWf-_dutsTt4g_xilq8w2_F_hyolB5vwEthy5-2VQ7O7_4hH9y_l3vpV1fx__9mrH-u-UlxX-v
+idtZo73z9HOpVQyyiq-jEKvVfNzuvBa9eT4y-k7r4362CQ0GJtzwVEoUFQfmmgjXxqfXXKsaJgwY3vW-p8fPmahXIrYLw06I0ogsAiO0xaFGTjwX_CUWBgS9
+jJR7ZG7SVkQ07903Se343b29QSA73P30A3o_BCkox0G
+}
+
+GCPEntityColoring(CloudJobsAPI)
+!define CloudJobsAPI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, CloudJobsAPI, CloudJobsAPI)
+!define CloudJobsAPI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, CloudJobsAPI, CloudJobsAPI)
+!define CloudJobsAPIParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudJobsAPI, CloudJobsAPI)
+!define CloudJobsAPIParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, CloudJobsAPI, CloudJobsAPI)

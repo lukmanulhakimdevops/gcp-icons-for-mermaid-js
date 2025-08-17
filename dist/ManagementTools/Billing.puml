@@ -1,0 +1,13 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $Billing [128x128/16z] {
+xTOtWeGm44N1ZuVx7tZDk70S7kfbYag9r9tJ9KcIfBhvlkxhckB6DsFgHjJS-BNyhhtmw_bTas9Llqkphb-lx7VyKV5NRXZPyZwVp-Vp-NpxrtzyFZyBjRhF
+v_FvVFEFp-Vp-UqNT-HVukVMg_FQFf_Fz__nxJzyVhMkNsPTFycQVlugrlFBN5hBpwDoUR_A2PCaIT8l
+}
+
+GCPEntityColoring(Billing)
+!define Billing(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, #4284F3, Billing, Billing)
+!define Billing(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, #4284F3, Billing, Billing)
+!define BillingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Billing, Billing)
+!define BillingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, #4284F3, Billing, Billing)
